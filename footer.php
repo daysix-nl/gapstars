@@ -28,7 +28,8 @@
         <div class="container grid grid-cols-6 w-full mt-10 mb-6 md:my-6 px-5 md:px-3">
             <div class="col-span-2 order-11 md:order-[0]">
           
-                    <a class="logo max-w-full"href="/"><?php include('wp-content/themes/gapstars/img/icons/logo.php'); ?></a>
+                    <a class="logo max-w-full" href="/"><?php include('wp-content/themes/gapstars/img/icons/logo.php'); ?></a>
+                    <a class="logo max-w-full" href="/"><?php include('wp-content/themes/gapstars/img/local/DNV.svg'); ?></a>
                    
         
             </div>
