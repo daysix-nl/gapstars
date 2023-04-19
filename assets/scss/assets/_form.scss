@@ -1,0 +1,242 @@
+#gform_1 {
+  input[type="text"] {
+    padding-left: 0;
+    color: #fff;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: #dad4cb 2px solid;
+    width: 250px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+
+    &::placeholder {
+      font-size: 18px;
+      color: #ffffff;
+      opacity: 0.5;
+    }
+  }
+
+  .gfield_error {
+    input[type="text"] {
+      border-bottom: rgb(191, 0, 0) 2px solid !important;
+    }
+  }
+
+  input[type="submit"] {
+    background-color: #dad4cb;
+    color: #202020;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 130px;
+    height: 44px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    transition: 0.5s;
+
+    &:hover {
+      background-color: #ffffff;
+      transition: 0.5s;
+    }
+  }
+  .gform_footer {
+    padding: 0;
+  }
+
+  .gform_wrapper .gform_validation_errors,
+  .gfield_validation_message {
+    display: none !important;
+  }
+}
+
+.gform_validation_errors {
+  display: none;
+}
+
+.hbspt-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  input {
+    background-color: transparent;
+    border-bottom: 2px #202020 solid;
+    width: 80%;
+    height: 40px;
+
+    &:focus-visible {
+      outline: #fff;
+    }
+
+    &::placeholder {
+      color: #202020;
+      font-size: 18px;
+      padding-bottom: 2px;
+    }
+  }
+
+  label {
+    display: none;
+  }
+
+    textarea {
+      background-color: transparent;
+      background-color: transparent;
+      border-bottom: 2px #0000 solid;
+      width: 80%;
+      min-height: 150px;
+
+      &::placeholder {
+        color: #202020;
+        font-size: 18px;
+        padding-bottom: 2px;
+      }
+      &:focus-visible {
+        outline: #fff;
+      }
+  
+    }
+
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"] {
+    height: 45px;
+    background-color: #e87a2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+    width: 250px;
+  }
+}
+
+
+.contact-form {
+  .hbspt-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    input {
+      background-color: transparent;
+      border-bottom: 2px #DAD4CB solid;
+      width: 80%;
+      color: #fff;
+      height: 40px;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.414);
+        font-size: 18px;
+        padding-bottom: 2px;
+      }
+      &:focus-visible {
+        outline: #fff;
+      }
+  
+    }
+
+    label {
+      display: none;
+    }
+
+    textarea {
+      background-color: transparent;
+      background-color: transparent;
+      border-bottom: 2px #DAD4CB solid;
+      color: #fff;
+      width: 80%;
+      min-height: 150px;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.414);
+        font-size: 18px;
+        padding-bottom: 2px;
+      }
+      &:focus-visible {
+        outline: #fff;
+      }
+  
+    }
+
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"] {
+      height: 45px;
+      background-color: #e87a2e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 16px;
+      border: none;
+      width: 250px;
+    }
+  }
+}
+
+.contact-form-hub {
+  .hbspt-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    input {
+      background-color: transparent;
+      border-bottom: 2px #ffffff solid;
+      width: 80%;
+      color: #fff;
+      height: 40px;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.414);
+        font-size: 18px;
+        padding-bottom: 2px;
+      }
+      &:focus-visible {
+        outline: #fff;
+      }
+  
+    }
+
+    label {
+      display: none;
+    }
+
+    textarea {
+      background-color: transparent;
+      background-color: transparent;
+      border-bottom: 2px #ffffff solid;
+      color: #fff;
+      width: 80%;
+      min-height: 150px;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.414);
+        font-size: 18px;
+        padding-bottom: 2px;
+      }
+      &:focus-visible {
+        outline: #fff;
+      }
+  
+    }
+
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"] {
+      height: 45px;
+      background-color: #e87a2e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 16px;
+      border: none;
+      width: 250px;
+    }
+  }
+}

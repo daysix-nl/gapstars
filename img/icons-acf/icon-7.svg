@@ -1,0 +1,15 @@
+<svg id="Group_8_Copy_2" data-name="Group 8 Copy 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H58V58H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3" data-name="Group 3">
+    <path id="Clip_2-2" data-name="Clip 2" d="M0,0H58V58H0Z" fill="none"/>
+    <g id="Group_3-2" data-name="Group 3" clip-path="url(#clip-path)">
+      <path id="Fill_1" data-name="Fill 1" d="M29,58A29.008,29.008,0,0,1,17.712,2.279,29.008,29.008,0,0,1,40.288,55.721,28.818,28.818,0,0,1,29,58ZM29,2.175A26.825,26.825,0,1,0,55.825,29,26.855,26.855,0,0,0,29,2.175Z" fill="#e87a2e"/>
+    </g>
+  </g>
+  <path id="Stroke_4" data-name="Stroke 4" d="M.363,0V29" transform="translate(28.638 14.5)" fill="none" stroke="#e87a2e" stroke-miterlimit="10" stroke-width="2.4"/>
+  <path id="Stroke_6" data-name="Stroke 6" d="M29,.363H0" transform="translate(14.5 28.638)" fill="none" stroke="#e87a2e" stroke-miterlimit="10" stroke-width="2.4"/>
+</svg>

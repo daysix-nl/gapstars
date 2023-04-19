@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon-down" width="27px" height="16px" viewBox="0 0 27 16" version="1.1">
+    <title/>
+    <defs>
+        <polygon id="path-1" points="0 0.0004 14.405 0.0004 14.405 25.9824 0 25.9824"/>
+    </defs>
+    <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gapstars-2020---FAQ-001" transform="translate(-1243.000000, -2294.000000)">
+            <g id="Group-Copy-9" transform="translate(195.000000, 2252.000000)">
+                <g id="Group-3" transform="translate(1061.500000, 50.000000) rotate(90.000000) translate(-1061.500000, -50.000000) translate(1054.000000, 37.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"/>
+                    </mask>
+                    <g id="Clip-2"/>
+                    <path d="M1,25.9824 C0.744,25.9824 0.488,25.8844 0.293,25.6894 C-0.098,25.2984 -0.098,24.6664 0.293,24.2754 L11.577,12.9914 L0.293,1.7074 C-0.098,1.3164 -0.098,0.6834 0.293,0.2934 C0.684,-0.0976 1.316,-0.0976 1.707,0.2934 L14.405,12.9914 L1.707,25.6894 C1.512,25.8844 1.256,25.9824 1,25.9824" id="Fill-1" fill="#E87A2E" mask="url(#mask-2)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

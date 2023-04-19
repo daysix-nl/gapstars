@@ -1,0 +1,105 @@
+.p-button {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+
+.btn-oranje {
+  background: #e87a2e;
+  border: 2px solid #e87a2e;
+  color: #fff;
+  &:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #fff;
+  }
+}
+
+.btn-creme {
+  background: #dad4cb;
+  border: 2px solid #dad4cb;
+  color: #000;
+  &:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #fff;
+  }
+}
+
+.btn-transparant {
+  background: transparent;
+  border: 2px solid #dfff;
+  color: #fff;
+  &:hover {
+    background: #dad4cb;
+    border: 2px solid #dad4cb;
+    color: #000;
+  }
+}
+
+button.show-modal-service,
+button.show-modal-about,
+button.show-modal-insights {
+  &:after {
+    content: "";
+    display: flex;
+    height: 2px;
+    background: #e87a2e;
+    width: 100%;
+    transition-delay: 0s;
+    position: absolute;
+    top: 63px;
+  }
+  &.drophidden:after {
+    width: 0;
+    transition-delay: 0s;
+  }
+}
+
+footer {
+  ul {
+    li {
+      a {
+        p {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          &::before {
+            content: "";
+            display: inline-flex;
+            height: 2px;
+            background: #fff;
+            margin-right: 0px;
+            width: 0px;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::before {
+              content: "";
+              background: #fff;
+              width: 10px;
+              margin-right: 10px;
+              transition: 0.5s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.button-read-more {
+  &::after {
+    display: inline-block;
+    content: ' ';
+    background-image: url('/wp-content/themes/gapstars/img/icons/arrow-next.svg') ;
+    background-size: 13px 13px;
+    height: 13px;
+    width: 13px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+  }
+}

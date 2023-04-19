@@ -1,0 +1,256 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+}
+
+.mySwiper {
+  .swiper-button-next,
+  .swiper-button-prev {
+    right: unset;
+    left: unset;
+    position: unset;
+    top: auto;
+    margin: 0;
+    display: block;
+
+    &:after {
+      font-size: 25px;
+    }
+  }
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0.7;
+  }
+  .text-info {
+    opacity: 0;
+    height: 0;
+  }
+  .swiper-slide-active {
+    .text-info {
+      opacity: 1;
+      height: unset;
+    }
+  }
+
+
+}
+
+.swiperhero > .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.swiperhero {
+  -webkit-animation: 0.2s ease 0s normal forwards 1 fadein;
+  animation: 0.2s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.swiperblock-buttons {
+  .swiper-button-next-block {
+    position: absolute;
+    right: -19px;
+    top: 32%;
+    @media only screen and (min-width: 768px) {
+      top: 35%;
+    }
+    z-index: 1;
+    svg {
+      width: 20px;
+      height: auto;
+    }
+    &.swiper-button-disabled {
+      opacity: 0.5;
+    }
+  }
+  .swiper-button-prev-block {
+    position: absolute;
+    left: -19px;
+    top: 32%;
+    @media only screen and (min-width: 768px) {
+      top: 35%;
+    }
+    transform: rotate(180deg);
+    z-index: 1;
+
+    svg {
+      width: 20px;
+      height: auto;
+    }
+
+    &.swiper-button-disabled {
+      opacity: 0.5;
+    }
+  }
+
+  .mySwiperBlock {
+    .swiper-pagination {
+      position: absolute;
+      bottom: 0;
+
+      .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        opacity: 1;
+
+        &.swiper-pagination-bullet-active {
+          background-color: #e87a2e;
+        }
+      }
+    }
+  }
+}
+
+.mySwiper-3D {
+  .swiper-slide {
+    filter: uset;
+    animation: 0.2s Nomymovelayer 0.5s normal forwards linear;
+
+    &.swiper-slide-active {
+      animation: mymovelayer 0.5s normal forwards linear;
+    }
+  }
+  .swiper-slide {
+    opacity: 0;
+  }
+  .swiper-slide-prev,
+  .swiper-slide-next {
+    opacity: 0.8;
+  }
+  .swiper-slide-active {
+    opacity: 1;
+  }
+}
+.swiper-button-next-3D {
+  position: absolute;
+  right: 7vw;
+  @media only screen and (min-width: 768px) {
+    right: 5vw;
+  }
+  top: 45%;
+  z-index: 1;
+
+  svg {
+    width: 20px;
+    height: auto;
+  }
+}
+.swiper-button-prev-3D {
+  position: absolute;
+  left: 7vw;
+  @media only screen and (min-width: 768px) {
+    left: 5vw;
+  }
+  top: 45%;
+  transform: rotate(180deg);
+  z-index: 1;
+
+  svg {
+    width: 20px;
+    height: auto;
+  }
+}
+@keyframes mymovelayer {
+  from {
+    filter: brightness(0.8);
+  }
+  to {
+    filter: unset;
+  }
+}
+
+@keyframes Nomymovelayer {
+  from {
+    filter: unset;
+  }
+  to {
+    filter: brightness(0.8);
+  }
+}
+
+.tabs-swiper {
+  .swiper-slide {
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover {
+      background: #E9E4DB;
+      transition: 0.4s;
+    }
+
+    &.swiper-slide-thumb-active {
+      background: #E9E4DB;
+      transition: 0.4s;
+      position: relative;
+      display: inline;
+
+      &:after {
+        content: "";
+        width: 5px;
+        height: 100%;
+        background-color: #e87a2e;
+        right: 0px;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+        z-index: 100;
+        display: block !important;
+      }
+    }
+  }
+}
+
+.tabs-swiper-second {
+  .swiper-slide {
+    opacity: 0 !important;
+    &.swiper-slide-active {
+      transition: 0.4s;
+      opacity: 1 !important;
+    }
+  }
+  ul {
+    list-style: disc;
+
+    li {
+      margin-left: 25px;
+      padding-left: 20px;
+    }
+  }
+}
+
+.mySwiperScroll {
+  ul {
+    list-style: disc;
+  
+    li {
+      margin-left: 19px;
+      padding-left: 9px;
+    }
+  }
+}

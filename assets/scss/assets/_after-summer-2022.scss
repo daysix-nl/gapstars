@@ -1,0 +1,281 @@
+.after-summer-2022 {
+  background-color: rgb(25, 26, 57);
+
+  .p-0 {
+    padding: 0;
+  }
+
+  .logo svg {
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  @media (min-width: 768px) { 
+    .logo svg {
+        width: 350px;
+      }
+   }
+
+  .bg-purple {
+    background-color: rgb(31, 0, 74);
+  }
+
+  .bg-gradient,
+  .bg-b-q1 {
+    background: rgba(0,0,0,0) linear-gradient(180deg, #262842 0%, #3a405e 100%) 0% 0% no-repeat padding-box;
+  }
+  .z-index-10 {
+    z-index: 1;
+  }
+  .bg-oranje {
+    background-color: #e97a2d;
+  }
+  .block-portugal {
+    padding: 0;
+    overflow: hidden;
+  }
+  .img-portugal {
+    width: 100%;
+    overflow: hidden;
+    height: 45vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  @media (min-width: 768px) { 
+    .img-portugal {
+        height: 65vh;
+      }
+   }
+  .text-portugal {
+    top: 80px;
+    left: 60px;
+  }
+
+  .img-achievements {
+    width: 100%;
+    overflow: hidden;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .background-code {
+    background-image: url(/wp-content/themes/gapstars/img/after-summer-update/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &::after {
+      background: linear-gradient(
+        180deg,
+        rgba(25, 26, 57, 0.03) 9%,
+        rgba(25, 26, 57, 0.0009) 48%,
+        rgba(28, 5, 54, 0.72) 72%,
+        rgba(25, 26, 57, 1) 100%
+      );
+      content: "";
+      height: 50%;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+    &::before {
+      background: linear-gradient(
+        0deg,
+        rgba(25, 26, 57, 0.03) 9%,
+        rgba(25, 26, 57, 0.0009) 48%,
+        rgba(28, 5, 54, 0.72) 72%,
+        rgba(25, 26, 57, 1) 100%
+      );
+      content: "";
+      height: 50%;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      top: 0;
+    }
+  }
+
+  .bg-world {
+    background-image: url(/wp-content/themes/gapstars/img/after-summer-update/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &::after {
+      background: linear-gradient(
+        179deg,
+        rgba(25, 26, 57, 0.03) 9%,
+        rgba(25, 26, 57, 0.0009) 48%,
+        rgba(28, 5, 54, 0.72) 72%,
+        rgba(25, 26, 57, 1) 100%
+      );
+      content: "";
+      height: 20%;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+    &::before {
+      background: linear-gradient(
+        0deg,
+        rgba(25, 26, 57, 0.03) 9%,
+        rgba(25, 26, 57, 0.0009) 48%,
+        rgba(28, 5, 54, 0.72) 72%,
+        rgba(25, 26, 57, 1) 100%
+      );
+      content: "";
+      height: 50%;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      top: 0;
+    }
+  }
+
+  .background-tech {
+    background-image: url(/wp-content/themes/gapstars/img/after-summer-update/adi-goldstein-EUsVwEOsblE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &::after {
+      background: linear-gradient(
+        180deg,
+        rgba(25, 26, 57, 0.03) 9%,
+        rgba(25, 26, 57, 0.0009) 48%,
+        rgba(28, 5, 54, 0.72) 72%,
+        rgba(25, 26, 57, 1) 100%
+      );
+      content: "";
+      height: 50%;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+    &::before {
+      background: linear-gradient(
+        0deg,
+        rgba(25, 26, 57, 0.03) 9%,
+        rgba(25, 26, 57, 0.0009) 48%,
+        rgba(28, 5, 54, 0.72) 72%,
+        rgba(25, 26, 57, 1) 100%
+      );
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      top: 0;
+    }
+  }
+
+  iframe {
+    aspect-ratio: 16/9;
+    height: unset;
+  }
+
+  .swiper-button-prev-second,
+  .swiper-button-next-second {
+    top: 64%;
+    z-index: 2;
+  }
+
+  .swiper-button-prev-second.second,
+  .swiper-button-next-second.second {
+    top: 44%;
+    z-index: 2;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 55%;
+  }
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 59%;
+    }
+    .swiper-button-prev-second,
+    .swiper-button-next-second {
+      top: 64%;
+    }
+
+    .swiper-button-prev-second.second,
+    .swiper-button-next-second.second {
+      top: 44%;
+      z-index: 2;
+    }
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 59%;
+    }
+    .swiper-button-prev-second,
+    .swiper-button-next-second {
+        top: 64%;
+    }
+
+    .swiper-button-prev-second.second,
+    .swiper-button-next-second.second {
+      top: 44%;
+      z-index: 2;
+    }
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 59%;
+    }
+    .swiper-button-prev-second,
+    .swiper-button-next-second {
+        top: 65%;
+    }
+
+    .swiper-button-prev-second.second,
+    .swiper-button-next-second.second {
+      top: 48%;
+      z-index: 2;
+    }
+  }
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 59%;
+    }
+    .swiper-button-prev-second,
+    .swiper-button-next-second {
+        top: 62%;
+    }
+
+    .swiper-button-prev-second.second,
+    .swiper-button-next-second.second {
+        top: 52%;
+      z-index: 2;
+    }
+  }
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 59%;
+    }
+    .swiper-button-prev-second,
+    .swiper-button-next-second {
+        top: 62%;
+    }
+    .swiper-button-prev-second.second,
+    .swiper-button-next-second.second {
+        top: 52%;
+      z-index: 2;
+    }
+  }
+}

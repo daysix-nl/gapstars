@@ -1,0 +1,44 @@
+{
+    "key": "group_6319c5fde2d48",
+    "title": "Post: Default or custom",
+    "fields": [
+        {
+            "key": "field_6319c622219ee",
+            "label": "",
+            "name": "Default_or_custom",
+            "type": "true_false",
+            "instructions": "This add the default title and thumbnail.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1662910839
+}

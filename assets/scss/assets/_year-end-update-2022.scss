@@ -1,0 +1,1209 @@
+.year-2022 {
+  .year-fca {
+    color: #fff !important;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  .year-space {
+    letter-spacing: 5px;
+  }
+
+  .fwlight {
+    font-weight: 100 !important;
+  }
+
+  .uppercase {
+    text-transform: uppercase !important;
+  }
+
+  .responsive {
+    width: 100%;
+  }
+
+  .fw-bold-year {
+    font-weight: 700;
+  }
+
+  .fw-ita-year {
+    font-style: italic !important;
+  }
+  a {
+    color: unset;
+
+    text-decoration: none;
+
+    background-color: transparent;
+
+    font-family: "DM Sans", sans-serif;
+  }
+
+  a:hover {
+    color: unset;
+
+    text-decoration: none;
+
+    background-color: transparent;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+
+  @media only screen and (max-width: 600px) {
+    .pt-full {
+      padding-top: 3.5rem;
+    }
+
+    .pt-half {
+      padding-top: 1.75rem;
+    }
+
+    .pt-quarter {
+      padding-top: 0.975rem;
+    }
+
+    .pt-blocks {
+      padding-top: 1rem;
+    }
+
+    .pb-full {
+      padding-bottom: 3.5rem;
+    }
+
+    .pb-half {
+      padding-bottom: 1.75rem;
+    }
+
+    .pb-quarter {
+      padding-bottom: 0.875rem;
+    }
+
+    .pb-blocks {
+      padding-bottom: 1rem;
+    }
+
+    .p-text {
+      padding-top: 1rem;
+    }
+
+    .pb-text {
+      padding-bottom: 1rem;
+    }
+
+    .p-item {
+      padding-left: 1.875rem !important;
+      padding-right: 1.875rem !important;
+      padding-top: 3.125rem !important;
+      padding-bottom: 3.125rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low {
+      padding-left: 1.875rem !important;
+      padding-right: 1.875rem !important;
+      padding-top: 1.625rem !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low1 {
+      padding-left: 1.875rem !important;
+      padding-right: 1.875rem !important;
+      padding-top: 0 !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+
+  @media only screen and (min-width: 600px) {
+    .pt-full {
+      padding-top: 3.5rem;
+    }
+
+    .pt-half {
+      padding-top: 1.75rem;
+    }
+
+    .pt-quarter {
+      padding-top: 0.975rem;
+    }
+
+    .pt-blocks {
+      padding-top: 1rem;
+    }
+
+    .pb-full {
+      padding-bottom: 3.5rem;
+    }
+
+    .pb-half {
+      padding-bottom: 1.75rem;
+    }
+
+    .pb-quarter {
+      padding-bottom: 0.875rem;
+    }
+
+    .pb-blocks {
+      padding-bottom: 1rem;
+    }
+
+    .p-text {
+      padding-top: 1rem;
+    }
+
+    .pb-text {
+      padding-bottom: 1rem;
+    }
+
+    .p-item {
+      padding-left: 1.875rem !important;
+      padding-right: 1.875rem !important;
+      padding-top: 3.125rem !important;
+      padding-bottom: 3.125rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low {
+      padding-left: 1.875rem !important;
+      padding-right: 1.875rem !important;
+      padding-top: 1.625rem !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low1 {
+      padding-left: 1.875rem !important;
+      padding-right: 1.875rem !important;
+      padding-top: 0 !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+
+  @media only screen and (min-width: 768px) {
+    .pt-full {
+      padding-top: 6rem;
+    }
+
+    .pt-half {
+      padding-top: 3rem;
+    }
+
+    .pt-quarter {
+      padding-top: 1.5rem;
+    }
+
+    .pt-blocks {
+      padding-top: 1.875rem;
+    }
+
+    .pb-full {
+      padding-bottom: 6rem;
+    }
+
+    .pb-half {
+      padding-bottom: 3rem;
+    }
+
+    .pb-quarter {
+      padding-bottom: 1.5rem;
+    }
+
+    .pb-blocks {
+      padding-bottom: 1.875rem;
+    }
+
+    .p-text {
+      padding-top: 1rem;
+    }
+
+    .pb-text {
+      padding-bottom: 1rem;
+    }
+
+    .p-item {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 3.125rem !important;
+      padding-bottom: 3.125rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 1.625rem !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low1 {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 0 !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+
+  @media only screen and (min-width: 992px) {
+    .pt-full {
+      padding-top: 4rem;
+    }
+
+    .pt-half {
+      padding-top: 2rem;
+    }
+
+    .pt-quarter {
+      padding-top: 1rem;
+    }
+
+    .pt-blocks {
+      padding-top: 1.875rem;
+    }
+
+    .pb-full {
+      padding-bottom: 4rem;
+    }
+
+    .pb-half {
+      padding-bottom: 2rem;
+    }
+
+    .pb-quarter {
+      padding-bottom: 1rem;
+    }
+
+    .pb-blocks {
+      padding-bottom: 1.875rem;
+    }
+
+    .p-text {
+      padding-top: 0.6rem;
+    }
+
+    .pb-text {
+      padding-bottom: 0.6rem;
+    }
+
+    .p-item {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 3.125rem !important;
+      padding-bottom: 3.125rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 1.625rem !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low1 {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 0 !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low2 {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 0 !important;
+      padding-bottom: 0rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1500px and up) */
+
+  @media only screen and (min-width: 1500px) {
+    .pt-full {
+      padding-top: 9.375rem;
+    }
+
+    .pt-half {
+      padding-top: 4.6875rem;
+    }
+
+    .pt-quarter {
+      padding-top: 3.125rem;
+    }
+
+    .pt-blocks {
+      padding-top: 1.875rem;
+    }
+
+    .pb-full {
+      padding-bottom: 9.375rem;
+    }
+
+    .pb-half {
+      padding-bottom: 4.6875rem;
+    }
+
+    .pb-quarter {
+      padding-bottom: 3.125rem;
+    }
+
+    .pb-blocks {
+      padding-bottom: 1.875rem;
+    }
+
+    .p-text {
+      padding-top: 1.171rem;
+    }
+
+    .pb-text {
+      padding-bottom: 1.171rem;
+    }
+
+    .p-item {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 3.125rem !important;
+      padding-bottom: 3.125rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 1.625rem !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low1 {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 0 !important;
+      padding-bottom: 1.625rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .p-item-low2 {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 0 !important;
+      padding-bottom: 0rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .p-item-low-bottom {
+      padding-left: 2.812rem !important;
+      padding-right: 2.812rem !important;
+      padding-top: 0rem !important;
+      padding-bottom: 3.125rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  .p-extra {
+    padding-bottom: 10px;
+  }
+
+  .no-p-left {
+    padding-left: 0px !important;
+  }
+  ////////////////
+  // font////
+  ////////////////
+
+  .titel-size-year {
+    font-size: 20px;
+    line-height: 30px;
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 37px;
+      line-height: 50px;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+      font-size: 37px;
+      line-height: 50px;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) {
+      font-size: 37px;
+      line-height: 50px;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) {
+      font-size: 37px;
+      line-height: 50px;
+    }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) {
+      font-size: 37px;
+      line-height: 50px;
+    }
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .h2-size-year {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 45px;
+      line-height: 55px;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+      font-size: 60px;
+      line-height: 70px;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) {
+      font-size: 60px;
+      line-height: 70px;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) {
+      font-size: 60px;
+      line-height: 70px;
+    }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) {
+      font-size: 60px;
+      line-height: 70px;
+    }
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .h3-size-year {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 25px;
+      line-height: 33px;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+      font-size: 35px;
+      line-height: 45px;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media only screen and (min-width: 992px) {
+      font-size: 35px;
+      line-height: 45px;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media only screen and (min-width: 1200px) {
+      font-size: 35px;
+      line-height: 45px;
+    }
+
+    // XX-Large devices (larger desktops, 1500px and up)
+    @media only screen and (min-width: 1500px) {
+      font-size: 35px;
+      line-height: 45px;
+    }
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .year-fca {
+    color: #fff !important;
+  }
+
+  .year-space {
+    letter-spacing: 5px;
+  }
+
+  .fwlight {
+    font-weight: 100 !important;
+  }
+
+  .uppercase {
+    text-transform: uppercase !important;
+  }
+
+  .responsive {
+    width: 100%;
+  }
+
+  .fw-bold-year {
+    font-weight: 700;
+  }
+
+  .fw-ita-year {
+    font-style: italic !important;
+  }
+
+  ////////////////
+  // padding  ////
+  ////////////////
+  .p-item-low-year2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0rem !important;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .p-item-year {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .p-item-year {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .p-item-year-col {
+    padding-left: 25px !important;
+    padding-right: 15px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .p-item-bottom {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 0rem !important;
+    padding-bottom: 15px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  @media (min-width: 767px) {
+    .p-item-year {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      padding-top: 25px !important;
+      padding-bottom: 25px !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-year-col {
+      padding-left: 35px !important;
+      padding-right: 15px !important;
+      padding-top: 25px !important;
+      padding-bottom: 25px !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .p-item-low-year2 {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      padding-top: 0 !important;
+      padding-bottom: 0rem !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .p-item-bottom {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      padding-top: 0rem !important;
+      padding-bottom: 25px !important;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  ////////////////
+  // section 1////
+  ////////////////
+
+  .img-new-year-world {
+    background-image: url("/wp-content/themes/gapstars/img/year-end-2022/maan.png");
+    height: 90vh;
+    max-height: 660px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-fluid.y-nopadding {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .header-vh-year {
+    height: 58vh;
+  }
+
+  .img-new-year-world-star {
+    background-image: url("/wp-content/themes/gapstars/img/year-end-2022/space-year.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .year-end {
+    background: #020129;
+  }
+
+  .logo-new-year {
+    height: 50px;
+  }
+
+  @media (min-width: 576px) {
+    .logo-new-year {
+      height: 80px;
+    }
+  }
+
+  ////////////////
+  // section 2////
+  ////////////////
+
+  .orange-new-year-section-2 {
+    background-image: url("/wp-content/themes/gapstars/img/year-end-2022/orange-year_1.png");
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  .m-top-overlay-year {
+    margin-top: -50px;
+  }
+
+  .iframe-year {
+    height: 250px;
+  }
+
+  .footer-year {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-image: url("/wp-content/themes/gapstars/img/year-end-2022/footerimgoragnge.png");
+    display: flex;
+    align-items: center;
+  }
+
+  .height-img-year-team-gapstars {
+    height: 70px;
+  }
+
+  .m-bottom-footer {
+    margin-bottom: -100px;
+  }
+
+  .pt-pb-footer-year {
+    padding-top: 142px;
+    padding-bottom: 100px;
+  }
+
+  @media (min-width: 576px) {
+    .orange-new-year-section-2 {
+      height: 56vh;
+    }
+    .m-top-overlay-year {
+      margin-top: -120px;
+    }
+    .iframe-year {
+      height: 300px;
+    }
+
+    .m-bottom-footer {
+      margin-bottom: -150px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .orange-new-year-section-2 {
+      height: 80vh;
+    }
+    .m-top-overlay-year {
+      margin-top: -140px;
+    }
+    .iframe-year {
+      height: 400px;
+    }
+
+    .m-bottom-footer {
+      margin-bottom: -200px;
+    }
+    .pt-pb-footer-year {
+      padding-top: 115px;
+      padding-bottom: 100px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .orange-new-year-section-2 {
+      height: 90vh;
+    }
+    .m-top-overlay-year {
+      margin-top: -160px;
+    }
+    .iframe-year {
+      height: 450px;
+    }
+    .height-img-year-team-gapstars {
+      height: 90px;
+    }
+
+    .m-bottom-footer {
+      margin-bottom: -200px;
+    }
+
+    .pt-pb-footer-year {
+      padding-top: 161px;
+      padding-bottom: 100px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .orange-new-year-section-2 {
+      height: 100vh;
+    }
+    .m-top-overlay-year {
+      margin-top: -180px;
+    }
+    .iframe-year {
+      height: 550px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .orange-new-year-section-2 {
+      height: 95vh;
+    }
+    .m-top-overlay-year {
+      margin-top: -300px;
+    }
+
+    .iframe-year {
+      height: 650px;
+    }
+
+    .m-bottom-footer {
+      margin-bottom: -250px;
+    }
+    .pt-pb-footer-year {
+      padding-top: 213px;
+      padding-bottom: 100px;
+    }
+  }
+
+  .box-year-vh {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fw-year-bold {
+    font-weight: 700;
+  }
+
+  .bg-container-year {
+    background: rgb(73, 0, 149);
+    background: linear-gradient(
+      90deg,
+      rgba(73, 0, 149, 1) 0%,
+      rgba(38, 0, 78, 1) 57%
+    );
+  }
+
+  .fcc-year {
+    color: #e87a2e !important;
+    font-weight: 700 !important;
+  }
+
+  .bg-container-year-a {
+    background: #fff;
+  }
+
+  ////////////////
+  // section 4////
+  ////////////////
+
+  .responsive-background-img-year {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  @media (min-width: 767px) {
+    .background-office-year {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover;
+      background-image: url("/wp-content/themes/gapstars/img/year-end-2022/background-office.png");
+    }
+    .pb-full-yearxl {
+      padding-bottom: 400px;
+    }
+    .margin-top-year-opendag {
+      margin-top: -200px;
+    }
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .body,
+  section {
+    overflow-x: hidden;
+  }
+
+  ////////////////
+  // section 5////
+  ////////////////
+  .size-opendag-year {
+    font-size: 80px;
+  }
+
+  ////////////////
+  // section 6////
+  ////////////////
+  .button-year-picture {
+    background: #e87a2e;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 140px;
+    justify-content: center;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid orange;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+
+  .button-year-picture:hover {
+    background: #020129;
+    color: #fff;
+    border: 1px solid #020129;
+    transition: 0.3s;
+  }
+
+  .sparkling-year {
+    background-image: none;
+    background: linear-gradient(
+      90deg,
+      rgba(73, 0, 149, 1) 0%,
+      rgba(38, 0, 78, 1) 57%
+    );
+  }
+
+  @media (min-width: 767px) {
+    .sparkling-year {
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: 50% 68%;
+      background-size: cover;
+      background-image: url("/wp-content/themes/gapstars/img/year-end-2022/graduateyear.png");
+      background-color: rgba(38, 0, 78, 1);
+    }
+    .pb-year-opday {
+      padding-bottom: 250px;
+    }
+  }
+
+  ////////////////
+  // section 7////
+  ////////////////
+  .text-align-center {
+    text-align: center;
+  }
+
+  .card-year {
+    background: #fff;
+    // height: 140px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .background-card-year {
+    background-color: #26004e;
+    padding-top: 20px !important;
+  }
+
+  body.year-end p {
+    font-size: 16px !important;
+  }
+
+  .card-yer .card-img,
+  .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background: #fff;
+    padding-left: 30% !important;
+    padding-right: 30% !important;
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      padding-left: 20px !important;
+      padding-right: 40% !important;
+    }
+  }
+
+  .card-group > .card {
+    margin-bottom: 0px;
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      margin-bottom: 15px;
+    }
+  }
+
+  // .card-group-white-year{
+  //   background: #fff;
+  // }
+
+  .padding-zero-year-r-card {
+    padding-right: 0px !important;
+  }
+
+  .padding-zero-year-l-card {
+    padding-left: 0px !important;
+  }
+
+  h2.nysecond {
+    font-size: 28.5px;
+    line-height: 38.5px;
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      font-size: 28.5px;
+      line-height: 38.5px;
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      font-size: 38.5px;
+      line-height: 48.5px;
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      font-size: 28.5px;
+      line-height: 38.5px;
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      font-size: 32px;
+      line-height: 42px;
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1500px) {
+      font-size: 48px;
+      line-height: 58px;
+    }
+  }
+
+  .responsive-background-img-year {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+  }
+
+  .hover-scale-year {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 250px;
+    width: 100%;
+  }
+
+  .hover-scale-year .responsive-background-img-year:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  .card-group-year {
+    flex-direction: column;
+  }
+
+  @media (min-width: 992px) {
+    .card-group-year {
+      flex-direction: row;
+    }
+    .padding-zero-year {
+      padding: 0px !important;
+      border-radius: 0px !important;
+      border: none !important;
+    }
+
+    .padding-zero-year-r {
+      padding-right: 0px !important;
+      border-radius: 0px !important;
+      border: none !important;
+    }
+
+    .padding-zero-year-l {
+      padding-left: 0px !important;
+      border-radius: 0px !important;
+      border: none !important;
+    }
+    .background-card-year {
+      min-height: 183px !important;
+    }
+  }
+
+  .impact-year {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    background-image: url(/wp-content/themes/gapstars/img/year-end-2022/graduateyear.png);
+  }
+
+  .container.yearconpadding {
+    padding-right: -15px !important;
+    padding-left: -15px !important;
+  }
+
+  .year-abs {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .hoh {
+    width: 300px;
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      width: 300px;
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      width: 360px;
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      width: 460px;
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      width: 560px;
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1500px) {
+      width: 660px;
+    }
+  }
+
+  .wrap {
+    // height: 100%;
+    // width: 100%;
+    text-align: center;
+    bottom: 40px;
+    position: absolute;
+    left: calc(50% - 13.5px);
+  }
+
+  .bounce {
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation: bounce 3.6s ease infinite;
+    transform-origin: 50% 50%;
+  }
+
+  .hohsvg {
+    width: 40%;
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      width: 40%;
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      width: 40%;
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      width: 40%;
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      width: 60%;
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1500px) {
+      width: 60%;
+    }
+  }
+}

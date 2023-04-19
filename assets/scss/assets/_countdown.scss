@@ -1,0 +1,176 @@
+
+.count {
+  color: white;
+  text-shadow: 0 0 10px #E07A2E;
+  &:first-letter{
+    color:pink !important;
+  }
+  span {
+    color: #8F51D3;
+    display: block;
+
+  }
+}
+
+
+.overlay-agenda {
+  // background: rgba(0, 0, 0, 0.338);
+  box-shadow: #0000007f 0 0 0 100vw inset;
+}
+
+
+// test
+
+.flip-clock-wrapper ul li a div div.inn {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 200%;
+  color: #fff !important;
+  text-shadow: none !important;
+  text-align: center;
+  background-color: #e87a2e !important;
+  border-radius: 13px !important;
+  font-size: 58px !important;
+  font-family: quintbold !important;
+}
+
+.flip-clock-wrapper ul {
+  position: relative;
+  float: center;
+  margin: 0px !important;
+  width: 60px;
+  height: 49px;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 62px;
+  border-radius: 6px;
+  background: #000;
+}
+
+.flip-clock-wrapper ul li a div.up:after {
+  background-color: rgb(0 0 0 / 0%) !important;
+}
+
+.flip-clock-wrapper ul li {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px !important;
+  height: 70px !important;
+  line-height: 70px !important;
+  text-decoration: none !important;
+}
+
+.flip-clock-wrapper ul {
+  width: 50px !important;
+  height: 70px !important;
+}
+
+.flip-clock-dot {
+  display: block;
+  background: #000000 !important;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: unset !important;
+  left: 0px !important;
+}
+
+.flip-clock-divider .flip-clock-label {
+  position: absolute;
+  top: unset !important;
+  bottom: -15px !important;
+  right: 0px !important;
+  color: white !important;
+  text-shadow: none;
+  font-family: quintnormal !important;
+}
+
+.flip-clock-wrapper .flip {
+  box-shadow: unset;
+}
+
+.flip-clock-wrapper {
+  font-size: 16px !important;
+  margin: 0px !important;
+  display: flex;
+  gap: 5px;
+  height: 70px !important;
+}
+
+.flip-clock-label {
+  display: none !important;
+}
+
+.days {
+  display:none !important;
+}
+
+.hours {
+  display: none !important;
+}
+
+.clock {
+  display: flex;
+    justify-content: center;
+}
+
+.flip-clock-wrapper:before, .flip-clock-wrapper:after {
+  display: none !important;
+}
+
+.contact-form.scale-up-register{
+ fieldset {
+  max-width: 800px !important;
+ }
+ input {
+  width: 100% !important;
+}
+@media only screen and (min-width: 600px) {
+  #firstname-5ad01faf-bc69-4f43-9ea6-e1fd0ea46087 {
+    width: 90% !important;
+  }
+}
+
+input[type=submit] {
+  width: 220px !important;
+  margin: auto !important;
+  text-transform: uppercase !important;
+  &:hover {
+    background: #fff !important;
+    color: #000 !important;
+    transition-duration: 0.3s;
+  }
+}
+select {
+  background-color: rgba(0,0,0,0) !important;
+    border-bottom: 2px #dad4cb solid !important;
+    width: 100% !important;
+    color: #fff !important;
+    height: 40px !important;
+}
+.grecaptcha-badge {
+  margin: auto !important;
+}
+}
+
+.modal-form-header-transport {
+  .hbspt-form form label {
+    display: block;
+}
+
+.hbspt-form .input textarea {
+  border-bottom: 2px solid #000;
+}
+
+.hbspt-form .hs-form-radio-display {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+}

@@ -1,0 +1,8 @@
+.container > .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.team-block.list-b-none .member:nth-of-type(n+11) {
+    display: none;
+}

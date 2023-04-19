@@ -1,0 +1,54 @@
+{
+    "key": "group_62fbbe3217a76",
+    "title": "Element: Background-color Inner",
+    "fields": [
+        {
+            "key": "field_62fbbe590e981",
+            "label": "Background-color Inner",
+            "name": "background-color_inner",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "black": "Black",
+                "white": "White",
+                "cream": "Cream",
+                "transparent": "Transparent",
+                "purple": "Purple",
+                "gradient-orange": "Gradient Orange"
+            },
+            "default_value": "transparent",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1660678739
+}

@@ -1,0 +1,44 @@
+.member {
+  img {
+    filter: #3232329f;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+  }
+
+  &:hover img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    scale: 1.05;
+  }
+
+  .overlay-shadow-teams {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(50, 50, 50, 1) 100%);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+  }
+
+  .team-text {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+
+    .text-job {
+      max-height: 0;
+      transition: max-height 0.3s ease-out;
+      overflow: hidden;
+    }
+  }
+
+  &:hover {
+    .text-job {
+      max-height: 40px;
+      transition: max-height 0.3s ease-in;
+    }
+  }
+}

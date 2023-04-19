@@ -1,0 +1,11 @@
+<svg id="Group_3_Copy_2" data-name="Group 3 Copy 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.81" height="51.964" viewBox="0 0 28.81 51.964">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H28.81V51.964H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Clip_2-2" data-name="Clip 2" d="M0,0H28.81V51.964H0Z" fill="none"/>
+  <g id="Group_3_Copy_2-2" data-name="Group 3 Copy 2" clip-path="url(#clip-path)">
+    <path id="Fill_1" data-name="Fill 1" d="M2,51.965A2,2,0,0,1,.586,48.55L23.154,25.983.586,3.414A2,2,0,0,1,3.414.586l25.4,25.4-25.4,25.4A2,2,0,0,1,2,51.965" transform="translate(-0.001 -0.001)" fill="#ef7a00"/>
+  </g>
+</svg>

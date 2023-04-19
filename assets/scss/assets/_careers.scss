@@ -1,0 +1,19 @@
+.button-careers {
+  width: max-content;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #fff 2px solid;
+  border-radius: 10px;
+  height: 50px;
+  transition: 0.3s;
+
+  &:hover {
+    border: #e87a2e 2px solid;
+    background-color: #e87a2e;
+    transition: 0.3s;
+    color: #fff;
+  }
+}

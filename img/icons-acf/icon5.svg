@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gapstars-2022---Homepage-nieuw-explainer-001" transform="translate(-614.000000, -2231.000000)" fill="#E87A2E">
+            <g id="Group-5" transform="translate(614.000000, 2231.000000)">
+                <path d="M50,0 C33.432,0 20,13.432 20,30 C20,46.568 33.432,60 50,60 C66.568,60 80,46.568 80,30 C80,13.432 66.568,0 50,0 M50,3 C64.888,3 77,15.112 77,30 C77,44.888 64.888,57 50,57 C35.112,57 23,44.888 23,30 C23,15.112 35.112,3 50,3" id="Fill-1"></path>
+                <path d="M30,20 C13.432,20 0,33.432 0,50 C0,66.568 13.432,80 30,80 C46.568,80 60,66.568 60,50 C60,33.432 46.568,20 30,20 M30,23 C44.888,23 57,35.112 57,50 C57,64.888 44.888,77 30,77 C15.112,77 3,64.888 3,50 C3,35.112 15.112,23 30,23" id="Fill-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

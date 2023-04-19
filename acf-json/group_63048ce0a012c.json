@@ -1,0 +1,305 @@
+{
+    "key": "group_63048ce0a012c",
+    "title": "Element: Styling",
+    "fields": [
+        {
+            "key": "field_63048ce9b20c4",
+            "label": "Background-color",
+            "name": "background-color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "bg-transparent": "Transparent",
+                "bg-zwart": "Black",
+                "bg-white": "White",
+                "bg-diepgrijs": "Deep grey",
+                "bg-grijs": "Grey",
+                "bg-whiteSmoke": "White Smoke",
+                "bg-creme": "Cream",
+                "bg-lightcreme": "Light Cream",
+                "bg-oranje": "Orange",
+                "bg-purple": "Purple",
+                "bg-darkblue": "Dark Blue",
+                "bg-deepblue": "Deep Blue"
+            },
+            "default_value": "transparent",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_63049115434c4",
+            "label": "Background-color inner-block",
+            "name": "background-color_inner",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "bg-transparent": "Transparent",
+                "bg-zwart": "Black",
+                "bg-white": "White",
+                "bg-diepgrijs": "Deep grey",
+                "bg-grijs": "Grey",
+                "bg-whiteSmoke": "White Smoke",
+                "bg-creme": "Cream",
+                "bg-lightcreme": "Light Cream",
+                "bg-oranje": "Orange",
+                "bg-purple": "Purple",
+                "bg-darkblue": "Dark Blue",
+                "bg-deepblue": "Deep Blue"
+            },
+            "default_value": "transparent",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_63049137434c5",
+            "label": "Body: Background-image",
+            "name": "background-image_block",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_63049a8769a98",
+            "label": "Body: background Image - Styling",
+            "name": "background_image_styling",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_63049137434c5",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "cover": "Cover",
+                "fixed": "Fixed"
+            },
+            "default_value": "cover",
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_630496b6af08a",
+            "label": "Body: Background-color",
+            "name": "background-color_body",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "transparent": "Transparent",
+                "#000": "Black",
+                "#fff": "White",
+                "#202020": "Deep grey",
+                "#F4F4F4": "White Smoke",
+                "#DAD4CB": "Cream",
+                "#E9E4DB": "Light Cream",
+                "#E87A2E": "Orange",
+                "#511da7cc": "Purple",
+                "#21024e": "Deep Purple",
+                "#24284E": "Dark Blue"
+            },
+            "default_value": "transparent",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_63048e1da328c",
+            "label": "Text-color",
+            "name": "text-color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "text-zwart": "Black",
+                "text-white": "White",
+                "text-diepgrijs": "Deep grey",
+                "text-grijs": "Grey",
+                "text-whiteSmoke": "White Smoke",
+                "text-creme": "Cream",
+                "text-lightcreme": "Light Cream",
+                "text-oranje": "Orange",
+                "text-purple": "Purple",
+                "text-darkblue": "Dark Blue",
+                "text-deepblue": "Deep Blue"
+            },
+            "default_value": "white",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6304f7c0490bd",
+            "label": "Text-color - Inner",
+            "name": "text-color_inner",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "text-zwart": "Black",
+                "text-white": "White",
+                "text-diepgrijs": "Deep grey",
+                "text-grijs": "Grey",
+                "text-whiteSmoke": "White Smoke",
+                "text-creme": "Cream",
+                "text-lightcreme": "Light Cream",
+                "text-oranje": "Orange",
+                "text-purple": "Purple",
+                "text-darkblue": "Dark Blue",
+                "text-deepblue": "Deep Blue"
+            },
+            "default_value": "white",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_63048e56a328e",
+            "label": "Inner padding",
+            "name": "inner-padding",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "py-0": "False",
+                "py-10 md:py-12": "Top - Bottom",
+                "pt-10 md:pt-12": "Top",
+                "pb-10 md:pb-12": "Bottom"
+            },
+            "default_value": false,
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6308d0bd768e9",
+            "label": "Inner margin",
+            "name": "inner-margin",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "my-0": "False",
+                "my-10 md:my-12": "True"
+            },
+            "default_value": "my-10 md:my-12",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1664385503
+}

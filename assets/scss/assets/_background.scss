@@ -1,0 +1,78 @@
+.home.page-template-default .body {
+  background: #292929;
+  transition: 1s;
+  &.bg-creme {
+    transition: 1s;
+  }
+}
+
+.page-id-3474 {
+  background: #202020 !important;
+}
+
+.home.page-template-default .body.bg-creme {
+  footer {
+    .bg-creme {
+      background-color: #E9E4DB !important;
+    }
+  }
+}
+
+body.page-template-page-templatesscale-up-2023-php {
+  background: #000 !important;
+}
+
+.bg-purple {
+  background: rgba(81, 29, 167, 0.8);
+}
+
+.bg-cream {
+  background: #DAD4CB;
+}
+
+.text-cream {
+  color: #DAD4CB;
+}
+
+.bg-transparant {
+  background: transparent;
+}
+
+.text-transparant {
+  color: transparent;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+
+.gradient-orange {
+  background: #e87a2e;
+  background: linear-gradient(0deg, #e87a2e 34%, rgba(232,122,46,0.5) 68%, rgba(253,187,45,0) 100%);
+  border-radius: 20px;
+}
+
+.background-image-contact {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: inherit;
+}
+
+.bg-clientimg {
+  background-image: linear-gradient(#f4f4f4 50%, #fff 0%);
+}
+
+body.home {
+  background-color: #292929;
+}
+
+.overlay-scale-up {
+  background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(46,1,87,0.6909357492997199) 100%);
+}
