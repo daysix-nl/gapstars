@@ -29,7 +29,7 @@
             <div class="col-span-2 order-11 md:order-[0]">
                     <div class="grid gap-2">
                     <a class="logo max-w-full" href="/"><?php include('wp-content/themes/gapstars/img/icons/logo.php'); ?></a>
-                    <a class="logo max-w-full aspect-video" href="/"><?php include('wp-content/themes/gapstars/img/local/DNV_logo.svg'); ?></a>
+                    <a class="logo max-w-full" href="/"><?php include('wp-content/themes/gapstars/img/local/DNV_logo.svg'); ?></a>
                    </div>
         
             </div>
