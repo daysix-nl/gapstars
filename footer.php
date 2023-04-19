@@ -27,7 +27,10 @@
     <section>
         <div class="container grid grid-cols-6 w-full mt-10 mb-6 md:my-6 px-5 md:px-3">
             <div class="col-span-2 order-11 md:order-[0]">
-                <a class="logo max-w-full"href="/"><?php include('wp-content/themes/gapstars/img/icons/logo.php'); ?></a>
+                <div class="grid">
+                    <a class="logo max-w-full"href="/"><?php include('wp-content/themes/gapstars/img/icons/logo.php'); ?></a>
+                    <a class="logo max-w-full"href="/"><?php include('wp-content/themes/gapstars/img/local/DNV_logo.svg'); ?></a>
+                </div>
             </div>
             <div class="col-span-3 md:col-span-1 mb-6 md:mb-[unset]">
                 <h4 class="text-oranje text-base font-bold mb-2 text-16">Menu</h4>
