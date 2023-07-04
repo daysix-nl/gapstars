@@ -63,7 +63,7 @@ try {
   contact.addEventListener("mouseenter", () => {
     removeDropdownAbout();
   });
-} catch (error) { }
+} catch (error) {}
 
 // Dropdown Insights
 
@@ -113,7 +113,7 @@ try {
   contact.addEventListener("mouseenter", () => {
     removeDropdownInsights();
   });
-} catch (error) { }
+} catch (error) {}
 
 try {
   window.addEventListener("scroll", () => {
@@ -124,7 +124,7 @@ try {
       removeDropdownAbout();
     }
   });
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /**** mobile navbar ***/
@@ -224,7 +224,7 @@ try {
       closeAll();
     }
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** Home background change ***/
 /**********************/
@@ -242,7 +242,7 @@ try {
       body.classList.remove("bg-creme");
     }
   });
-} catch (error) { }
+} catch (error) {}
 
 const switchToDiepgrijs = document.getElementById("switch-to-diepgrijs");
 
@@ -253,7 +253,7 @@ try {
       body.classList.remove("bg-creme");
     }
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** Hide Menu on Scroll ***/
 /**********************/
@@ -272,7 +272,7 @@ try {
     }
     prevScrollpos = currentScrollPos;
   });
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /*** swiper hero home ***/
@@ -303,7 +303,7 @@ try {
       },
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** swiper partner ***/
 /**********************/
@@ -319,7 +319,7 @@ try {
       disableOnInteraction: false,
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** swiper block ***/
 /**********************/
@@ -336,7 +336,7 @@ try {
       el: ".swiper-pagination",
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** swiper 3d***/
 /**********************/
@@ -367,7 +367,7 @@ try {
       },
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** swiper scroll***/
 /**********************/
@@ -382,7 +382,7 @@ try {
     },
     slidesPerView: "auto",
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /**** tabs slider ***/
 /**********************/
@@ -420,7 +420,7 @@ try {
       pauseOnMouseEnter: true,
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /**** slider gallery ***/
 /**********************/
@@ -451,7 +451,7 @@ try {
       type: "progressbar",
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /****scroll down on click ***/
 /**********************/
@@ -463,107 +463,107 @@ try {
       window.scrollBy(0, pageHeight);
     });
   }
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /****vacature filter ***/
 /**********************/
-try {
-  const elementNavbarfirstDiv = document.querySelector(".dropdown-careers");
-  const elementNavbarSecondDiv = document.querySelector(".dropdown-careers-1");
+// try {
+//   const elementNavbarfirstDiv = document.querySelector(".dropdown-careers");
+//   const elementNavbarSecondDiv = document.querySelector(".dropdown-careers-1");
 
-  const navbarDropdownPackages = () => {
-    elementNavbarfirstDiv?.classList.remove("activedropdown");
-    elementNavbarSecondDiv?.classList.remove("activedropdown");
-  };
+//   const navbarDropdownPackages = () => {
+//     elementNavbarfirstDiv?.classList.remove("activedropdown");
+//     elementNavbarSecondDiv?.classList.remove("activedropdown");
+//   };
 
-  window.addEventListener("scroll", () => {
-    const scrollpos = window.scrollY;
+//   window.addEventListener("scroll", () => {
+//     const scrollpos = window.scrollY;
 
-    if (scrollpos > 200) {
-      navbarDropdownPackages();
-    }
-  });
+//     if (scrollpos > 200) {
+//       navbarDropdownPackages();
+//     }
+//   });
 
-  const ignoreClickOnMeElement = document.querySelector(".dropdown-careers");
+//   const ignoreClickOnMeElement = document.querySelector(".dropdown-careers");
 
-  document.addEventListener("click", (event) => {
-    const isClickInsideElement = ignoreClickOnMeElement?.contains(event.target);
-    if (!isClickInsideElement) {
-      elementNavbarfirstDiv?.classList.remove("activedropdown");
-    }
-  });
+//   document.addEventListener("click", (event) => {
+//     const isClickInsideElement = ignoreClickOnMeElement?.contains(event.target);
+//     if (!isClickInsideElement) {
+//       elementNavbarfirstDiv?.classList.remove("activedropdown");
+//     }
+//   });
 
-  const ignoreClickOnMeElementSecond = document.querySelector(
-    ".dropdown-careers-1"
-  );
+//   const ignoreClickOnMeElementSecond = document.querySelector(
+//     ".dropdown-careers-1"
+//   );
 
-  document.addEventListener("click", (eventSec) => {
-    const isClickInsideElementSecond = ignoreClickOnMeElementSecond?.contains(
-      eventSec.target
-    );
-    if (!isClickInsideElementSecond) {
-      elementNavbarSecondDiv?.classList.remove("activedropdown");
-    }
-  });
-  // ------------- end dropdown -------------
-  function show(value) {
-    document.querySelector(".text-box").value = value;
-    const landValue = document.querySelector(".text-box-1").value;
-    filterSearch(value, landValue);
-  }
+//   document.addEventListener("click", (eventSec) => {
+//     const isClickInsideElementSecond = ignoreClickOnMeElementSecond?.contains(
+//       eventSec.target
+//     );
+//     if (!isClickInsideElementSecond) {
+//       elementNavbarSecondDiv?.classList.remove("activedropdown");
+//     }
+//   });
+//   // ------------- end dropdown -------------
+//   function show(value) {
+//     document.querySelector(".text-box").value = value;
+//     const landValue = document.querySelector(".text-box-1").value;
+//     filterSearch(value, landValue);
+//   }
 
-  let dropdown = document.querySelector(".dropdown-careers");
-  dropdown.onclick = function () {
-    dropdown.classList.toggle("activedropdown");
-    elementNavbarSecondDiv.classList.remove("activedropdown");
-  };
+//   let dropdown = document.querySelector(".dropdown-careers");
+//   dropdown.onclick = function () {
+//     dropdown.classList.toggle("activedropdown");
+//     elementNavbarSecondDiv.classList.remove("activedropdown");
+//   };
 
-  function showSecond(value) {
-    const skillValue = document.querySelector(".text-box").value;
-    document.querySelector(".text-box-1").value = value;
-    filterSearch(skillValue, value);
-  }
+//   function showSecond(value) {
+//     const skillValue = document.querySelector(".text-box").value;
+//     document.querySelector(".text-box-1").value = value;
+//     filterSearch(skillValue, value);
+//   }
 
-  let dropdownSecond = document.querySelector(".dropdown-careers-1");
-  dropdownSecond.onclick = function () {
-    dropdownSecond.classList.toggle("activedropdown");
-    elementNavbarfirstDiv.classList.remove("activedropdown");
-  };
+//   let dropdownSecond = document.querySelector(".dropdown-careers-1");
+//   dropdownSecond.onclick = function () {
+//     dropdownSecond.classList.toggle("activedropdown");
+//     elementNavbarfirstDiv.classList.remove("activedropdown");
+//   };
 
-  const filterSearch = (skillValue, landValue) => {
-    let value, name, profile, i, nameLocal;
+//   const filterSearch = (skillValue, landValue) => {
+//     let value, name, profile, i, nameLocal;
 
-    profiles = document.getElementsByClassName("rt-list__offer-item");
+//     profiles = document.getElementsByClassName("rt-list__offer-item");
 
-    for (profile of profiles) {
-      name = profile.getElementsByClassName("skill")[0];
-      nameLocal = profile.getElementsByClassName("rt-list__offer-location")[0];
+//     for (profile of profiles) {
+//       name = profile.getElementsByClassName("skill")[0];
+//       nameLocal = profile.getElementsByClassName("rt-list__offer-location")[0];
 
-      if (
-        name.textContent.toUpperCase().includes(skillValue.toUpperCase()) > -1
-      ) {
-        profile.style.display = "flex";
-      }
-      if (
-        name.textContent.toUpperCase().indexOf(skillValue.toUpperCase()) > -1 &&
-        nameLocal.textContent.toUpperCase().indexOf(landValue.toUpperCase()) >
-        -1
-      ) {
-        profile.style.display = "flex";
-      } else if (
-        name.textContent.toUpperCase().indexOf("/" + skillValue.toUpperCase()) >
-        -1 &&
-        nameLocal.textContent.toUpperCase().indexOf(landValue.toUpperCase()) >
-        -1
-      ) {
-        profile.style.display = "flex";
-      } else {
-        profile.style.display = "none";
-      }
-    }
-  };
-} catch (error) { }
+//       if (
+//         name.textContent.toUpperCase().includes(skillValue.toUpperCase()) > -1
+//       ) {
+//         profile.style.display = "flex";
+//       }
+//       if (
+//         name.textContent.toUpperCase().indexOf(skillValue.toUpperCase()) > -1 &&
+//         nameLocal.textContent.toUpperCase().indexOf(landValue.toUpperCase()) >
+//           -1
+//       ) {
+//         profile.style.display = "flex";
+//       } else if (
+//         name.textContent.toUpperCase().indexOf("/" + skillValue.toUpperCase()) >
+//           -1 &&
+//         nameLocal.textContent.toUpperCase().indexOf(landValue.toUpperCase()) >
+//           -1
+//       ) {
+//         profile.style.display = "flex";
+//       } else {
+//         profile.style.display = "none";
+//       }
+//     }
+//   };
+// } catch (error) {}
 /**********************/
 /**** accordion ***/
 /**********************/
@@ -588,7 +588,7 @@ try {
       }
     });
   }
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /**** PDF and Form modalbox ***/
@@ -611,7 +611,7 @@ try {
   ClosePdf.addEventListener("click", () => {
     removeModal();
   });
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /**** Header - modalbox ***/
@@ -634,7 +634,7 @@ try {
   CloseHeader.addEventListener("click", () => {
     removeModal();
   });
-} catch (error) { }
+} catch (error) {}
 
 try {
   const forEach = (array, callback, scope) => {
@@ -683,8 +683,7 @@ try {
       }
     });
   });
-} catch (error) { }
-
+} catch (error) {}
 
 // function updateTimer() {
 //   future  = Date.parse("february 17, 2023 11:00:00");
@@ -713,13 +712,16 @@ try {
 // }
 // setInterval('updateTimer()', 1000 );
 
-
 /**********************/
 /**** Header - modalbox Scale Up ***/
 /**********************/
 try {
-  const buttonModalTransport = document.querySelectorAll(".button-modal-transport");
-  const ModalHeaderTransport = document.querySelector(".modal-form-header-transport");
+  const buttonModalTransport = document.querySelectorAll(
+    ".button-modal-transport"
+  );
+  const ModalHeaderTransport = document.querySelector(
+    ".modal-form-header-transport"
+  );
   const CloseHeaderTransport = document.querySelector(".close-modal-transport");
 
   for (let i = 0; i < buttonModalTransport.length; i++) {
@@ -735,7 +737,46 @@ try {
   CloseHeaderTransport.addEventListener("click", () => {
     removeModal();
   });
-} catch (error) { }
+} catch (error) {}
 
+try {
+  let mainPlayer = document.getElementById("mainPlayer");
+  let sideVideos = document.getElementsByClassName("sideVideo");
 
+  for (let i = 0; i < sideVideos.length; i++) {
+    let videoElement = sideVideos[i].children[0];
 
+    addEventListener("load", (event) => {
+      const firstOrangeDiv = document.getElementById("orange-div-1");
+
+      firstOrangeDiv.classList.remove("h-[80px]");
+      firstOrangeDiv.classList.add("h-full");
+    });
+
+    videoElement.addEventListener("mouseover", function () {
+      mainPlayer.children[0].src = this.children[0].src;
+      mainPlayer.load();
+      mainPlayer.play();
+
+      // Iterate over all videos and reset orange div class
+      for (let j = 0; j < sideVideos.length; j++) {
+        sideVideos[j].classList.remove("h-full");
+        sideVideos[j].classList.add("h-[80px]");
+        let orangeDivId = "orange-div-" + (j + 1);
+        let orangeDiv = document.getElementById(orangeDivId);
+
+        orangeDiv.classList.remove("h-full");
+        orangeDiv.classList.add("h-[80px]");
+      }
+
+      // Get id of current orange div
+      let orangeDivId = "orange-div-" + (i + 1);
+      let orangeDiv = document.getElementById(orangeDivId);
+
+      orangeDiv.classList.remove("h-[80px]");
+      orangeDiv.classList.add("h-full");
+    });
+  }
+} catch (error) {
+  console.error(error);
+}
