@@ -80,7 +80,7 @@ else : /* rendering in editor body */
         <div class="loader mx-auto mt-10 mb-12"></div>
     </section>
 <?php endif; ?>
-
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script type="text/javascript"> 
           var rtscript = document.createElement('script'); 
           rtscript.type = 'text/javascript';  
@@ -112,7 +112,7 @@ else : /* rendering in editor body */
             rtscript.src = 'https://d10zminp1cyta8.cloudfront.net/widget.js';
             document.body.appendChild(rtscript);
 </script>
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
 <script>
 // load skill.js
 function loadScript(src) {
@@ -226,4 +226,18 @@ loadScript("/wp-content/themes/gapstars/componenten/recruiteeScript.js");
       }
     }
   };
+  // window.onload = setTimeout(function() {
+  //     // Get URL parameters on window load
+  //     const params = new URLSearchParams(window.location.search);
+  //     console.log(params)
+
+  //     // Get the skill and location values from the URL parameters
+  //     const skillValue = params.get('skill') || ""; // Replace 'skill' with the actual parameter name
+  //     const landValue = params.get('location') || ""; // Replace 'location' with the actual parameter name
+
+  //     console.log(landValue)
+
+  //     // Call the filterSearch function with the values from the URL parameters
+  //     filterSearch(skillValue, landValue);
+  // }, 2000);
 </script>
