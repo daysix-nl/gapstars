@@ -1,10 +1,9 @@
 .careers__2023 {
   .hero_block {
-    background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(50, 50, 50, 0.5968992248062015) 71%
-    );
+    background: linear-gradient(90deg,
+        transparent,
+        #323232,
+      );
   }
 
   .rt-list .rt-list__header-main {
@@ -19,10 +18,7 @@
     display: none !important;
   }
 
-  #recruitee-careers
-    .rt-body
-    .rt-list__items
-    .rt-list__offer-item:nth-of-type(n + 5) {
+  #recruitee-careers .rt-body .rt-list__items .rt-list__offer-item:nth-of-type(n + 5) {
     display: none !important;
   }
 
@@ -31,11 +27,7 @@
     transition-duration: 0.3s;
   }
 
-  #recruitee-careers
-    .rt-body
-    .rt-list__items
-    .rt-list__offer-item
-    .rt-list__offer-title {
+  #recruitee-careers .rt-body .rt-list__items .rt-list__offer-item .rt-list__offer-title {
     color: #202020 !important;
   }
 }
