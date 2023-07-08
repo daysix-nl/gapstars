@@ -11,7 +11,7 @@ get_header(); ?>
     <section class="h-[600px] md:h-[calc(100vh-103px)] relative flex">
         <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/careers_1.png" alt="hero-careers">
         <div class="hero_block absolute w-full h-full top-0 right-0 z-10"></div>
-        <div class="container relative z-20 my-auto pb-10">
+        <div class="container relative z-20 my-auto">
             <h1 class="text-white text-65 leading-65 md:text-75 md:leading-75 font-medium row-center">Grow </br> with us</h1>
             <div class="flex pt-4 gap-2 md:gap-3 flex-wrap">
                 <a class="btn-creme text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit" href="">
@@ -27,7 +27,7 @@ get_header(); ?>
     <!-- Card proposition  -->
     <section class="bg-[#F1EFEC]">
         <div class="container pt-8 md:pt-10 pb-10 md:pb-12 ">
-            <div class="grid md:grid-cols-2 pt-4 md:pt-6 h-full">
+            <div class="grid md:grid-cols-2 h-full">
                 <div class="col-span-1 h-full">
                     <img src="https://gapstars.net/wp-content/uploads/2023/07/careers_2.png" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
                 </div>
@@ -35,7 +35,6 @@ get_header(); ?>
                     <h3 class="text-black text-30 leading-40 mb-3">Our Employee value proposition</h3>
                     <p class="text-diepgrijs mb-1 mr-1">At Gapstars, you’re part of a familial and empathetic culture. We provide you with the means of uplifting your lifestyle and empower you to pursue a progressive career, building technology that creates an impact.</p>
                 </div>
-            
             </div>
         </div>
     </section>
