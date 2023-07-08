@@ -32,7 +32,7 @@ get_header(); ?>
                     <img src="https://gapstars.net/wp-content/uploads/2023/07/careers_2.png" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
                 </div>
                 <div class="col-span-1 bg-creme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
-                    <h3 class="text-black text-30 leading-40 mb-3">Our Employee value proposition</h3>
+                    <h3 class="text-black text-30 leading-40 mb-3 font-medium">Our Employee <br> value proposition</h3>
                     <p class="text-diepgrijs mb-1 mr-1">At Gapstars, you’re part of a familial and empathetic culture. We provide you with the means of uplifting your lifestyle and empower you to pursue a progressive career, building technology that creates an impact.</p>
                 </div>
             </div>
