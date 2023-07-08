@@ -8,8 +8,8 @@
 get_header(); ?>
 <main class="careers__2023">  
     <!-- Hero -->
-    <section class="h-[600px] md:h-[calc(100vh-110px)] relative flex">
-        <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="/wp-content/themes/gapstars/img/careers-2023/gapstars-2023-hero.png" alt="hero-careers">
+    <section class="h-[600px] md:h-[calc(100vh-103px)] relative flex">
+        <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/careers_1.jpeg" alt="hero-careers">
         <div class="hero_block absolute w-full h-full top-0 right-0 z-10"></div>
         <div class="container relative z-20 my-auto pb-10">
             <h1 class="text-white text-65 leading-65 md:text-75 md:leading-75 font-medium row-center">Grow </br> with us</h1>
@@ -29,7 +29,7 @@ get_header(); ?>
         <div class="container pt-8 md:pt-10 pb-10 md:pb-12 ">
             <div class="grid md:grid-cols-2 pt-4 md:pt-6 h-full">
                 <div class="col-span-1 h-full">
-                    <img src="/wp-content/themes/gapstars/img/careers-2023/gapstars-2023-hero.png" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
+                    <img src="https://gapstars.net/wp-content/uploads/2023/07/careers_2.png" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
                 </div>
                 <div class="col-span-1 bg-creme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
                     <h3 class="text-black text-30 leading-40 mb-3">Our Employee value proposition</h3>
@@ -56,7 +56,7 @@ get_header(); ?>
                     </div>
                     <div class="flex flex-col p-3 justify-center gap-2">
                         <h3 class="text-oranje text-30 leading-40">Family</h3>                        
-                        <p class="text-white text-18 leading-28 font-dmsans">At Gapstars, you are part of an inclusive and empathetic culture. The Gapstars experience is all about being more than a workplace, and finding a sense  of belonging in our family.</p>
+                        <p class="text-white text-18 leading-28 font-dmsans">At Gapstars, you are part of an inclusive and empathetic culture. The Gapstars experience is all about being more than a workplace, and finding a sense of belonging in our family.</p>
                     </div>
                 </div>
                 <div class="col-span-1 bg-diepgrijs rounded-3xl h-auto overflow-hidden">
