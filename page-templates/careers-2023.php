@@ -9,7 +9,7 @@ get_header(); ?>
 <main class="careers__2023">  
     <!-- Hero -->
     <section class="h-[600px] md:h-[calc(100vh-103px)] relative flex">
-        <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/careers_1.jpeg" alt="hero-careers">
+        <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/careers_1.png" alt="hero-careers">
         <div class="hero_block absolute w-full h-full top-0 right-0 z-10"></div>
         <div class="container relative z-20 my-auto pb-10">
             <h1 class="text-white text-65 leading-65 md:text-75 md:leading-75 font-medium row-center">Grow </br> with us</h1>
