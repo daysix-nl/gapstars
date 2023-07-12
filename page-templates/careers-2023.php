@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- Hero -->
     <section class="h-[600px] md:h-[calc(100vh-103px)] relative flex">
         <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/careers_1.png" alt="hero-careers">
-        <div class="hero_block absolute w-full h-full top-0 right-0 z-10"></div>
+        <div class="hero_block absolute w-full h-full top-0 right-0 z-[1]"></div>
         <div class="container relative z-20 my-auto">
             <h1 class="text-white text-65 leading-65 md:text-75 md:leading-75 font-medium row-center">Grow </br> with us</h1>
             <div class="flex pt-4 gap-2 md:gap-3 flex-wrap">
@@ -33,7 +33,7 @@ get_header(); ?>
                 </div>
                 <div class="col-span-1 bg-creme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
                     <h3 class="text-black text-30 leading-30 mb-3 font-medium">Our Employee <br> value proposition</h3>
-                    <p class="text-diepgrijs mb-1 mr-1">At Gapstars, you’re part of a familial and empathetic culture. We provide you with the means of uplifting your lifestyle and empower you to pursue a progressive career, building technology that creates an impact.</p>
+                    <p class="text-diepgrijs mb-1 mr-1 text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans">At Gapstars, you’re part of a familial and empathetic culture. We provide you with the means of uplifting your lifestyle and empower you to pursue a progressive career, building technology that creates an impact.</p>
                 </div>
             </div>
         </div>
@@ -43,37 +43,37 @@ get_header(); ?>
     <section class="bg-[#F1EFEC]">
         <div class="container pb-10 md:pb-12">
             <div class="text-center md:w-[700px] mx-auto">
-                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-black"><span class="text-oranje">GPS - </br></span>The Gapstars Pointer Stars</h2>
+                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-black"><span class="text-oranje">GPS - </br></span>The Gapstars Pointer Stars</h2>
             </div>
             <div class="text-center mx-auto pt-4">
-                <p class="text-black text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans">The Gapstars Pointer Stars encapsulate the core values that are at the heart of our company. They provide a direction for our community to follow and they lay the foundation for the culture that we aim to foster. </p>
+                <p class="text-black text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans max-w-[780px] mx-auto">The Gapstars Pointer Stars encapsulate the core values that are at the heart of our company. They provide a direction for our community to follow and they lay the foundation for the culture that we aim to foster. </p>
             </div>
             <div class="pt-4 md:pt-6 grid grid-cols-1 md:grid-cols-3 gap-2">
                 <div class="col-span-1 bg-diepgrijs rounded-3xl h-auto overflow-hidden">
-                    <div class="h-[315px] w-full overflow-hidden flex items-center justify-center"> 
-                        <img class="w-full h-full object-cover" src="/wp-content/themes/gapstars/img/careers-2023/gapstars-2023-hero.png" alt="family careers">
+                    <div class="h-[300px] w-full overflow-hidden flex items-center justify-center"> 
+                        <img class="w-full h-full object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/joao11.png" alt="family careers">
                     </div>
                     <div class="flex flex-col p-3 justify-center gap-2">
-                        <h3 class="text-oranje text-30 leading-40">Family</h3>                        
-                        <p class="text-white text-18 leading-28 font-dmsans">At Gapstars, you are part of an inclusive and empathetic culture. The Gapstars experience is all about being more than a workplace, and finding a sense of belonging in our family.</p>
+                        <h3 class="text-oranje text-30 leading-30 font-medium">Family</h3>                        
+                        <p class="text-white text-16 leading-24 lg:text-16 lg:leading-26 font-dmsans">At Gapstars, you are part of an inclusive and empathetic culture. The Gapstars experience is all about being more than a workplace, and finding a sense of belonging in our family.</p>
                     </div>
                 </div>
                 <div class="col-span-1 bg-diepgrijs rounded-3xl h-auto overflow-hidden">
-                    <div class="h-[315px] w-full overflow-hidden flex items-center justify-center"> 
-                        <img class="w-full h-full object-cover" src="/wp-content/themes/gapstars/img/careers-2023/gapstars-2023-hero.png" alt="family careers">
+                    <div class="h-[300px] w-full overflow-hidden flex items-center justify-center"> 
+                        <img class="w-full h-full object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/joao21.png" alt="family careers">
                     </div>
                     <div class="flex flex-col p-3 justify-center gap-2">
-                        <h3 class="text-oranje text-30 leading-40">Growth</h3>                        
-                        <p class="text-white text-18 leading-28 font-dmsans">Your personal journey is as important to us as it is to you. We empower you to pursue your highest potential, whilst being part of a company that continually forges ahead.</p>
+                        <h3 class="text-oranje text-30 leading-30 font-medium">Growth</h3>                        
+                        <p class="text-white text-16 leading-24 lg:text-16 lg:leading-26 font-dmsans">Your personal journey is as important to us as it is to you. We empower you to pursue your highest potential, whilst being part of a company that continually forges ahead.</p>
                     </div>
                 </div>
                 <div class="col-span-1 bg-diepgrijs rounded-3xl h-auto overflow-hidden">
-                    <div class="h-[315px] w-full overflow-hidden flex items-center justify-center"> 
-                        <img class="w-full h-full object-cover" src="/wp-content/themes/gapstars/img/careers-2023/gapstars-2023-hero.png" alt="family careers">
+                    <div class="h-[300px] w-full overflow-hidden flex items-center justify-center"> 
+                        <img class="w-full h-full object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/joao31.png" alt="family careers">
                     </div>
                     <div class="flex flex-col p-3 justify-center gap-2">
-                        <h3 class="text-oranje text-30 leading-40">Impact</h3>                        
-                        <p class="text-white text-18 leading-28 font-dmsans">Our story runs deeper than just tech. We are committed to giving back to our community, uplifting those less fortunate and striving towards sustainability.</p>
+                        <h3 class="text-oranje text-30 leading-30 font-medium">Impact</h3>                        
+                        <p class="text-white text-16 leading-24 lg:text-16 lg:leading-26 font-dmsans">Our story runs deeper than just tech. We are committed to giving back to our community, uplifting those less fortunate and striving towards sustainability.</p>
                     </div>
                 </div>
             </div>
@@ -85,53 +85,71 @@ get_header(); ?>
     <section class="bg-cream pt-8 md:pt-10 pb-10 md:pb-12">
         <div class="container">
             <div class="text-center md:w-[600px] mx-auto">
-                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-black">Perks & <span class="text-oranje">Benefits</span></h2>
+                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-black">Perks & <span class="text-oranje">Benefits</span></h2>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-6 gap-2 pt-4 md:pt-6 pb-2">
                 <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
                     <div class="flex flex-col">
-                        <img decoding="async" class="w-[52px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/icons-acf/icon-4.svg" alt="icon 4">
-                        <h3 class="text-18 leading-28 text-white mt-1 text-center">Salaries pegged to the euro</h3>
+                        <div class="h-[48px] flex items-center">
+                            <img decoding="async" class="w-[48px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/salaries.svg" alt="icon 4">
+                        </div>
+                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Salaries pegged to the euro</h3>
                     </div>
                 </div>
                 <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
                     <div class="flex flex-col">
-                        <img decoding="async" class="w-[52px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/icons-acf/icon-4.svg" alt="icon 4">
-                        <h3 class="text-18 leading-28 text-white mt-1 text-center">Salaries pegged to the euro</h3>
+                        <div class="h-[48px] flex items-center">
+                            <img decoding="async" class="w-[42px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/shuttle.svg" alt="icon 4">
+                        </div>
+                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Free staff shuttle service</h3>
                     </div>
                 </div>
                 <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
                     <div class="flex flex-col">
-                        <img decoding="async" class="w-[52px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/icons-acf/icon-4.svg" alt="icon 4">
-                        <h3 class="text-18 leading-28 text-white mt-1 text-center">Salaries pegged to the euro</h3>
+                        <div class="h-[48px] flex items-center">
+                            <img decoding="async" class="w-[48px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/solar.svg" alt="icon 4">
+                        </div>
+                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Subsidised solar systems</h3>
                     </div>
                 </div>
                 <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
                     <div class="flex flex-col">
-                        <img decoding="async" class="w-[52px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/icons-acf/icon-4.svg" alt="icon 4">
-                        <h3 class="text-18 leading-28 text-white mt-1 text-center">Salaries pegged to the euro</h3>
+                        <div class="h-[48px] flex items-center">
+                            <img decoding="async" class="w-[48px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/oversea.svg" alt="icon 4">
+                        </div>
+                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Overseas training</h3>
                     </div>
                 </div>
                 <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
                     <div class="flex flex-col">
-                        <img decoding="async" class="w-[52px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/icons-acf/icon-4.svg" alt="icon 4">
-                        <h3 class="text-18 leading-28 text-white mt-1 text-center">Salaries pegged to the euro</h3>
+                        <div class="h-[48px] flex items-center">
+                            <img decoding="async" class="w-[46px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/gym.svg" alt="icon 4">
+                        </div>
+                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Gym Membership</h3>
                     </div>
                 </div>
                 <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
                     <div class="flex flex-col">
-                        <img decoding="async" class="w-[52px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/icons-acf/icon-4.svg" alt="icon 4">
-                        <h3 class="text-18 leading-28 text-white mt-1 text-center">Salaries pegged to the euro</h3>
+                        <div class="h-[48px] flex items-center">
+                           <img decoding="async" class="w-[48px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/snacks.svg" alt="icon 4">
+                        </div>
+                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Unlimited snacks & drinks</h3>
                     </div>
                 </div>
             </div>
-            <ul class=" grid grid-cols-1 md:grid-cols-2 gap-2">
-                <li class="text-diepgrijs col-span-1 bg-lightcreme p-2 rounded-3xl flex flex-row items-center"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Moonshots - Personalised training plan</li>
-                <li class="text-diepgrijs col-span-1 bg-lightcreme p-2 rounded-3xl flex flex-row items-center"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Moonshots - Personalised training plan</li>
-                <li class="text-diepgrijs col-span-1 bg-lightcreme p-2 rounded-3xl flex flex-row items-center"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Moonshots - Personalised training plan</li>
-                <li class="text-diepgrijs col-span-1 bg-lightcreme p-2 rounded-3xl flex flex-row items-center"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Moonshots - Personalised training plan</li>
-                <li class="text-diepgrijs col-span-1 bg-lightcreme p-2 rounded-3xl flex flex-row items-center"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Moonshots - Personalised training plan</li>
-                <li class="text-diepgrijs col-span-1 bg-lightcreme p-2 rounded-3xl flex flex-row items-center"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Moonshots - Personalised training plan</li>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Personalised L&D Programmes</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Flat Hierarchy</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>State of the Art Office Environment</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Therapy & Counseling Services</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Flexibility to Work From Home</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Onsite Masseuse</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Health Coverage</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Direct International Client Exposure</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Option for Permanent Contract</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Friday Happy Hour</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Friday Happy Hour</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Great Parties!</li>
             </ul>
         </div>
     </section>
@@ -140,7 +158,7 @@ get_header(); ?>
 
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
-                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-diepgrijs">This could be <span class="text-oranje">you</span></h2>
+                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-diepgrijs">This could be <span class="text-oranje">you</span></h2>
             </div>
         </div>
         <div class="pt-4 md:pt-6 md:container">
@@ -192,43 +210,71 @@ get_header(); ?>
 <section class="bg-cream pb-10 md:pb-12">
     <div class="container">
         <div class="text-center md:w-[618px] mx-auto">
-            <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-diepgrijs">The Gapstars
+            <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-diepgrijs">The Gapstars
             <span class="text-oranje"><br/>formula for success</span></h2>
         </div>
     </div>
     <div class="container pt-4 md:pt-6">
-        <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-3 rounded-3xl overflow-hidden">
-            <div class="col-span-2">
+        <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-3 rounded-3xl overflow-hidden md:h-[450px] lg:h-[500px] xl:h-[550px]">
+            <div class="col-span-2 md:h-[450px] lg:h-[500px] xl:h-[550px]">
                 <div id="mainPlayerContainer relative w-full h-full">
-                    <video id="mainPlayer" class="object-cover aspect-[1/1.02] h-full w-full" controls autoplay="" muted>
+                    <video id="mainPlayer" class="object-cover aspect-[1/1.02] h-full w-full" controls loop autoplay="" >
                         <source src="https://gapstars.net/videos/6th_floor_opening.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
             </div>
-            <div class="col-span-2 md:col-span-1 p-2 space-y-2 flex justify-between flex-col">
+            <div class="col-span-2 md:col-span-1 p-[15px] space-y-[15px] flex justify-between flex-col md:h-[450px] lg:h-[500px] xl:h-[550px]">
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
                     <video id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
                         <source src="https://gapstars.net/videos/6th_floor_opening.mp4" type="video/mp4">
                     </video>
-                    <div id="orange-div-1" class="bg-oranje/80 z-10 py-1 h-[80px] flex hover:h-[180px] ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                        <p class="text-white text-center text-18 leading-28 my-auto mx-auto">What Your Candidate Yourney Looks Like</p>
+                    <div class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
+                        <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
+                                    <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="orange-div-1" class="bg-oranje/80 z-10 py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                        <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 lg:leading-26 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
                     </div>
                 </div>
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
                       <video id="side-video-2" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
-                        <source src="https://gapstars.net/videos/6th_floor_opening.mp4" type="video/mp4">
+                        <source src="https://gapstars.net/videos/gapstars_scale-up_2023.mp4" type="video/mp4">
                     </video>
-                    <div id="orange-div-2" class="bg-oranje/80 z-10 py-1 h-[80px] flex hover:h-[180px] ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                        <p class="text-white text-center text-18 leading-28 my-auto mx-auto">What Your Candidate Yourney Looks Like</p>
+                    <div class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
+                        <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
+                                    <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="orange-div-2" class="bg-oranje/80 z-10 py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                        <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars,<br> Our Tech & Our Clients</p>
                     </div>
                 </div>
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
                     <video id="side-video-3" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
-                        <source src="https://gapstars.net/videos/6th_floor_opening.mp4" type="video/mp4">
+                        <source src="https://gapstars.net/videos/annual_trip.mp4" type="video/mp4">
                     </video>
-                    <div id="orange-div-3" class="bg-oranje/80 z-10 py-1 h-[80px] flex hover:h-[180px] ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                        <p class="text-white text-center text-18 leading-28 my-auto mx-auto">What Your Candidate Yourney Looks Like</p>
+                    
+                    <div id="orange-div-3" class="bg-oranje/80 z-10 py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                        <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars, <br> Our Tech & Our Clients</p>
+                    </div>
+                   <div id="orange-divv-3" class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
+                        <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
+                                    <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
+                                </g>
+                            </g>
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -240,7 +286,7 @@ get_header(); ?>
 <section class="bg-cream pb-10 md:pb-12">
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
-                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-diepgrijs">Stay ahead of </br> <span class="text-oranje">the game</span></h2>
+                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-diepgrijs">Stay ahead of </br> <span class="text-oranje">the game</span></h2>
             </div>
             <div class="grid md:grid-cols-2 pt-4 md:pt-6 h-full">
 
@@ -252,7 +298,7 @@ get_header(); ?>
                     <p class="text-white mt-3 text-20 leading-30">The Gapstars Academy is our dedicated talent and career development unit, which focuses on empowering our employees to enrich both their technical skills and their soft skills.</p>
                 </div>
                 <div class="col-span-1 bg-lightcreme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
-                    <h3 class="text-oranje text-30 leading-40">Academy<br>offering</h3>
+                    <h3 class="text-oranje text-30 leading-30 font-medium">Academy<br>offering</h3>
                     <ul class="list-disc list-outside ml-[15px] marker:text-oranje mt-3">
                         <li class="text-diepgrijs mb-1">Moonshots - Personalised training plan</li>
                         <li class="text-diepgrijs mb-1">E-learning</li>
@@ -269,7 +315,7 @@ get_header(); ?>
     <section class="pt-8 md:pt-10 pb-10 md:pb-12 bg-black">
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
-                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-white">Don't just take
+                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-white">Don't just take
                 <span class="text-oranje"><br/>our word for it</span></h2>
                 <p class="text-center text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans text-white pt-4 pb-4 md:pb-6">Hear from our employees and industry experts.</p>
             </div>
@@ -307,7 +353,7 @@ get_header(); ?>
      <section class=" bg-black">
         <div class="container">
             <div class="text-center mx-auto pb-4 md:pb-6">
-                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-white">Latest <span class="text-oranje">vacancies</span></h2>
+                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-white">Latest <span class="text-oranje">vacancies</span></h2>
             </div>
         </div>
         <div class="container hidden section-vacancies-2023">
