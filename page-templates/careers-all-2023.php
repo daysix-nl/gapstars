@@ -18,56 +18,62 @@ echo '<img src="'. $block['data']['preview_image_help'] .'" style="width:100%; h
 else : /* rendering in editor body */
 
 ?>
-<main class=" bg-[#F1EFEC]">  
+<style>
+  footer.bg-black {
+    background-color: #202020 !important;
+}
+  </style>
+
+<main class=" bg-[#F1EFEC] recruitee-all-new">  
  <section class="py-10 md:py-12 vacancies-all min-h-[80vh]">
         <div class="container text-center">
-            <h2 class="text-40 leading-40 md:text-65 md:leading-70 pb-6 font-medium text-black">Join us! <br><span class="text-oranje">Current openings</span></h2>
+            <h2 class="text-40 leading-40 md:text-55 md:leading-55 pb-6 font-medium text-black">Join us! <br><span class="text-oranje">Current openings</span></h2>
         </div>
         <div class="section-filter hidden">
             <div class="container relative z-10">
-            <div class="bg-oranje rounded-3xl p-3 mb-6 md:grid md:grid-cols-8">
-                <p class="text-white font-medium text-16 leading-26 md:col-span-4 flex items-center">Filter jobs:</p>
-                <div class="dropdown-careers my-2 md:m-0 md:col-span-2">
-                    <input id="filter-technologies-button" class="text-box" type="text"
-                        placeholder="All technologies" readonly>
-                    <div class="options">
-                        <div id="filter-item-all-technologies"
-                            onclick="show('')"
-                            value="All Tech Stack">All technologies</div>
-                        <?php for($x=0;$x<=count($taglistUnique);$x++){?>
-                        <?php if(!empty($taglistUnique[$x])){?>
-                        <div id="filter-item-<?php echo str_replace(' ', '', $taglistUnique[$x])?>"
-                            onclick="show('<?php echo $taglistUnique[$x];?>')"
-                            value="<?php echo $taglistUnique[$x];?>">
-                            <?php echo $taglistUnique[$x];?></div>
-                        <?php } ?>
-                        <?php } ?>
-                    </div>
-                </div>
-                <div class="dropdown-careers-1 md:col-span-2">
-                    <input id="filter-location-button" class="text-box-1" type="text"
-                        placeholder="All locations" readonly>
-                    <div class="options-1">
-                        <div id="filter-item-all-locations"
-                            onclick="showSecond('')"
-                            value="All locations">All locations</div>
-                          <?php foreach($landlistUnique as $x => $val) { ?>
-                            <?php if(!empty($val)) {?>
-                              <div id="filter-item-<?php echo str_replace(' ', '', $val)?>"
-                                onclick="showSecond('<?php echo $val;?>')"
-                                value="<?php echo $val;?>">
-                                <?php echo $val;?>
-                              </div>
-                            <?php } ?>
-                        <?php } ?>
-                    </div>
+            <div class="bg-oranje rounded-3xl p-3 mb-6 md:flex">
+                <p class="text-white font-medium text-16 leading-26 flex items-center min-w-[200px]">Filter jobs:</p>
+                <div class="flex flex-col md:flex-row w-full justify-end">
+                  <div class="dropdown-careers mr-0 md:mr-2">
+                      <input id="filter-technologies-button" class="text-box" type="text"
+                          placeholder="All technologies" readonly>
+                      <div class="options">
+                          <div id="filter-item-all-technologies"
+                              onclick="show('')"
+                              value="All Tech Stack">All technologies</div>
+                          <?php for($x=0;$x<=count($taglistUnique);$x++){?>
+                          <?php if(!empty($taglistUnique[$x])){?>
+                          <div id="filter-item-<?php echo str_replace(' ', '', $taglistUnique[$x])?>"
+                              onclick="show('<?php echo $taglistUnique[$x];?>')"
+                              value="<?php echo $taglistUnique[$x];?>">
+                              <?php echo $taglistUnique[$x];?></div>
+                          <?php } ?>
+                          <?php } ?>
+                      </div>
+                  </div>
+                  <div class="dropdown-careers-1">
+                      <input id="filter-location-button" class="text-box-1" type="text"
+                          placeholder="All locations" readonly>
+                      <div class="options-1">
+                          <div id="filter-item-all-locations"
+                              onclick="showSecond('')"
+                              value="All locations">All locations</div>
+                            <?php foreach($landlistUnique as $x => $val) { ?>
+                              <?php if(!empty($val)) {?>
+                                <div id="filter-item-<?php echo str_replace(' ', '', $val)?>"
+                                  onclick="showSecond('<?php echo $val;?>')"
+                                  value="<?php echo $val;?>">
+                                  <?php echo $val;?>
+                                </div>
+                              <?php } ?>
+                          <?php } ?>
+                      </div>
+                  </div>
                 </div>
             </div>
             </div>
             <div class="container">
-                <div class="pb-3">
-                    <div id="recruitee-careers"></div>
-                </div>
+              <div id="recruitee-careers"></div>
             </div>
         </div>
         <div class="loader mx-auto mt-10 mb-12"></div>

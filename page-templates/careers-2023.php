@@ -6,18 +6,18 @@
 
 
 get_header(); ?>
-<main class="careers__2023">  
+<main class="careers__2023 recruitee-new">  
     <!-- Hero -->
     <section class="h-[600px] md:h-[calc(100vh-103px)] relative flex">
-        <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/careers_1.png" alt="hero-careers">
+        <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/header_careers-2023.jpeg" alt="hero-careers">
         <div class="hero_block absolute w-full h-full top-0 right-0 z-[1]"></div>
-        <div class="container relative z-20 my-auto">
+        <div class="container relative z-[2] my-auto">
             <h1 class="text-white text-65 leading-65 md:text-75 md:leading-75 font-medium row-center">Grow </br> with us</h1>
             <div class="flex pt-4 gap-2 md:gap-3 flex-wrap">
-                <a class="btn-creme text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit" href="">
+                <a class="btn-creme text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit" href="#explore-available-positions">
                     Explore available positions
                 </a>
-                <button class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit button-modal h-[45px]">
+                <button class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px]">
                     Quik Apply
                 </button>
             </div>
@@ -29,7 +29,7 @@ get_header(); ?>
         <div class="container pt-8 md:pt-10 pb-10 md:pb-12 ">
             <div class="grid md:grid-cols-2 h-full">
                 <div class="col-span-1 h-full">
-                    <img src="https://gapstars.net/wp-content/uploads/2023/07/careers_2.png" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
+                    <img src="https://gapstars.net/wp-content/uploads/2023/07/our-employees.jpeg" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
                 </div>
                 <div class="col-span-1 bg-creme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
                     <h3 class="text-black text-30 leading-30 mb-3 font-medium">Our Employee <br> value proposition</h3>
@@ -215,16 +215,16 @@ get_header(); ?>
         </div>
     </div>
     <div class="container pt-4 md:pt-6">
-        <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-3 rounded-3xl overflow-hidden md:h-[450px] lg:h-[500px] xl:h-[550px]">
-            <div class="col-span-2 md:h-[450px] lg:h-[500px] xl:h-[550px]">
-                <div id="mainPlayerContainer relative w-full h-full">
-                    <video id="mainPlayer" class="object-cover aspect-[1/1.02] h-full w-full" controls loop autoplay="" >
+        <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-3 rounded-3xl overflow-hidden md:h-[450px] lg:h-[500px] xl:h-[520px]">
+            <div class="col-span-2 h-[220px] md:h-[450px] lg:h-[500px] xl:h-[520px]">
+                <div id="mainPlayerContainer relative w-full h-[220px] md:h-full">
+                    <video id="mainPlayer" class="object-cover aspect-[1/1.02] h-[220px] md:h-full w-full" controls loop autoplay="" muted playsinline>
                         <source src="https://gapstars.net/videos/6th_floor_opening.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
             </div>
-            <div class="col-span-2 md:col-span-1 p-[15px] space-y-[15px] flex justify-between flex-col md:h-[450px] lg:h-[500px] xl:h-[550px]">
+            <div class="col-span-2 md:col-span-1 p-[15px] space-y-[15px] flex justify-between flex-col md:h-[450px] lg:h-[500px] xl:h-[520px]">
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
                     <video id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
                         <source src="https://gapstars.net/videos/6th_floor_opening.mp4" type="video/mp4">
@@ -238,7 +238,7 @@ get_header(); ?>
                             </g>
                         </svg>
                     </div>
-                    <div id="orange-div-1" class="bg-oranje/80 z-10 py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                    <div id="orange-div-1" class="bg-oranje z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 lg:leading-26 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
                     </div>
                 </div>
@@ -255,7 +255,7 @@ get_header(); ?>
                             </g>
                         </svg>
                     </div>
-                    <div id="orange-div-2" class="bg-oranje/80 z-10 py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                    <div id="orange-div-2" class="bg-oranje z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars,<br> Our Tech & Our Clients</p>
                     </div>
                 </div>
@@ -264,7 +264,7 @@ get_header(); ?>
                         <source src="https://gapstars.net/videos/annual_trip.mp4" type="video/mp4">
                     </video>
                     
-                    <div id="orange-div-3" class="bg-oranje/80 z-10 py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                    <div id="orange-div-3" class="bg-oranje z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars, <br> Our Tech & Our Clients</p>
                     </div>
                    <div id="orange-divv-3" class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
@@ -290,7 +290,7 @@ get_header(); ?>
             </div>
             <div class="grid md:grid-cols-2 pt-4 md:pt-6 h-full">
 
-                <div class="col-span-1 bg-diepgrijs rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl p-4 py-4 md:py-6 h-auto">
+                <div class="col-span-1 bg-[#202020] rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl p-4 py-4 md:py-6 h-auto">
                     <div class="h-[82px] flex items-center">
                         <?php include get_template_directory() . '/img/local/ga_logo.svg'; ?>
                     </div>
@@ -312,7 +312,7 @@ get_header(); ?>
     </section>
 
     <!-- icons -->
-    <section class="pt-8 md:pt-10 pb-10 md:pb-12 bg-black">
+    <section class="pt-8 md:pt-10 pb-10 md:pb-12 bg-[#202020]">
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
                 <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-white">Don't just take
@@ -322,35 +322,35 @@ get_header(); ?>
         </div>
         <div class="container grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3">
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/PHP-1.png" alt="PHP 1">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/glassdoor-career-page.jpg" alt="Glassdoor reviews">
             </div>
 
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/PHP-1.png" alt="PHP 1">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/google-80.jpg" alt="Google reviews">
             </div>
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/PHP-1.png" alt="PHP 1">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/10/2022-Best-Workplaces-Asia-2.png" alt="Best Workplaces Asia">
             </div>
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/PHP-1.png" alt="PHP 1">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/10/Gapstars_2022_Certification_Badge-2.png" alt="Certified LKA">
             </div>
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/PHP-1.png" alt="PHP 1">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/10/2022_Sri-Lanka_Millennials-1.png" alt="Best Workplaces for Millennials">
             </div>
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/PHP-1.png" alt="PHP 1">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/10/2022_Sri-Lanka_IT-ITES-1.png" alt="Best Workplaces in IT & ITES">
             </div>
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/PHP-1.png" alt="PHP 1">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/10/2022_Best-50-Logo-Sri-Lanka-1.png" alt="Best Workplaces Sri Lanka">
             </div>
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/PHP-1.png" alt="PHP 1">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="#" alt="ISO logo">
             </div>
     </section>
 
     <!-- vacancies -->
 
-     <section class=" bg-black">
+     <section id="explore-available-positions" class="bg-[#202020]">
         <div class="container">
             <div class="text-center mx-auto pb-4 md:pb-6">
                 <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-white">Latest <span class="text-oranje">vacancies</span></h2>
@@ -362,7 +362,7 @@ get_header(); ?>
         </div>
         <div class="loader mx-auto mt-10 mb-12"></div>
         <div class="flex mt-4">
-            <a id="button-Allavailablepositions" href="https://gapstars.net/careers/jobs/" target="_self" class="btn-oranje text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit mx-auto">All available positions</a>
+            <a id="button-Allavailablepositions" href="https://gapstars.net/careersxxtestxx/jobsxxxtestxxx/" target="_self" class="btn-oranje text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit mx-auto">All available positions</a>
         </div>
     </section>
 </main>
@@ -405,4 +405,4 @@ get_header(); ?>
         document.querySelector('.loader').classList.add("hidden");
     }, 2000)
 </script>
-<?php get_footer('black'); ?>
+<?php get_footer('blacksoft'); ?>

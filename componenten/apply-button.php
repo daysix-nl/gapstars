@@ -1,0 +1,1 @@
+<div class="btn-oranje text-16 leading-16 md:text-16 md:leading-26 font-dmsans font-light p-button rounded-full h-[45px] flex items-center w-fit absolute right-2 bottom-1">Apply now</div>
