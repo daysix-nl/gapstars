@@ -95,7 +95,7 @@
                 </ul>
             </div>
             <div class="col-span-1 h-full order-1 md:order-2">
-                <img src="https://gapstars.net/wp-content/uploads/2023/02/impact_portugal.jpg" alt="" class="object-cover object-top h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tl-none md:rounded-r-3xl">
+                <img src="https://gapstars.net/wp-content/uploads/2023/07/postugal-value.jpeg" alt="" class="object-cover object-top h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tl-none md:rounded-r-3xl">
             </div>
         </div>
     </div>
@@ -214,7 +214,7 @@
          <div class="text-center md:w-[600px] mx-auto">
             <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-white">Meet the <span class="text-oranje">team</span></h2>
         </div>
-       <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-4 md:pt-6">
+       <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-4 md:pt-6 max-w-[600px] mx-auto">
             <div class="col-span-1">
                 <div class="rounded-t-3xl bg-[#292929]">
                     <img src="https://gapstars.net/wp-content/uploads/2023/02/stephanie_portugal.png" alt="" class="rounded-t-3xl">
@@ -239,7 +239,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-span-1">
+            <!-- <div class="col-span-1">
                 <div class="rounded-t-3xl bg-[#292929]">
                     <img src="https://gapstars.net/wp-content/uploads/2023/02/joao_portugal.png" alt="" class="rounded-t-3xl">
                 </div>
@@ -250,7 +250,7 @@
                         <p class="text-oranje text-16 leading-24">Portugal</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
        </div>
     </div>
 

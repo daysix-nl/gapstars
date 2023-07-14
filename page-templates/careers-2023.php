@@ -239,7 +239,7 @@ get_header(); ?>
                         </svg>
                     </div>
                     <div id="orange-div-1" class="bg-oranje z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                        <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 lg:leading-26 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
+                        <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
                     </div>
                 </div>
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
