@@ -225,7 +225,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-span-2 md:col-span-1 p-[15px] space-y-[15px] flex justify-between flex-col md:h-[450px] lg:h-[500px] xl:h-[520px]">
-                <div class="h-[180px] z-[5] sideVideo flex rounded-3xl overflow-hidden relative">
+                <div class="h-[180px] z-[2] sideVideo flex rounded-3xl overflow-hidden relative">
                     <video muted preload="metadata" id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
                         <source src="https://gapstars.net/videos/6th_floor_opening.mp4#t=0.001" type="video/mp4">
                     </video>
@@ -242,7 +242,7 @@ get_header(); ?>
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
                     </div>
                 </div>
-                <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
+                <div class="h-[180px] z-[2] sideVideo flex rounded-3xl overflow-hidden relative">
                       <video muted preload="metadata" id="side-video-2" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
                         <source src="https://gapstars.net/videos/gapstars_scale-up_2023.mp4#t=0.001" type="video/mp4">
                     </video>
@@ -259,7 +259,7 @@ get_header(); ?>
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars,<br> Our Tech & Our Clients</p>
                     </div>
                 </div>
-                <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
+                <div class="h-[180px] z-[2] sideVideo flex rounded-3xl overflow-hidden relative">
                     <video muted preload="metadata" id="side-video-3" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
                         <source src="https://gapstars.net/videos/annual_trip.mp4#t=0.001" type="video/mp4">
                     </video>

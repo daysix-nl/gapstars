@@ -796,6 +796,10 @@ try {
 
     videoElement.addEventListener("mouseover", handleVideoEvent);
     videoElement.addEventListener("click", handleVideoEvent);
+
+    // Add these two lines
+    videoElement.addEventListener("touchstart", handleVideoEvent);
+    videoElement.addEventListener("touchend", handleVideoEvent);
   }
 } catch (error) {
   console.error(error);
