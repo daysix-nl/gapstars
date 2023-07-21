@@ -746,7 +746,7 @@ try {
   for (let i = 0; i < sideVideos.length; i++) {
     let videoElement = sideVideos[i].children[0];
 
-    addEventListener("load", (event) => {
+    addEventListener("DOMContentLoaded", (event) => {
       const firstOrangeDiv = document.getElementById("orange-div-1");
       const orangeDivId1PlayButton = document.getElementById("orange-divv-1");
 
