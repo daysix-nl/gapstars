@@ -225,7 +225,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-span-2 md:col-span-1 p-[15px] space-y-[15px] flex justify-between flex-col md:h-[450px] lg:h-[500px] xl:h-[520px]">
-                <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
+                <div class="h-[180px] z-[5] sideVideo flex rounded-3xl overflow-hidden relative">
                     <video preload="metadata" id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
                         <source src="https://gapstars.net/videos/6th_floor_opening.mp4#t=0.001" type="video/mp4">
                     </video>
@@ -238,7 +238,7 @@ get_header(); ?>
                             </g>
                         </svg>
                     </div>
-                    <div id="orange-div-1" class="bg-oranje/80 z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                    <div id="orange-div-1" class="bg-oranje/80 z-[10] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
                     </div>
                 </div>
@@ -261,7 +261,7 @@ get_header(); ?>
                 </div>
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
                     <video preload="metadata" id="side-video-3" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
-                        <source src="https://gapstars.net/videos/annual_trip.mp4" type="video/mp4">
+                        <source src="https://gapstars.net/videos/annual_trip.mp4#t=0.001" type="video/mp4">
                     </video>
                     
                     <div id="orange-div-3" class="bg-oranje/80 z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
