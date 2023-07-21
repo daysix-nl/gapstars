@@ -63,7 +63,7 @@ try {
   contact.addEventListener("mouseenter", () => {
     removeDropdownAbout();
   });
-} catch (error) { }
+} catch (error) {}
 
 // Dropdown Insights
 
@@ -113,7 +113,7 @@ try {
   contact.addEventListener("mouseenter", () => {
     removeDropdownInsights();
   });
-} catch (error) { }
+} catch (error) {}
 
 try {
   window.addEventListener("scroll", () => {
@@ -124,7 +124,7 @@ try {
       removeDropdownAbout();
     }
   });
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /**** mobile navbar ***/
@@ -224,7 +224,7 @@ try {
       closeAll();
     }
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** Home background change ***/
 /**********************/
@@ -242,7 +242,7 @@ try {
       body.classList.remove("bg-creme");
     }
   });
-} catch (error) { }
+} catch (error) {}
 
 const switchToDiepgrijs = document.getElementById("switch-to-diepgrijs");
 
@@ -253,7 +253,7 @@ try {
       body.classList.remove("bg-creme");
     }
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** Hide Menu on Scroll ***/
 /**********************/
@@ -272,7 +272,7 @@ try {
     }
     prevScrollpos = currentScrollPos;
   });
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /*** swiper hero home ***/
@@ -303,7 +303,7 @@ try {
       },
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** swiper partner ***/
 /**********************/
@@ -319,7 +319,7 @@ try {
       disableOnInteraction: false,
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** swiper block ***/
 /**********************/
@@ -336,7 +336,7 @@ try {
       el: ".swiper-pagination",
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** swiper 3d***/
 /**********************/
@@ -367,7 +367,7 @@ try {
       },
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /*** swiper scroll***/
 /**********************/
@@ -382,7 +382,7 @@ try {
     },
     slidesPerView: "auto",
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /**** tabs slider ***/
 /**********************/
@@ -420,7 +420,7 @@ try {
       pauseOnMouseEnter: true,
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /**** slider gallery ***/
 /**********************/
@@ -451,7 +451,7 @@ try {
       type: "progressbar",
     },
   });
-} catch (error) { }
+} catch (error) {}
 /**********************/
 /****scroll down on click ***/
 /**********************/
@@ -463,7 +463,7 @@ try {
       window.scrollBy(0, pageHeight);
     });
   }
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /****vacature filter ***/
@@ -588,7 +588,7 @@ try {
       }
     });
   }
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /**** PDF and Form modalbox ***/
@@ -611,7 +611,7 @@ try {
   ClosePdf.addEventListener("click", () => {
     removeModal();
   });
-} catch (error) { }
+} catch (error) {}
 
 /**********************/
 /**** Header - modalbox ***/
@@ -634,7 +634,7 @@ try {
   CloseHeader.addEventListener("click", () => {
     removeModal();
   });
-} catch (error) { }
+} catch (error) {}
 
 try {
   const forEach = (array, callback, scope) => {
@@ -683,7 +683,7 @@ try {
       }
     });
   });
-} catch (error) { }
+} catch (error) {}
 
 // function updateTimer() {
 //   future  = Date.parse("february 17, 2023 11:00:00");
@@ -737,24 +737,26 @@ try {
   CloseHeaderTransport.addEventListener("click", () => {
     removeModal();
   });
-} catch (error) { }
+} catch (error) {}
 
 try {
   let mainPlayer = document.getElementById("mainPlayer");
   let sideVideos = document.getElementsByClassName("sideVideo");
-
 
   for (let i = 0; i < sideVideos.length; i++) {
     let videoElement = sideVideos[i].children[0];
 
     addEventListener("load", (event) => {
       const firstOrangeDiv = document.getElementById("orange-div-1");
+      const orangeDivId1PlayButton = document.getElementById("orange-divv-1");
 
       firstOrangeDiv.classList.remove("h-[70px]");
       firstOrangeDiv.classList.add("h-full");
+
+      orangeDivId1PlayButton.classList.add("hidden");
     });
 
-    videoElement.addEventListener("mouseover", function () {
+    let handleVideoEvent = function () {
       mainPlayer.children[0].src = this.children[0].src;
       mainPlayer.load();
       mainPlayer.play();
@@ -770,9 +772,12 @@ try {
         orangeDiv.classList.remove("h-full");
         orangeDiv.classList.add("h-[70px]");
 
+        let orangeDivIdPlayButton = "orange-divv-" + (j + 1);
+        let orangeDivPlayButton = document.getElementById(
+          orangeDivIdPlayButton
+        );
 
-
-
+        orangeDivPlayButton.classList.remove("hidden");
       }
 
       // Get id of current orange div
@@ -782,9 +787,15 @@ try {
       orangeDiv.classList.remove("h-[70px]");
       orangeDiv.classList.add("h-full");
 
+      let orangeDivIdPlayButton = "orange-divv-" + (i + 1);
+      let orangeDivPlayButton = document.getElementById(orangeDivIdPlayButton);
 
+      orangeDivPlayButton.classList.add("hidden");
+      // orangeDivPlayButton.classList.add("flex");
+    };
 
-    });
+    videoElement.addEventListener("mouseover", handleVideoEvent);
+    videoElement.addEventListener("click", handleVideoEvent);
   }
 } catch (error) {
   console.error(error);

@@ -219,17 +219,17 @@ get_header(); ?>
             <div class="col-span-2 h-[220px] md:h-[450px] lg:h-[500px] xl:h-[520px]">
                 <div id="mainPlayerContainer relative w-full h-[220px] md:h-full">
                     <video id="mainPlayer" class="object-cover aspect-[1/1.02] h-[220px] md:h-full w-full" controls loop autoplay="" muted playsinline>
-                        <source src="https://gapstars.net/videos/6th_floor_opening.mp4" type="video/mp4">
+                        <source src="https://gapstars.net/videos/6th_floor_opening.mp4#t=0.001" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
             </div>
             <div class="col-span-2 md:col-span-1 p-[15px] space-y-[15px] flex justify-between flex-col md:h-[450px] lg:h-[500px] xl:h-[520px]">
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
-                    <video id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
-                        <source src="https://gapstars.net/videos/6th_floor_opening.mp4" type="video/mp4">
+                    <video preload="metadata" id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
+                        <source src="https://gapstars.net/videos/6th_floor_opening.mp4#t=0.001" type="video/mp4">
                     </video>
-                    <div class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
+                    <div id="orange-divv-1" class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
                         <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
@@ -238,15 +238,15 @@ get_header(); ?>
                             </g>
                         </svg>
                     </div>
-                    <div id="orange-div-1" class="bg-oranje z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                    <div id="orange-div-1" class="bg-oranje/80 z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
                     </div>
                 </div>
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
-                      <video id="side-video-2" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
-                        <source src="https://gapstars.net/videos/gapstars_scale-up_2023.mp4" type="video/mp4">
+                      <video preload="metadata" id="side-video-2" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
+                        <source src="https://gapstars.net/videos/gapstars_scale-up_2023.mp4#t=0.001" type="video/mp4">
                     </video>
-                    <div class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
+                    <div id="orange-divv-2" class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
                         <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
@@ -255,16 +255,16 @@ get_header(); ?>
                             </g>
                         </svg>
                     </div>
-                    <div id="orange-div-2" class="bg-oranje z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                    <div id="orange-div-2" class="bg-oranje/80 z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars,<br> Our Tech & Our Clients</p>
                     </div>
                 </div>
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
-                    <video id="side-video-3" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
+                    <video preload="metadata" id="side-video-3" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
                         <source src="https://gapstars.net/videos/annual_trip.mp4" type="video/mp4">
                     </video>
                     
-                    <div id="orange-div-3" class="bg-oranje z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                    <div id="orange-div-3" class="bg-oranje/80 z-[1] py-1 h-[70px] flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars, <br> Our Tech & Our Clients</p>
                     </div>
                    <div id="orange-divv-3" class="playbutton absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
