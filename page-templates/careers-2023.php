@@ -218,7 +218,7 @@ get_header(); ?>
         <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-3 rounded-3xl overflow-hidden md:h-[450px] lg:h-[500px] xl:h-[520px]">
             <div class="col-span-2 h-[220px] md:h-[450px] lg:h-[500px] xl:h-[520px]">
                 <div id="mainPlayerContainer relative w-full h-[220px] md:h-full">
-                    <video id="mainPlayer" class="object-cover aspect-[1/1.02] h-[220px] md:h-full w-full" controls loop autoplay="" muted playsinline>
+                    <video muted id="mainPlayer" class="object-cover aspect-[1/1.02] h-[220px] md:h-full w-full" controls loop autoplay="" muted playsinline>
                         <source src="https://gapstars.net/videos/6th_floor_opening.mp4#t=0.001" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
@@ -226,7 +226,7 @@ get_header(); ?>
             </div>
             <div class="col-span-2 md:col-span-1 p-[15px] space-y-[15px] flex justify-between flex-col md:h-[450px] lg:h-[500px] xl:h-[520px]">
                 <div class="h-[180px] z-[5] sideVideo flex rounded-3xl overflow-hidden relative">
-                    <video preload="metadata" id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
+                    <video muted preload="metadata" id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
                         <source src="https://gapstars.net/videos/6th_floor_opening.mp4#t=0.001" type="video/mp4">
                     </video>
                     <div id="orange-divv-1" class="playbutton pointer-events-none absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
@@ -243,7 +243,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
-                      <video preload="metadata" id="side-video-2" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
+                      <video muted preload="metadata" id="side-video-2" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
                         <source src="https://gapstars.net/videos/gapstars_scale-up_2023.mp4#t=0.001" type="video/mp4">
                     </video>
                     <div id="orange-divv-2" class="playbutton pointer-events-none absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
@@ -260,7 +260,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="h-[180px] sideVideo flex rounded-3xl overflow-hidden relative">
-                    <video preload="metadata" id="side-video-3" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
+                    <video muted preload="metadata" id="side-video-3" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
                         <source src="https://gapstars.net/videos/annual_trip.mp4#t=0.001" type="video/mp4">
                     </video>
                     
