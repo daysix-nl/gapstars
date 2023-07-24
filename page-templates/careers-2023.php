@@ -220,7 +220,7 @@ get_header(); ?>
                 <div id="mainPlayerContainer relative w-full h-[220px] md:h-full">
                     <video muted id="mainPlayer" class="object-cover aspect-[1/1.02] h-[220px] md:h-full w-full" controls loop autoplay="" muted playsinline>
                         <!-- #t=0.001 toevoegen voor Safari -->
-                        <source src="https://gapstars.net/videos/careers-video-1#t=0.001" type="video/mp4">
+                        <source src="https://gapstars.net/videos/careers-video-1.mp4#t=0.001" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
