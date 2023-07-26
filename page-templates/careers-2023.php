@@ -7,7 +7,7 @@
 
 get_header(); ?>
 <main class="careers__2023 recruitee-new">  
-    <!-- Hero -->
+    <!-- HERO -->
     <section class="h-[600px] md:h-[calc(100vh-103px)] relative flex">
         <img class="absolute w-full h-full top-0 right-0 z-0 object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/header_careers-2023.jpeg" alt="hero-careers">
         <div class="hero_block absolute w-full h-full top-0 right-0 z-[1]"></div>
@@ -24,7 +24,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- Card proposition  -->
+    <!-- PROPOSITION  -->
     <section class="bg-[#F1EFEC]">
         <div class="container pt-8 md:pt-10 pb-10 md:pb-12 ">
             <div class="grid md:grid-cols-2 h-full">
@@ -32,14 +32,14 @@ get_header(); ?>
                     <img src="https://gapstars.net/wp-content/uploads/2023/07/our-employees.jpeg" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
                 </div>
                 <div class="col-span-1 bg-creme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
-                    <h3 class="text-black text-30 leading-30 mb-3 font-medium">Our Employee <br> value proposition</h3>
+                    <h2 class="text-black text-30 leading-30 mb-3 font-medium">Our Employee <br> value proposition</h2>
                     <p class="text-diepgrijs mb-1 mr-1 text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans">At Gapstars, you’re part of a familial and empathetic culture. We provide you with the means of uplifting your lifestyle and empower you to pursue a progressive career, building technology that creates an impact.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- GPS -->
+    <!-- POINTER STARS -->
     <section class="bg-[#F1EFEC]">
         <div class="container pb-10 md:pb-12">
             <div class="text-center md:w-[700px] mx-auto">
@@ -81,7 +81,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- section Perks & Benefits -->
+    <!-- PERKS & BENEFITS -->
     <section class="bg-cream pt-8 md:pt-10 pb-10 md:pb-12">
         <div class="container">
             <div class="text-center md:w-[600px] mx-auto">
@@ -153,9 +153,9 @@ get_header(); ?>
             </ul>
         </div>
     </section>
-    <!-- SLider  -->
+    
+    <!-- IMAGE SLIDER  -->
     <section class="bg-cream pb-10 md:pb-12">
-
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
                 <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-diepgrijs">This could be <span class="text-oranje">you</span></h2>
@@ -206,7 +206,7 @@ get_header(); ?>
     </section>
 
   
-<!-- Video -->
+<!-- VIDEO SECTION -->
 <section class="bg-cream pb-10 md:pb-12">
     <div class="container">
         <div class="text-center md:w-[618px] mx-auto">
@@ -283,19 +283,17 @@ get_header(); ?>
     </div>
 </section>
 
-    <!-- Stay ahead of the game -->
+<!-- ACADEMY -->
 <section class="bg-cream pb-10 md:pb-12">
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
                 <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-diepgrijs">Stay ahead of </br> <span class="text-oranje">the game</span></h2>
             </div>
             <div class="grid md:grid-cols-2 pt-4 md:pt-6 h-full">
-
                 <div class="col-span-1 bg-[#202020] rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl p-4 py-4 md:py-6 h-auto">
                     <div class="h-[82px] flex items-center">
                         <?php include get_template_directory() . '/img/local/ga_logo.svg'; ?>
                     </div>
-                    
                     <p class="text-white mt-3 text-20 leading-30">The Gapstars Academy is our dedicated talent and career development unit, which focuses on empowering our employees to enrich both their technical skills and their soft skills.</p>
                 </div>
                 <div class="col-span-1 bg-lightcreme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
@@ -311,8 +309,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-
-    <!-- icons -->
+    <!-- ICONS -->
     <section class="pt-8 md:pt-10 pb-10 md:pb-12 bg-[#202020]">
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
@@ -349,8 +346,7 @@ get_header(); ?>
             </div>
     </section>
 
-    <!-- vacancies -->
-
+    <!-- VACANCIES -->
      <section id="explore-available-positions" class="bg-[#202020]">
         <div class="container">
             <div class="text-center mx-auto pb-4 md:pb-6">
@@ -359,7 +355,6 @@ get_header(); ?>
         </div>
         <div class="container hidden section-vacancies-2023">
             <div id="recruitee-careers"></div>
-            
         </div>
         <div class="loader mx-auto mt-10 mb-12"></div>
         <div class="flex mt-4">
