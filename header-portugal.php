@@ -105,9 +105,7 @@
 </div>
 
    
-    <script>
-
-
+<script>
 const navv = document.querySelector("#navbar-desktop");
 
 const switchPortugal = document.getElementById("portugalchange");
@@ -117,8 +115,10 @@ try {
   window.addEventListener("scroll", () => {
     if (window.scrollY >= port) {
       navv.classList.add("bg-diepgrijs");
+      navv.classList.remove("bg-transparent");
     } else {
       navv.classList.remove("bg-diepgrijs");
+      navv.classList.add("bg-transparent");
     }
   });
 } catch (error) { }
