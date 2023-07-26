@@ -345,7 +345,7 @@ get_header(); ?>
                 <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/10/2022_Best-50-Logo-Sri-Lanka-1.png" alt="Best Workplaces Sri Lanka">
             </div>
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="#" alt="ISO logo">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2023/07/ISO-logo.png" alt="ISO logo">
             </div>
     </section>
 
