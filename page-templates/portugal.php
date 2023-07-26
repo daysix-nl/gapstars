@@ -42,7 +42,7 @@
 <section class="bg-creme py-8 md:py-10 section-hero">
     <div class="container ">
         <div class="text-center md:w-[766px] mx-auto">
-            <p class="text-diepgrijs text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans pb-3">With our extensive <span class="text-oranje">community</span> of software engineers, we offer <span class="text-oranje">innovative solutions</span> to power fast-growing tech companies in Europe</p>
+            <p class="text-diepgrijs text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans pb-3">With our extensive <span class="text-oranje">community</span> of techies, we offer <span class="text-oranje">innovative solutions</span> to power fast-growing tech companies in Europe</p>
         </div>
     </div>
     <div class="container text-center pt-4 md:pt-6">
@@ -110,7 +110,7 @@
         </div>
         <div class="grid md:grid-cols-2 pt-4 md:pt-6 h-full">
              <div class="col-span-1 h-full">
-                <img src="https://gapstars.net/wp-content/uploads/2023/02/benefits_portugal.jpg" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
+                <img src="https://gapstars.net/wp-content/uploads/2023/07/perks.jpeg" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
             </div>
             <div class="col-span-1 bg-creme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
                 <ul class="list-disc list-outside ml-[15px] marker:text-oranje">
@@ -170,13 +170,16 @@
                                 <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_001.jpg" alt="Slider image">
                             </div>
                             <div class="swiper-slide">
-                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_003.jpg" alt="Slider image">
+                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/portugal_new_001.jpeg" alt="Slider image">
                             </div>
                             <div class="swiper-slide">
-                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_002.jpg" alt="Slider image">
+                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/portugal_new_002.jpeg" alt="Slider image">
                             </div>
                             <div class="swiper-slide">
-                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_004.jpg" alt="Slider image">
+                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/portugal_new_003.jpeg" alt="Slider image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/portugal_new_004.jpeg" alt="Slider image">
                             </div>
                             <div class="swiper-slide">
                                 <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_005.jpg" alt="Slider image">
