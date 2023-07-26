@@ -17,9 +17,9 @@ get_header(); ?>
                 <a class="btn-creme text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit" href="#explore-available-positions">
                     Explore available positions
                 </a>
-                <button class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px]">
+                <!-- <button class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px]">
                     Quik Apply
-                </button>
+                </button> -->
             </div>
         </div>
     </section>
@@ -43,7 +43,7 @@ get_header(); ?>
     <section class="bg-[#F1EFEC]">
         <div class="container pb-10 md:pb-12">
             <div class="text-center md:w-[700px] mx-auto">
-                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-black"><span class="text-oranje">GPS - </br></span>The Gapstars Pointer Stars</h2>
+                <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-black"><span class="text-oranje">GPS - </br></span>The Gapstars <br class="md:hidden">Pointer Stars</h2>
             </div>
             <div class="text-center mx-auto pt-4">
                 <p class="text-black text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans max-w-[780px] mx-auto">The Gapstars Pointer Stars encapsulate the core values that are at the heart of our company. They provide a direction for our community to follow and they lay the foundation for the culture that we aim to foster. </p>
