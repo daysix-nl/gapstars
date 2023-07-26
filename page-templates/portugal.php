@@ -226,7 +226,7 @@
                     <div class="px-3 pt-2 pb-3">
                         <h3 class="text-diepgrijs text-20 leading-35">Stefanie Driever</h3>
                         <p class="text-diepgrijs text-16 leading-24">Country Lead</p>
-                        <a href="mailto:stefanie@gapstars.net" class="text-oranje text-16 leading-24">stefanie@gapstars.net</a>
+                        <a href="mailto:stefanie@gapstars.net" class="text-oranje text-16 leading-24 hover:opacity-80 duration-300">stefanie@gapstars.net</a>
                     </div>
                 </div>
             </div>
