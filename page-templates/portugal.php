@@ -21,7 +21,7 @@
         <img src="https://gapstars.net/wp-content/uploads/2023/02/background_portugal.png" alt="" class="h-full w-full object-cover object-center">
     </div>
     <div class="bg-diepgrijs max-w-[100vw] md:max-w-[90vw] lg:max-w-[1000px] md:max-h-[110vh] aspect-square rounded-full absolute right-[-8vh] top-[-8vh] sm:right-[-15vh] md:top-[-15vh] lg:right-[-20vh] lg:top-[-20vh] overflow-hidden">
-        <img src="https://gapstars.net/wp-content/uploads/2023/02/header_portugal_001-scaled.jpg" alt="" class="object-cover object-left-top h-full w-full inner-hero">
+        <img src="https://gapstars.net/wp-content/uploads/2023/07/portugal_header_001.jpeg" alt="" class="object-cover object-left-top h-full w-full inner-hero">
     </div>
     <div class="container h-full grid items-center absolute left-0 top-0 bottom-0 right-0">
         <div class="mt-[100px] md:mt-0">
