@@ -18,10 +18,10 @@
 <!-- HEADER -->
 <section class="relative md:bg-center bg-no-repeat bg-cover h-[100vh] min-h-[580px] w-full mt-[-103px] overflow-hidden">
     <div class="absolute left-0 top-0 bottom-0 right-0 overflow-hidden">
-        <img src="https://gapstars.net/wp-content/uploads/2023/02/background_portugal.png" alt="" class="h-full w-full object-cover object-center">
+        <img src="https://gapstars.net/wp-content/uploads/2023/02/background_portugal.png" alt="Gapstars Portugal" class="h-full w-full object-cover object-center">
     </div>
     <div class="bg-diepgrijs max-w-[100vw] md:max-w-[90vw] lg:max-w-[1000px] md:max-h-[110vh] aspect-square rounded-full absolute right-[-8vh] top-[-8vh] sm:right-[-15vh] md:top-[-15vh] lg:right-[-20vh] lg:top-[-20vh] overflow-hidden">
-        <img src="https://gapstars.net/wp-content/uploads/2023/07/portugal_header_001.jpeg" alt="" class="object-cover object-left-top h-full w-full inner-hero">
+        <img src="https://gapstars.net/wp-content/uploads/2023/07/portugal_header_001.jpeg" alt="Gapstars Portugal" class="object-cover object-left-top h-full w-full inner-hero">
     </div>
     <div class="container h-full grid items-center absolute left-0 top-0 bottom-0 right-0">
         <div class="mt-[100px] md:mt-0">
@@ -50,7 +50,7 @@
         <div class="grid pt-4 md:pt-6 md:grid-cols-3">
             <div class="md:col-span-1 text-center md:border-r-2 md:border-lichtgrijs md:last-of-type:border-r-0 px-4 pt-6 md:py-0 whoweare-card">
                
-                    <img class="mx-auto h-6" src="/wp-content/themes/gapstars/img/icons-acf/icon-12.svg" alt="">
+                    <img class="mx-auto h-6" src="/wp-content/themes/gapstars/img/icons-acf/icon-12.svg" alt="Gapstars Portugal">
                     <h3 class="text-diepgrijs text-20 leading-30 mt-3 mb-3 md:my-3">An attractive <br>nearshore destination</h3>
                     <p class="text-16 leading-24 md:text-16 md:leading-26 w-full sm:w-4/5 md:w-full mx-auto">With time zone advantages, diversity in talent and access to unique tech stacks, Portugal is a competitive nearshore option.  </p>
                     <div class="w-[200px] h-[2px] bg-diepgrijs mx-auto md:hidden md:last-of-type:hidden mt-6 line"></div>
@@ -58,7 +58,7 @@
             </div>
             <div class="md:col-span-1 text-center md:border-r-2 md:border-lichtgrijs md:last-of-type:border-r-0 px-4 pt-6 md:py-0 whoweare-card">
            
-                    <img class="mx-auto h-6" src="/wp-content/themes/gapstars/img/icons-acf/icon-7.svg" alt="">
+                    <img class="mx-auto h-6" src="/wp-content/themes/gapstars/img/icons-acf/icon-7.svg" alt="Gapstars Portugal">
                     <h3 class="text-diepgrijs text-20 leading-30 mt-3 mb-3 md:my-3">Enabling access <br>to global talent</h3>
                     <p class="text-16 leading-24 md:text-16 md:leading-26 w-full sm:w-4/5 md:w-full mx-auto">Portugal will help facilitate greater resource mobility and access to new talent markets to address the growing gap in tech talent accessibility. </p>
                     <div class="w-[200px] h-[2px] bg-diepgrijs mx-auto md:hidden md:last-of-type:hidden mt-6 line"></div>
@@ -66,7 +66,7 @@
          
             <div class="md:col-span-1 text-center md:border-r-2 md:border-lichtgrijs md:last-of-type:border-r-0 px-4 pt-6 md:py-0 whoweare-card">
             
-                    <img class="mx-auto h-6" src="/wp-content/themes/gapstars/img/icons-acf/icon-1.svg" alt="">
+                    <img class="mx-auto h-6" src="/wp-content/themes/gapstars/img/icons-acf/icon-1.svg" alt="Gapstars Portugal">
                     <h3 class="text-diepgrijs text-20 leading-30 mt-3 mb-3 md:my-3">A thriving tech <br>ecosystem</h3>
                     <p class="text-16 leading-24 md:text-16 md:leading-26 w-full sm:w-4/5 md:w-full mx-auto">Host of Europe’s largest tech meetup - The Web Summit and home to both regional and global tech talent. </p>
                     <div class="w-[200px] h-[2px] bg-diepgrijs mx-auto md:hidden md:last-of-type:hidden mt-6 line"></div>
@@ -95,7 +95,7 @@
                 </ul>
             </div>
             <div class="col-span-1 h-full order-1 md:order-2">
-                <img src="https://gapstars.net/wp-content/uploads/2023/07/postugal-value.jpeg" alt="" class="object-cover object-top h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tl-none md:rounded-r-3xl">
+                <img src="https://gapstars.net/wp-content/uploads/2023/07/postugal-value.jpeg" alt="Gapstars Portugal" class="object-cover object-top h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tl-none md:rounded-r-3xl">
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@
         </div>
         <div class="grid md:grid-cols-2 pt-4 md:pt-6 h-full">
              <div class="col-span-1 h-full">
-                <img src="https://gapstars.net/wp-content/uploads/2023/07/perks.jpeg" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
+                <img src="https://gapstars.net/wp-content/uploads/2023/07/perks.jpeg" alt="Gapstars Portugal" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
             </div>
             <div class="col-span-1 bg-creme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
                 <ul class="list-disc list-outside ml-[15px] marker:text-oranje">
@@ -167,9 +167,6 @@
                     <div class="swiper mySwiper-3D">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_001.jpg" alt="Slider image">
-                            </div>
-                            <div class="swiper-slide">
                                 <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/portugal_new_001.jpeg" alt="Slider image">
                             </div>
                             <div class="swiper-slide">
@@ -192,6 +189,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_006.jpg" alt="Slider image">
+                            </div>
+                              <div class="swiper-slide">
+                                <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_001.jpg" alt="Slider image">
                             </div>
                         </div>
                     </div>
@@ -217,22 +217,22 @@
          <div class="text-center md:w-[600px] mx-auto">
             <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-white">Meet the <span class="text-oranje">team</span></h2>
         </div>
-       <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-4 md:pt-6 max-w-[600px] mx-auto">
+       <div class="grid grid-cols-1 md:grid-cols-1 gap-3 pt-4 md:pt-6 max-w-[300px] mx-auto">
             <div class="col-span-1">
                 <div class="rounded-t-3xl bg-[#292929]">
-                    <img src="https://gapstars.net/wp-content/uploads/2023/02/stephanie_portugal.png" alt="" class="rounded-t-3xl">
+                    <img src="https://gapstars.net/wp-content/uploads/2023/02/stephanie_portugal.png" alt="Gapstars Portugal" class="rounded-t-3xl">
                 </div>
                 <div class="rounded-b-3xl bg-creme">
                     <div class="px-3 pt-2 pb-3">
                         <h3 class="text-diepgrijs text-20 leading-35">Stefanie Driever</h3>
                         <p class="text-diepgrijs text-16 leading-24">Country Lead</p>
-                        <p class="text-oranje text-16 leading-24">Portugal</p>
+                        <a href="mailto:stefanie@gapstars.net" class="text-oranje text-16 leading-24">stefanie@gapstars.net</a>
                     </div>
                 </div>
             </div>
-            <div class="col-span-1">
+            <!-- <div class="col-span-1">
                 <div class="rounded-t-3xl bg-[#292929]">
-                    <img src="https://gapstars.net/wp-content/uploads/2023/02/bhashini_portugal.png" alt="" class="rounded-t-3xl">
+                    <img src="https://gapstars.net/wp-content/uploads/2023/02/bhashini_portugal.png" alt="Gapstars Portugal" class="rounded-t-3xl">
                 </div>
                 <div class="rounded-b-3xl bg-creme">
                     <div class="px-3 pt-2 pb-3">
@@ -241,10 +241,10 @@
                         <p class="text-oranje text-16 leading-24">Portugal</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="col-span-1">
                 <div class="rounded-t-3xl bg-[#292929]">
-                    <img src="https://gapstars.net/wp-content/uploads/2023/02/joao_portugal.png" alt="" class="rounded-t-3xl">
+                    <img src="https://gapstars.net/wp-content/uploads/2023/02/joao_portugal.png" alt="Gapstars Portugal" class="rounded-t-3xl">
                 </div>
                 <div class="rounded-b-3xl bg-creme">
                     <div class="px-3 pt-2 pb-3">
@@ -276,7 +276,7 @@
     <section>
         <div class="container flex flex-col md:flex-row">
             <div class="w-full md:w-1/2 bg-creme rounded-t-3xl md:rounded-tr-none  md:rounded-l-3xl">
-                <img src="https://gapstars.net/wp-content/uploads/2023/02/footer_portugal.jpg" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none  md:rounded-l-3xl">
+                <img src="https://gapstars.net/wp-content/uploads/2023/02/footer_portugal.jpg" alt="Gapstars Portugal" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none  md:rounded-l-3xl">
             </div>
             <div class="w-full md:w-1/2  p-4 md:p-4 md:pt-6 bg-grijs rounded-b-3xl md:rounded-bl-none  md:rounded-r-3xl flex flex-col justify-between md:pr-8">
                 <h3 class="text-creme text-28 leading-38 mb-4 font-medium"><?php the_field('title_block_footer_right', 'option'); ?></h3>
