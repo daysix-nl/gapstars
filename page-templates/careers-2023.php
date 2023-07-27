@@ -168,28 +168,25 @@ get_header(); ?>
                         <div class="swiper mySwiper-3D">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_001.jpg" alt="Slider image">
+                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/careers-new-01.jpeg" alt="Slider image">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_003.jpg" alt="Slider image">
+                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/careers-new-02.jpeg" alt="Slider image">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_002.jpg" alt="Slider image">
+                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/careers-new-03.jpeg" alt="Slider image">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_004.jpg" alt="Slider image">
+                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/careers-new-04.jpeg" alt="Slider image">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_005.jpg" alt="Slider image">
+                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/careers-new-05.jpeg" alt="Slider image">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_009.jpg" alt="Slider image">
+                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/careers-new-06.jpeg" alt="Slider image">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_010.jpg" alt="Slider image">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/02/dcby_006.jpg" alt="Slider image">
+                                    <img class="md:rounded-3xl"  src="https://gapstars.net/wp-content/uploads/2023/07/careers-new-07.jpeg" alt="Slider image">
                                 </div>
                             </div>
                         </div>
