@@ -215,7 +215,7 @@
     <!-- TEAM -->
     <div class="container mb-8 md:mb-10">
          <div class="text-center md:w-[600px] mx-auto">
-            <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-white">Meet the <span class="text-oranje">team</span></h2>
+            <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-normal text-center text-white">Get in <span class="text-oranje">touch</span></h2>
         </div>
        <div class="grid grid-cols-1 md:grid-cols-1 gap-3 pt-4 md:pt-6 max-w-[300px] mx-auto">
             <div class="col-span-1">
@@ -225,7 +225,7 @@
                 <div class="rounded-b-3xl bg-creme">
                     <div class="px-3 pt-2 pb-3">
                         <h3 class="text-diepgrijs text-20 leading-35">Stefanie Driever</h3>
-                        <p class="text-diepgrijs text-16 leading-24">Country Lead</p>
+                        <p class="text-diepgrijs text-16 leading-24">Country Lead - Portugal</p>
                         <a href="mailto:stefanie@gapstars.net" class="text-oranje text-16 leading-24 hover:opacity-80 duration-300">stefanie@gapstars.net</a>
                     </div>
                 </div>
