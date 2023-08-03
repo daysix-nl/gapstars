@@ -30,21 +30,21 @@ else : /* rendering in editor body */
             <h2 class="text-40 leading-40 md:text-55 md:leading-55 pb-6 font-medium text-black">Join us! <br><span class="text-oranje">Current openings</span></h2>
         </div>
         <div class="section-filter hidden">
-            <div class="container relative z-10">
+            <div class="container relative z-2">
             <div class="bg-oranje rounded-3xl p-3 mb-6 md:flex">
-                <p class="text-white font-medium text-16 leading-26 flex items-center min-w-[200px]">Filter jobs:</p>
+                <p class="text-white font-medium text-16 leading-26 flex items-center min-w-[150px]">Filter jobs:</p>
                 <div class="flex flex-col md:flex-row w-full justify-end">
                   <div class="dropdown-careers mr-0 md:mr-2">
                       <input id="filter-technologies-button" class="text-box" type="text"
                           placeholder="All technologies" readonly>
                       <div class="options">
                           <div id="filter-item-all-technologies"
-                              onclick="show('')"
+                              
                               value="All Tech Stack">All technologies</div>
                           <?php for($x=0;$x<=count($taglistUnique);$x++){?>
                           <?php if(!empty($taglistUnique[$x])){?>
                           <div id="filter-item-<?php echo str_replace(' ', '', $taglistUnique[$x])?>"
-                              onclick="show('<?php echo $taglistUnique[$x];?>')"
+                            
                               value="<?php echo $taglistUnique[$x];?>">
                               <?php echo $taglistUnique[$x];?></div>
                           <?php } ?>
@@ -56,12 +56,12 @@ else : /* rendering in editor body */
                           placeholder="All locations" readonly>
                       <div class="options-1">
                           <div id="filter-item-all-locations"
-                              onclick="showSecond('')"
+                              
                               value="All locations">All locations</div>
                             <?php foreach($landlistUnique as $x => $val) { ?>
                               <?php if(!empty($val)) {?>
                                 <div id="filter-item-<?php echo str_replace(' ', '', $val)?>"
-                                  onclick="showSecond('<?php echo $val;?>')"
+                                  
                                   value="<?php echo $val;?>">
                                   <?php echo $val;?>
                                 </div>
@@ -76,10 +76,12 @@ else : /* rendering in editor body */
               <div id="recruitee-careers"></div>
             </div>
         </div>
+        <div class="no-result hidden mx-auto mt-0"">
+          <p class="text-40 leading-40 md:text-45 md:leading-45 pb-6 font-medium text-black text-center">No results found</p>
+        </div>
         <div class="loader mx-auto mt-10 mb-12"></div>
     </section>
 <?php endif; ?>
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script type="text/javascript"> 
           var rtscript = document.createElement('script'); 
           rtscript.type = 'text/javascript';  
@@ -108,136 +110,10 @@ else : /* rendering in editor body */
    "groupByCompany": false,
  }
  }) };
-            rtscript.src = 'https://d10zminp1cyta8.cloudfront.net/widget.js';
-            document.body.appendChild(rtscript);
+  rtscript.src = 'https://d10zminp1cyta8.cloudfront.net/widget.js';
+  document.body.appendChild(rtscript);
 </script>
 
-<script>
-// load skill.js
-function loadScript(src) {
-    let script = document.createElement('script');
-    script.src = src;
-    script.async = false;
-    document.body.append(script);
-    setTimeout(() => {
-        document.querySelector('.section-filter').classList.remove("hidden");
-        document.querySelector('.loader').classList.add("hidden");
-    }, 2000)
+<script type="text/javascript" src="http://gapstars.local/wp-content/themes/gapstars/componenten/recruiteeScript.js"></script>
 
-}
-
-loadScript("/wp-content/themes/gapstars/componenten/recruiteeScript.js");
-</script>
-
-
-<script>
-  const elementNavbarfirstDiv = document.querySelector(".dropdown-careers");
-  const elementNavbarSecondDiv = document.querySelector(".dropdown-careers-1");
-
-  const navbarDropdownPackages = () => {
-    elementNavbarfirstDiv?.classList.remove("activedropdown");
-    elementNavbarSecondDiv?.classList.remove("activedropdown");
-  };
-
-  window.addEventListener("scroll", () => {
-    const scrollpos = window.scrollY;
-
-    if (scrollpos > 200) {
-      navbarDropdownPackages();
-    }
-  });
-
-  const ignoreClickOnMeElement = document.querySelector(".dropdown-careers");
-
-  document.addEventListener("click", (event) => {
-    const isClickInsideElement = ignoreClickOnMeElement?.contains(event.target);
-    if (!isClickInsideElement) {
-      elementNavbarfirstDiv?.classList.remove("activedropdown");
-    }
-  });
-
-  const ignoreClickOnMeElementSecond = document.querySelector(
-    ".dropdown-careers-1"
-  );
-
-  document.addEventListener("click", (eventSec) => {
-    const isClickInsideElementSecond = ignoreClickOnMeElementSecond?.contains(
-      eventSec.target
-    );
-    if (!isClickInsideElementSecond) {
-      elementNavbarSecondDiv?.classList.remove("activedropdown");
-    }
-  });
-  // ------------- end dropdown -------------
-  function show(value) {
-    document.querySelector(".text-box").value = value;
-    const landValue = document.querySelector(".text-box-1").value;
-    filterSearch(value, landValue);
-  }
-
-  let dropdown = document.querySelector(".dropdown-careers");
-  dropdown.onclick = function () {
-    dropdown.classList.toggle("activedropdown");
-    elementNavbarSecondDiv.classList.remove("activedropdown");
-  };
-
-  function showSecond(value) {
-    const skillValue = document.querySelector(".text-box").value;
-    document.querySelector(".text-box-1").value = value;
-    filterSearch(skillValue, value);
-  }
-
-  let dropdownSecond = document.querySelector(".dropdown-careers-1");
-  dropdownSecond.onclick = function () {
-    dropdownSecond.classList.toggle("activedropdown");
-    elementNavbarfirstDiv.classList.remove("activedropdown");
-  };
-
-  const filterSearch = (skillValue, landValue) => {
-    let value, name, profile, i, nameLocal;
-
-    profiles = document.getElementsByClassName("rt-list__offer-item");
-
-    for (profile of profiles) {
-      name = profile.getElementsByClassName("skill")[0];
-      nameLocal = profile.getElementsByClassName("rt-list__offer-location")[0];
-
-      if (
-        name.textContent.toUpperCase().includes(skillValue.toUpperCase()) > -1
-      ) {
-        profile.style.display = "flex";
-      }
-      if (
-        name.textContent.toUpperCase().indexOf(skillValue.toUpperCase()) > -1 &&
-        nameLocal.textContent.toUpperCase().indexOf(landValue.toUpperCase()) >
-          -1
-      ) {
-        profile.style.display = "flex";
-      } else if (
-        name.textContent.toUpperCase().indexOf("/" + skillValue.toUpperCase()) >
-          -1 &&
-        nameLocal.textContent.toUpperCase().indexOf(landValue.toUpperCase()) >
-          -1
-      ) {
-        profile.style.display = "flex";
-      } else {
-        profile.style.display = "none";
-      }
-    }
-  };
-  // window.onload = setTimeout(function() {
-  //     // Get URL parameters on window load
-  //     const params = new URLSearchParams(window.location.search);
-  //     console.log(params)
-
-  //     // Get the skill and location values from the URL parameters
-  //     const skillValue = params.get('skill') || ""; // Replace 'skill' with the actual parameter name
-  //     const landValue = params.get('location') || ""; // Replace 'location' with the actual parameter name
-
-  //     console.log(landValue)
-
-  //     // Call the filterSearch function with the values from the URL parameters
-  //     filterSearch(skillValue, landValue);
-  // }, 2000);
-</script>
 <?php get_footer('black'); ?>

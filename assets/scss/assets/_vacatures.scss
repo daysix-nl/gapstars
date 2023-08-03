@@ -134,7 +134,6 @@
   }
 
   @media (min-width: 576px) {
-
     .dropdown-careers,
     .dropdown-careers-1 {
       position: relative;
@@ -145,7 +144,6 @@
   }
 
   @media (min-width: 779px) {
-
     .dropdown-careers,
     .dropdown-careers-1 {
       position: relative;
@@ -155,7 +153,6 @@
   }
 
   @media (min-width: 768px) {
-
     .dropdown-careers,
     .dropdown-careers-1 {
       position: relative;
@@ -169,7 +166,6 @@
   }
 
   @media (min-width: 768px) {
-
     .dropdown-careers,
     .dropdown-careers-1 {
       width: 218px;
@@ -186,7 +182,7 @@
     position: absolute;
     top: 8px;
     right: 19px;
-    z-index: 105;
+    z-index: 2;
     width: 13px;
     height: 13px;
     border: 1.6px solid #fff;
@@ -283,22 +279,20 @@
   }
 }
 
-
-
 // pop up
 
 #recruitee-careers-details-container .rt-theme-light .rt-details__heading,
 #recruitee-careers .rt-theme-light .rt-details__heading {
-  border-bottom: 0px solid rgba($color: #2B0464, $alpha: 1) !important;
-  border-top: 0px solid rgba($color: #2B0464, $alpha: 1) !important;
-  background: rgba($color: #2B0464, $alpha: 1) !important;
+  border-bottom: 0px solid rgba($color: #2b0464, $alpha: 1) !important;
+  border-top: 0px solid rgba($color: #2b0464, $alpha: 1) !important;
+  background: rgba($color: #2b0464, $alpha: 1) !important;
   margin-left: 30px !important;
   margin-right: 30px !important;
   border-radius: 20px !important;
 }
 
 #recruitee-careers-details-container .rt__button--action {
-  background-color: #ED7A00 !important;
+  background-color: #ed7a00 !important;
   transition: 0.3s;
   margin-bottom: 20px !important;
   width: 265px !important;
@@ -315,15 +309,17 @@
   font-weight: 700 !important;
 }
 
-#recruitee-careers-details-container .rt-details__header .rt-details__header-title.rt__text--dark {
-  color: #2B0464 !important;
+#recruitee-careers-details-container
+  .rt-details__header
+  .rt-details__header-title.rt__text--dark {
+  color: #2b0464 !important;
   margin: 0px;
   font-weight: 300 !important;
 }
 
 #recruitee-careers-details-container .rt-theme-light .rt__button--outline,
 #recruitee-careers .rt-theme-light .rt__button--outline {
-  color: #2B0464 !important;
+  color: #2b0464 !important;
   width: 265px !important;
   text-align: center !important;
 }
@@ -395,7 +391,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   #recruitee-careers-details-container .rt-details__close,
   #recruitee-careers .rt-details__close {
     border: 1px solid transparent !important;
@@ -404,7 +399,7 @@
 
 @media screen and (max-width: 500px) {
   #recruitee-careers-details-container .rt-details__close {
-    background: #2B0464 !important;
+    background: #2b0464 !important;
     margin-top: 0.25em;
     margin-right: 0.25em;
   }
@@ -437,22 +432,24 @@
   width: unset !important;
 }
 
-#recruitee-careers-details-container .rt-theme-light.rt-details__outer--popup .rt-details__inner,
+#recruitee-careers-details-container
+  .rt-theme-light.rt-details__outer--popup
+  .rt-details__inner,
 #recruitee-careers .rt-theme-light.rt-details__outer--popup .rt-details__inner {
   background: #fff !important;
   border: none;
   box-shadow: unset !important;
-  color: #2B0464 !important;
+  color: #2b0464 !important;
   border-radius: 20px !important;
 }
 
 .rt-details__content--main.rt__text--base p,
 .rt-details__content--requirements.rt__text--base {
-  color: #2B0464 !important;
+  color: #2b0464 !important;
 }
 
 .rt__text--base {
-  color: #2B0464 !important;
+  color: #2b0464 !important;
 }
 
 .rt-details__header-title {
@@ -481,7 +478,9 @@
   padding: 15px 32px !important;
 }
 
-#recruitee-careers-details-container .rt-theme-light.rt-details__outer--popup .rt-details__close,
+#recruitee-careers-details-container
+  .rt-theme-light.rt-details__outer--popup
+  .rt-details__close,
 #recruitee-careers .rt-theme-light.rt-details__outer--popup .rt-details__close {
   color: #fff !important;
 }
@@ -502,30 +501,73 @@
   margin-right: 11px;
 }
 
-#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="email"],
-#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="number"],
-#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="password"],
-#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="tel"],
-#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="text"],
-#recruitee-careers-details-container .rt-theme-light .rt-details__content--form select,
-#recruitee-careers-details-container .rt-theme-light .rt-details__content--form textarea,
-#recruitee-careers .rt-theme-light .rt-details__content--form input[type="email"],
-#recruitee-careers .rt-theme-light .rt-details__content--form input[type="number"],
-#recruitee-careers .rt-theme-light .rt-details__content--form input[type="password"],
+#recruitee-careers-details-container
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="email"],
+#recruitee-careers-details-container
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="number"],
+#recruitee-careers-details-container
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="password"],
+#recruitee-careers-details-container
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="tel"],
+#recruitee-careers-details-container
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="text"],
+#recruitee-careers-details-container
+  .rt-theme-light
+  .rt-details__content--form
+  select,
+#recruitee-careers-details-container
+  .rt-theme-light
+  .rt-details__content--form
+  textarea,
+#recruitee-careers
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="email"],
+#recruitee-careers
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="number"],
+#recruitee-careers
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="password"],
 #recruitee-careers .rt-theme-light .rt-details__content--form input[type="tel"],
-#recruitee-careers .rt-theme-light .rt-details__content--form input[type="text"],
+#recruitee-careers
+  .rt-theme-light
+  .rt-details__content--form
+  input[type="text"],
 #recruitee-careers .rt-theme-light .rt-details__content--form select,
 #recruitee-careers .rt-theme-light .rt-details__content--form textarea {
   background: #fff !important;
-  border: 1px solid #D1D1D1 !important;
+  border: 1px solid #d1d1d1 !important;
   border-radius: 5px !important;
 }
 
-#recruitee-careers-details-container .rt-details__content--form input[type="email"],
-#recruitee-careers-details-container .rt-details__content--form input[type="number"],
-#recruitee-careers-details-container .rt-details__content--form input[type="password"],
-#recruitee-careers-details-container .rt-details__content--form input[type="tel"],
-#recruitee-careers-details-container .rt-details__content--form input[type="text"],
+#recruitee-careers-details-container
+  .rt-details__content--form
+  input[type="email"],
+#recruitee-careers-details-container
+  .rt-details__content--form
+  input[type="number"],
+#recruitee-careers-details-container
+  .rt-details__content--form
+  input[type="password"],
+#recruitee-careers-details-container
+  .rt-details__content--form
+  input[type="tel"],
+#recruitee-careers-details-container
+  .rt-details__content--form
+  input[type="text"],
 #recruitee-careers-details-container .rt-details__content--form select,
 #recruitee-careers-details-container .rt-details__content--form textarea {
   width: 100% !important;
@@ -548,5 +590,5 @@
 }
 
 .rt-form__group .rt__text--dark {
-  color: #2B0464 !important;
+  color: #2b0464 !important;
 }
