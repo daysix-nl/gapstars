@@ -1,4 +1,13 @@
-<?php include get_template_directory() . '/componenten/recruiteeApi.php'; ?>
+<?php include get_template_directory() . '/componenten/recruiteeApi.php'; 
+
+wp_enqueue_script(
+    'my-script', // Unique handle for your script
+    get_template_directory_uri() . '/componenten/recruiteeScript.js', // Full path to the script
+    '1.0', // Version number
+    true // Load the script in the footer?
+);
+
+?>
 
 <?php 
 if( isset( $block['data']['preview_image_help'] )  ) :    /* rendering in inserter preview  */
@@ -110,4 +119,4 @@ else : /* rendering in editor body */
             rtscript.src = 'https://d10zminp1cyta8.cloudfront.net/widget.js';
             document.body.appendChild(rtscript);
 </script>
-<script type="text/javascript" src="http://gapstars.local/wp-content/themes/gapstars/componenten/recruiteeScript.js"></script>
+<!-- <script type="text/javascript" src="http://gapstars.local/wp-content/themes/gapstars/componenten/recruiteeScript.js"></script> -->

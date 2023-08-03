@@ -5,8 +5,19 @@
 
 
 
-get_header(); ?>
+get_header(); 
+
+wp_enqueue_script(
+    'my-script', // Unique handle for your script
+    get_template_directory_uri() . '/componenten/recruiteeScript.js', // Full path to the script
+    '1.0', // Version number
+    true // Load the script in the footer?
+);
+
+?>
 <?php include get_template_directory() . '/componenten/recruiteeApi.php'; ?>
+
+
 
 
 <?php 
@@ -114,6 +125,6 @@ else : /* rendering in editor body */
   document.body.appendChild(rtscript);
 </script>
 
-<script type="text/javascript" src="http://gapstars.local/wp-content/themes/gapstars/componenten/recruiteeScript.js"></script>
+<!-- <script type="text/javascript" src="http://gapstars.local/wp-content/themes/gapstars/componenten/recruiteeScript.js"></script> -->
 
 <?php get_footer('black'); ?>
