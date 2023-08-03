@@ -10,16 +10,9 @@ const addFilterItemsToCard = async () => {
 
     card.setAttribute("id", eventElementID);
 
-    const response = await fetch(
-      `https://api.recruitee.com/c/1674/offers/${dataID}`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer RmM4V2Q4UUtIajhKejZKWGdHV3dLQT09`,
-        },
-      }
-    );
+    const response = await fetch(`/wp-json/v1/careers/${dataID}`, {
+      method: "GET",
+    });
     const data = await response.json();
     if (data.offer_tags === "") {
       card.innerHTML +=
@@ -27,7 +20,7 @@ const addFilterItemsToCard = async () => {
     } else {
       card.innerHTML +=
         '<span class="skill" style="display:none!important;">' +
-        data.offer.offer_tags +
+        data.offer_tags +
         "</span>";
     }
   }

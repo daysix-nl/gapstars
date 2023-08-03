@@ -33,6 +33,8 @@ function add_theme_scripts() {
 
   }
   add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+
+  
 /*
 |--------------------------------------------------------------------------
 | Back-end styles en scripts
@@ -924,4 +926,58 @@ if( function_exists('acf_add_options_page') ) {
 		'parent_slug'	=> 'options',
 	));
 	
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Create endpoint for careers with data
+|--------------------------------------------------------------------------
+|
+| 
+| 
+|
+*/
+
+
+// Register your custom endpoint
+add_action( 'rest_api_init', function () {
+    register_rest_route( 'v1', '/careers/(?P<id>\d+)', array(
+        'methods' => 'GET',
+        'callback' => 'my_careers_by_id_callback',
+    ) );
+} );
+
+
+
+function my_careers_by_id_callback( $data ) {
+    $variableToken = BEARER_TOKEN;
+    $token = 'Bearer ' . $variableToken;
+    $id = $data['id'];
+    $url = "https://api.recruitee.com/c/1674/offers/$id";
+
+    $options = array(
+        'http' => array(
+            'header'  => "Authorization: $token\r\n" .
+                         "Content-type: application/x-www-form-urlencoded\r\n",
+            'method'  => 'GET'
+        )
+    );
+    $context  = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+
+    if ($result === FALSE) {
+        $responseCode = http_response_code();
+        return new WP_Error($responseCode, 'An error occurred while fetching data from the API.');
+    }
+
+    $offer = json_decode($result, true)["offer"];
+
+    $offerData = [];
+    $offerData['offer_tags'] = $offer['offer_tags'];
+    $offerData['title'] = $offer['title'];
+    $offerData['location'] = $offer['location'];
+    $offerData['id'] = $offer['id'];
+
+    return rest_ensure_response( $offerData );
 }

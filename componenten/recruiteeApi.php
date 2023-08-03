@@ -5,7 +5,10 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
 
 $headers = array();
-$headers[] = 'Authorization: Bearer RmM4V2Q4UUtIajhKejZKWGdHV3dLQT09';
+
+$variableToken = BEARER_TOKEN;
+$token = 'Bearer ' . $variableToken;
+$headers[] = 'Authorization:' . $token;
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
 $result = curl_exec($ch);
