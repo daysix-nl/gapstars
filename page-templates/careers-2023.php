@@ -155,7 +155,7 @@ get_header(); ?>
     </section>
     
     <!-- IMAGE SLIDER  -->
-    <section class="bg-cream pb-10 md:pb-12">
+    <section class="bg-cream md:pb-12">
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
                 <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-diepgrijs">This could be <span class="text-oranje">you</span></h2>
@@ -204,15 +204,15 @@ get_header(); ?>
 
   
 <!-- VIDEO SECTION -->
-<section class="bg-cream pb-10 md:pb-12">
+<section class="bg-diepgrijs md:bg-[#dad4cb] pb-8 md:pb-12 pt-8 md:pt-0">
     <div class="container">
         <div class="text-center md:w-[618px] mx-auto">
-            <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-diepgrijs">360° view to strive
+            <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-white md:text-diepgrijs">360° view to strive
             <span class="text-oranje"><br/>at Gapstars</span></h2>
         </div>
     </div>
-    <div class="container pt-4 md:pt-6">
-        <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-2 rounded-3xl overflow-hidden">
+    <div class="md:container pt-4 md:pt-6">
+        <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-2 md:rounded-3xl overflow-hidden max-w-[800px] mx-auto">
             <div class="col-span-2">
                 <div id="mainPlayerContainer relative w-full h-[220px] md:h-full">
                     <video id="mainPlayer" class="aspect-video md:h-auto w-full" controls loop autoplay="" playsinline>
@@ -222,9 +222,9 @@ get_header(); ?>
                     </video>
                 </div>
             </div>
-            <div class="col-span-2 md:col-span-2 p-[15px] space-y-[15px] md:space-y-0 flex justify-between flex-col md:flex-row md:space-x-2">
-                <div class="h-auto aspect-video w-full z-[2] sideVideo flex rounded-3xl overflow-hidden relative">
-                    <video muted preload="metadata" id="side-video-1" class="object-cover aspect-[1/1.02]" width="100%" height="">
+            <div class="col-span-2 md:col-span-2 p-[15px] pt-4 pb-0 md:pt-[15px] md:pb-[15px] md:flex justify-between grid grid-cols-2 md:flex-row md:space-x-2 gap-2 md:gap-0">
+                <div class="h-auto aspect-video w-full z-[2] sideVideo flex rounded-xl md:rounded-3xl overflow-hidden relative">
+                    <video muted preload="metadata" id="side-video-1" class="object-cover aspect-video" width="100%" height="">
                         <source src="https://gapstars.net/videos/careers-video-1.mp4#t=0.001" type="video/mp4">
                     </video>
                     <div id="orange-divv-1" class="playbutton pointer-events-none absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
@@ -240,8 +240,8 @@ get_header(); ?>
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
                     </div>
                 </div>
-                <div class="h-auto aspect-video w-full z-[2] sideVideo flex rounded-3xl overflow-hidden relative">
-                      <video muted preload="metadata" id="side-video-2" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
+                <div class="h-auto aspect-video w-full z-[2] sideVideo flex rounded-xl md:rounded-3xl overflow-hidden relative">
+                      <video muted preload="metadata" id="side-video-2" class="object-cover aspect-video" width="100%" height="100%">
                         <source src="https://gapstars.net/videos/careers-video-2.mp4#t=0.001" type="video/mp4">
                     </video>
                     <div id="orange-divv-2" class="playbutton pointer-events-none absolute top-[20%] left-0 right-0 flex justify-center opacity-100">
@@ -257,8 +257,8 @@ get_header(); ?>
                         <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars,<br> Our Tech & Our Clients</p>
                     </div>
                 </div>
-                <div class="h-auto aspect-video w-full z-[2] sideVideo flex rounded-3xl overflow-hidden relative">
-                    <video muted preload="metadata" id="side-video-3" class="object-cover aspect-[1/1.02]" width="100%" height="100%">
+                <div class="h-auto aspect-video w-full z-[2] sideVideo flex rounded-xl md:rounded-3xl overflow-hidden relative">
+                    <video muted preload="metadata" id="side-video-3" class="object-cover aspect-video" width="100%" height="100%">
                         <source src="https://gapstars.net/videos/careers-video-3.mp4#t=0.001" type="video/mp4">
                     </video>
                     
@@ -281,7 +281,7 @@ get_header(); ?>
 </section>
 
 <!-- ACADEMY -->
-<section class="bg-cream pb-10 md:pb-12">
+<section class="bg-cream pb-10 md:pb-12 pt-10 md:pt-0">
         <div class="container">
             <div class="text-center md:w-[618px] mx-auto">
                 <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-diepgrijs">Stay ahead of </br> <span class="text-oranje">the game</span></h2>
