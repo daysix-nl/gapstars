@@ -32,7 +32,7 @@ get_header(); ?>
                     <img src="https://gapstars.net/wp-content/uploads/2023/07/our-employees.jpeg" alt="" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
                 </div>
                 <div class="col-span-1 bg-creme rounded-b-3xl md:rounded-bl-none md:rounded-r-3xl p-4 py-4 md:py-6 h-auto">
-                    <h2 class="text-black text-30 leading-30 mb-3 font-medium">Our Employee <br> value proposition</h2>
+                    <h2 class="text-black text-30 leading-30 mb-3 font-medium">Our Employee <br> Value Proposition</h2>
                     <p class="text-diepgrijs mb-1 mr-1 text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans">At Gapstars, you’re part of a familial and empathetic culture. We provide you with the means of uplifting your lifestyle and empower you to pursue a progressive career, building technology that creates an impact.</p>
                 </div>
             </div>
@@ -142,12 +142,10 @@ get_header(); ?>
                 <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Flat Hierarchy</li>
                 <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>State of the Art Office Environment</li>
                 <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Therapy & Counseling Services</li>
-                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Flexibility to Work From Home</li>
+                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Hybrid working environment</li>
                 <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Onsite Masseuse</li>
                 <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Health Coverage</li>
                 <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Direct International Client Exposure</li>
-                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Option for Permanent Contract</li>
-                <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Friday Happy Hour</li>
                 <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Friday Happy Hour</li>
                 <li class="text-diepgrijs col-span-1 bg-lightcreme px-3 py-[15px] rounded-full flex flex-row items-center text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans"><span class="bg-oranje h-[5px] w-[5px] rounded-full mr-2 flex"></span>Great Parties!</li>
             </ul>
@@ -238,10 +236,10 @@ get_header(); ?>
                             </svg>
                         </div>
                         <div id="orange-div-1" class="bg-oranje/80 z-[10] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                            <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Yourney Looks Like</p>
+                            <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Journey Looks Like</p>
                         </div>
                     </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">What Your Candidate<br> Yourney Looks Like</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">What Your Candidate<br> Journey Looks Like</p>
                 </div>
                 <div class="col-span-1 bg-oranje md:bg-diepgrijs border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                     <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -326,7 +324,7 @@ get_header(); ?>
         </div>
         <div class="container grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3">
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
-                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/glassdoor-career-page.jpg" alt="Glassdoor reviews">
+                <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2023/08/glassdoor-v2.png" alt="Glassdoor reviews">
             </div>
 
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
