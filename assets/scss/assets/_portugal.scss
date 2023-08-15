@@ -4,29 +4,36 @@
 // }
 
 .portugal .rt-list .rt-list__header-main {
-    display: none !important;
+  display: none !important;
 }
 
 .portugal .rt-list .rt-list__header {
-    display: none !important;
+  display: none !important;
 }
 
 // .portugal #recruitee-careers .rt-list__items:nth-of-type(2) {
 //     display: none !important;
 // }
 
-.portugal #recruitee-careers .rt-body .rt-list__items .rt-list__offer-item:nth-of-type(n + 5) {
-    display: none !important;
+.portugal
+  #recruitee-careers
+  .rt-body
+  .rt-list__items
+  .rt-list__offer-item:nth-of-type(n + 5) {
+  display: none !important;
 }
 
 .portugal {
-    #recruitee-careers .rt-body .rt-list__items .rt-list__offer-item {
-        background: #E9E4DB;
-        transition-duration: 0.3s;
-    }
+  #recruitee-careers .rt-body .rt-list__items .rt-list__offer-item {
+    background: #e9e4db;
+    transition-duration: 0.3s;
+  }
 
-    #recruitee-careers .rt-body .rt-list__items .rt-list__offer-item .rt-list__offer-title {
-        color: #202020 !important;
-    }
-
+  #recruitee-careers
+    .rt-body
+    .rt-list__items
+    .rt-list__offer-item
+    .rt-list__offer-title {
+    color: #202020 !important;
+  }
 }

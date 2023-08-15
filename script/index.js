@@ -804,3 +804,52 @@ try {
 } catch (error) {
   console.error(error);
 }
+
+try {
+  const buttonQuikApply = document.querySelector(".open-modal-apply");
+
+  buttonQuikApply.addEventListener("click", () => {
+    const buttonModalTransport = document.querySelectorAll(
+      ".rt-list__offer-title"
+    );
+
+    for (let i = 0; i < buttonModalTransport.length; i++) {
+      if (buttonModalTransport[i].innerText === "Quick Apply") {
+        //  get id of button data-offer-id
+        const buttonModalTransportId =
+          buttonModalTransport[i].closest("[data-offer-id]");
+
+        let offerId = buttonModalTransportId
+          ? buttonModalTransportId.getAttribute("data-offer-id")
+          : null;
+
+        // add it to the url of href
+        parent.location.hash = "job-" + offerId;
+      }
+    }
+  });
+} catch (error) {}
+
+try {
+  function hideQuickApplyElements() {
+    const buttonModalTransport = document.querySelectorAll(
+      ".rt-list__offer-title"
+    );
+
+    if (buttonModalTransport.length > 0) {
+      for (let i = 0; i < buttonModalTransport.length; i++) {
+        if (buttonModalTransport[i].innerText === "Quick Apply") {
+          const buttonModalTransportId =
+            buttonModalTransport[i].closest("[data-offer-id]");
+          buttonModalTransportId.classList.add("hidden");
+        }
+      }
+      clearInterval(checkInterval); // Stop the interval once we've found and processed the elements.
+    }
+  }
+
+  // Check every 500 milliseconds (0.5 seconds) for the existence of the elements.
+  const checkInterval = setInterval(hideQuickApplyElements, 500);
+} catch (error) {
+  console.error("Error:", error);
+}

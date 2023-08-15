@@ -17,9 +17,9 @@ get_header(); ?>
                 <a class="btn-creme text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit" href="#explore-available-positions">
                     Explore available positions
                 </a>
-                <!-- <button class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px]">
+                <button class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px] open-modal-apply">
                     Quik Apply
-                </button> -->
+                </button>
             </div>
         </div>
     </section>

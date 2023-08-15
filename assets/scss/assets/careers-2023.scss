@@ -18,7 +18,7 @@
   #recruitee-careers
     .rt-body
     .rt-list__items
-    .rt-list__offer-item:nth-of-type(n + 5) {
+    .rt-list__offer-item:nth-of-type(n + 6) {
     display: none !important;
   }
 }
@@ -336,7 +336,7 @@
       .rt-body {
         .rt-list__items {
           .rt-list__offer-item {
-            &:nth-of-type(n + 5) {
+            &:nth-of-type(n + 6) {
               display: none !important;
             }
           }
