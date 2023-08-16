@@ -213,7 +213,7 @@ get_header(); ?>
         <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-2 md:rounded-3xl overflow-hidden max-w-[800px] mx-auto">
             <div class="col-span-2">
                 <div id="mainPlayerContainer relative w-full h-[220px] md:h-full">
-                    <video id="mainPlayer" class="aspect-video md:h-auto w-full" controls loop autoplay="" playsinline>
+                    <video id="mainPlayer" class="aspect-video md:h-auto w-full" controls loop mute autoplay="" playsinline>
                         <!-- #t=0.001 toevoegen voor Safari -->
                         <source src="https://gapstars.net/videos/careers-video-1.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
