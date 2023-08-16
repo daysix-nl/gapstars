@@ -362,7 +362,7 @@ get_header(); ?>
         </div>
         <div class="loader mx-auto mt-10 mb-12"></div>
         <div class="flex mt-4">
-            <a id="button-Allavailablepositions" href="https://gapstars.net/careersxxtestxx/jobsxxxtestxxx/" target="_self" class="btn-oranje text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit mx-auto">All available positions</a>
+            <a id="button-Allavailablepositions" href="https://gapstars.net/careers/jobs/" target="_self" class="btn-oranje text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit mx-auto">All available positions</a>
         </div>
     </section>
 </main>
