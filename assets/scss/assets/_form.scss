@@ -80,23 +80,22 @@
     display: none;
   }
 
-    textarea {
-      background-color: transparent;
-      background-color: transparent;
-      border-bottom: 2px #0000 solid;
-      width: 80%;
-      min-height: 150px;
+  textarea {
+    background-color: transparent;
+    background-color: transparent;
+    border-bottom: 2px #0000 solid;
+    width: 80%;
+    min-height: 150px;
 
-      &::placeholder {
-        color: #202020;
-        font-size: 18px;
-        padding-bottom: 2px;
-      }
-      &:focus-visible {
-        outline: #fff;
-      }
-  
+    &::placeholder {
+      color: #202020;
+      font-size: 18px;
+      padding-bottom: 2px;
     }
+    &:focus-visible {
+      outline: #fff;
+    }
+  }
 
   input[type="button"],
   input[type="submit"],
@@ -114,7 +113,6 @@
   }
 }
 
-
 .contact-form {
   .hbspt-form form {
     display: flex;
@@ -122,7 +120,7 @@
     gap: 40px;
     input {
       background-color: transparent;
-      border-bottom: 2px #DAD4CB solid;
+      border-bottom: 2px #dad4cb solid;
       width: 80%;
       color: #fff;
       height: 40px;
@@ -135,7 +133,6 @@
       &:focus-visible {
         outline: #fff;
       }
-  
     }
 
     label {
@@ -145,7 +142,7 @@
     textarea {
       background-color: transparent;
       background-color: transparent;
-      border-bottom: 2px #DAD4CB solid;
+      border-bottom: 2px #dad4cb solid;
       color: #fff;
       width: 80%;
       min-height: 150px;
@@ -158,7 +155,6 @@
       &:focus-visible {
         outline: #fff;
       }
-  
     }
 
     input[type="button"],
@@ -198,7 +194,6 @@
       &:focus-visible {
         outline: #fff;
       }
-  
     }
 
     label {
@@ -221,7 +216,6 @@
       &:focus-visible {
         outline: #fff;
       }
-  
     }
 
     input[type="button"],
@@ -239,4 +233,8 @@
       width: 250px;
     }
   }
+}
+
+.hs_job_function {
+  display: none;
 }

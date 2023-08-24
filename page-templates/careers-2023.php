@@ -365,6 +365,23 @@ get_header(); ?>
             <a id="button-Allavailablepositions" href="https://gapstars.net/careers/jobs/" target="_self" class="btn-oranje text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit mx-auto">All available positions</a>
         </div>
     </section>
+
+    <!-- modal box -->
+    <div class="modal-apply fixed bg-black/40 top-0 left-0 w-screen h-screen hidden z-50 ">
+        <div class=" bg-creme rounded-3xl h-fit w-[90vw] sm:w-[75vw] md:w-[600px] p-4 mx-auto mt-8 md:mt-10 vacancies-all"> 
+            <?php include get_template_directory() . '/componenten/recruitee-select.php'; ?>
+            <div class="mt-3">
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+                <script>
+                hbspt.forms.create({
+                    region: "na1",
+                    portalId: "6637125",
+                    formId: "ef663a25-598d-4953-a6d4-0d8c9bc2de89"
+                });
+                </script>
+            </div>
+        </div>
+    </div>
 </main>
 
 <script type="text/javascript"> 

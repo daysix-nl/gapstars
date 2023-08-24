@@ -18,7 +18,7 @@
   #recruitee-careers
     .rt-body
     .rt-list__items
-    .rt-list__offer-item:nth-of-type(n + 6) {
+    .rt-list__offer-item:nth-of-type(n + 5) {
     display: none !important;
   }
 }
@@ -336,7 +336,7 @@
       .rt-body {
         .rt-list__items {
           .rt-list__offer-item {
-            &:nth-of-type(n + 6) {
+            &:nth-of-type(n + 5) {
               display: none !important;
             }
           }
@@ -866,4 +866,18 @@
 .rt-form__group .rt__text--dark {
   color: #202020 !important;
   font-family: DM Sans, sans-serif !important;
+}
+
+// careers select box custom form quik apply
+.dropdown-careers.careers-form {
+  width: 100% !important;
+
+  input {
+    background-color: #e87a2e;
+  }
+
+  .options {
+    top: 27px;
+    padding-top: 15px;
+  }
 }
