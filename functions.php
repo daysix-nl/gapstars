@@ -1030,6 +1030,7 @@ function customize_dashboard_menu() {
             'menu-top toplevel_page_mlang',
             'toplevel_page_rank-math',
             'toplevel_page_gf_edit_forms'
+            'toplevel_page_feedzy-admin-menu'
             // Voeg hier andere classes toe van de items die je wilt verbergen op basis van de class.
         );
 
