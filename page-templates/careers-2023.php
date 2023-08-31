@@ -18,7 +18,7 @@ get_header(); ?>
                     Explore available positions
                 </a>
                 <button class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px] open-modal-apply">
-                    Quik Apply
+                    Quick Apply
                 </button>
             </div>
         </div>
