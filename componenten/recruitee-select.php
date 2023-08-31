@@ -33,7 +33,7 @@ if ($err) {
   if (isset($decodedData['offers']) && is_array($decodedData['offers'])) {
     ?>
     <div class="flex justify-between">
-        <h3 class="text-black text-26 leading-30 mb-2">I want to quik apply for:</h3>
+        <h3 class="text-black text-26 leading-30 mb-2">I want to quick apply for:</h3>
         <button class="close-modal-apply mb-2">
             <?php include get_template_directory() . '/img/icons/close-black.php'; ?>
         </button>
