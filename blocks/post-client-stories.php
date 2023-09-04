@@ -32,7 +32,7 @@ else : /* rendering in editor body */
                             <img src="<?php the_field('logo_post_client', $post_id); ?>" alt="">
                         </div>
                         <div class="pb-4 pt-2  mx-3">
-                            <h3 class="lg:text-26 lg:leading-36 leading-32 text-22 mb-2 md:mb-3 lg:pr-2 text-black"><?php the_title() ?></h3>
+                            <h3 class="lg:text-24 lg:leading-34 leading-28 text-18 mb-2 md:mb-3 lg:pr-2 text-black"><?php the_title() ?></h3>
                             <p class="text-black text-16 leading-26"><?php the_field('text_post_client', $post_id); ?></p>
                             <button class="text-oranje button-read-more text-16 leading-16 mt-3" href="<?php the_permalink(); ?>">Read more</button>
                         </div>
