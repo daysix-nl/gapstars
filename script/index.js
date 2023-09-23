@@ -769,8 +769,10 @@ try {
         let orangeDivId = "orange-div-" + (j + 1);
         let orangeDiv = document.getElementById(orangeDivId);
 
-        orangeDiv.classList.remove("h-full");
-        orangeDiv.classList.add("h-[70px]");
+        if (orangeDiv !== null) {
+          orangeDiv.classList.remove("h-full");
+          orangeDiv.classList.add("h-[70px]");
+        }
 
         let orangeDivIdPlayButton = "orange-divv-" + (j + 1);
         let orangeDivPlayButton = document.getElementById(
@@ -844,3 +846,25 @@ try {
 // } catch (error) {
 //   console.error("Error:", error);
 // }
+
+try {
+  const swiper = new Swiper(".swiper-video", {
+    speed: 400,
+    slidesPerView: 1.8,
+    spaceBetween: 15,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+  });
+} catch (error) {}

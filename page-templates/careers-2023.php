@@ -209,7 +209,7 @@ get_header(); ?>
             <span class="text-oranje"><br/>at Gapstars</span></h2>
         </div>
     </div>
-    <div class="md:container pt-4 md:pt-6">
+    <div class="md:container pt-4 md:pt-6 relative slider-video-container">
         <div class="bg-diepgrijs grid grid-cols-2 md:grid-cols-2 md:rounded-3xl overflow-hidden max-w-[800px] mx-auto">
             <div class="col-span-2">
                 <div id="mainPlayerContainer relative w-full h-[220px] md:h-full">
@@ -220,13 +220,34 @@ get_header(); ?>
                     </video>
                 </div>
             </div>
-            <div class="col-span-2 md:col-span-2 p-[15px] pt-4 pb-0 md:pt-[15px] md:pb-[15px] grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-2">
-                <div class="col-span-1 bg-oranje md:bg-diepgrijs border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
-                    <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 md:rounded-3xl overflow-hidden relative flex justify-center items-center">
-                        <video muted preload="metadata" id="side-video-1" class=" aspect-video" width="100%" height="">
-                            <source src="https://gapstars.net/videos/careers-video-1.mp4#t=0.001" type="video/mp4">
-                        </video>
-                        <div id="orange-divv-1" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
+            <div class="col-span-2 md:col-span-2 swiper-video h-fit relative  p-[15px] pt-4 pb-0 md:pt-[15px] md:pb-[15px]">
+                <div class="col-span-2 md:col-span-2 swiper-wrapper">
+                    <div class="swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
+                        <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 md:rounded-3xl overflow-hidden relative flex justify-center items-center">
+                            <video muted preload="metadata" id="side-video-1" class=" aspect-video" width="100%" height="">
+                                <source src="https://gapstars.net/videos/careers-video-1.mp4#t=0.001" type="video/mp4">
+                            </video>
+                            <div id="orange-divv-1" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
+                                <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
+                                            <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div id="orange-div-1" class="bg-oranje/80 z-[10] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Journey Looks Like</p>
+                            </div>
+                        </div>
+                        <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">What Your Candidate<br> Journey Looks Like</p>
+                    </div>
+                    <div class="swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
+                        <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
+                        <video muted preload="metadata" id="side-video-2" class=" aspect-video" width="100%" height="100%">
+                            <source src="https://gapstars.net/videos/careers-video-2.mp4#t=0.001" type="video/mp4">
+                            </video>
+                            <div id="orange-divv-2" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
                             <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
@@ -234,56 +255,62 @@ get_header(); ?>
                                     </g>
                                 </g>
                             </svg>
+                            </div>
+                            <div id="orange-div-2" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars,<br> Our Tech & Our Clients</p>
+                            </div>
                         </div>
-                        <div id="orange-div-1" class="bg-oranje/80 z-[10] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                            <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">What Your Candidate<br> Journey Looks Like</p>
-                        </div>
+                        <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">About Gapstars,<br> Our Tech & Our Clients</p>
                     </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">What Your Candidate<br> Journey Looks Like</p>
-                </div>
-                <div class="col-span-1 bg-oranje md:bg-diepgrijs border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
-                    <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
-                      <video muted preload="metadata" id="side-video-2" class=" aspect-video" width="100%" height="100%">
-                        <source src="https://gapstars.net/videos/careers-video-2.mp4#t=0.001" type="video/mp4">
-                        </video>
-                        <div id="orange-divv-2" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
-                        <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
-                                    <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
-                                </g>
-                            </g>
-                        </svg>
-                        </div>
-                        <div id="orange-div-2" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                            <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">About Gapstars,<br> Our Tech & Our Clients</p>
-                        </div>
-                    </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">About Gapstars,<br> Our Tech & Our Clients</p>
-                </div>
-                <div class="col-span-1 bg-oranje md:bg-diepgrijs border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
-                    <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
-                        <video muted preload="metadata" id="side-video-3" class=" aspect-video" width="100%" height="100%">
-                            <source src="https://gapstars.net/videos/careers-video-3.mp4#t=0.001" type="video/mp4">
-                        </video>
-                        
-                        <div id="orange-div-3" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                            <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Embracing the <br>Latest Technology</p>
-                        </div>
-                        <div id="orange-divv-3" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
-                            <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
-                                        <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
+                    <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
+                        <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
+                            <video muted preload="metadata" id="side-video-3" class=" aspect-video" width="100%" height="100%">
+                                <source src="https://gapstars.net/videos/careers-video-3.mp4#t=0.001" type="video/mp4">
+                            </video>
+                            
+                            <div id="orange-div-3" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Embracing the <br>Latest Technology</p>
+                            </div>
+                            <div id="orange-divv-3" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
+                                <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
+                                            <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
+                                        </g>
                                     </g>
-                                </g>
-                            </svg>
+                                </svg>
+                            </div>
                         </div>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Embracing the <br>Latest Technology</p>
                     </div>
-                   <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Embracing the <br>Latest Technology</p>
+                    <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
+                        <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
+                            <video muted preload="metadata" id="side-video-3" class=" aspect-video" width="100%" height="100%">
+                                <source src="https://gapstars.net/videos/careers-video-3.mp4#t=0.001" type="video/mp4">
+                            </video>
+                            
+                            <div id="orange-div-4" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Embracing the <br>Latest Technology</p>
+                            </div>
+                            <div id="orange-divv-4" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
+                                <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
+                                            <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Embracing the <br>Latest Technology</p>
+                    </div>
+            
                 </div>
             </div>
+                 
         </div>
+           <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
     </div>
 </section>
 

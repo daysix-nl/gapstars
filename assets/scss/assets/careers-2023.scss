@@ -881,3 +881,54 @@
     padding-top: 15px;
   }
 }
+
+.slider {
+  transition: 0.5s;
+}
+.slider-video-container {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: unset;
+    bottom: -58px;
+
+    // media query
+    @media (min-width: 768px) {
+      top: 87%;
+      bottom: unset;
+    }
+  }
+
+  .swiper-button-next {
+    right: 10px;
+
+    @media (min-width: 768px) {
+      right: 0;
+    }
+
+    &::after {
+      @media (min-width: 768px) {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.405" height="25.982" viewBox="0 0 14.405 25.982"><defs><clipPath id="clip-path"><path id="Clip_2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path></clipPath></defs><g id="Group_3" data-name="Group 3" transform="translate(0 0)"><path id="Clip_2-2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none" ></path><g id="Group_3-2" data-name="Group 3" clip-path="url(%23clip-path)"><path id="Fill_1" data-name="Fill 1" d="M1,25.982a1,1,0,0,1-.707-1.707L11.577,12.991.293,1.707A1,1,0,0,1,1.707.293l12.7,12.7-12.7,12.7A1,1,0,0,1,1,25.982" transform="translate(0 0)" fill="%23fff" style=" fill: black;"></path></g></g></svg>');
+      }
+      content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.405" height="25.982" viewBox="0 0 14.405 25.982"><defs><clipPath id="clip-path"><path id="Clip_2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path></clipPath></defs><g id="Group_3" data-name="Group 3" transform="translate(0 0)"><path id="Clip_2-2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none" ></path><g id="Group_3-2" data-name="Group 3" clip-path="url(%23clip-path)"><path id="Fill_1" data-name="Fill 1" d="M1,25.982a1,1,0,0,1-.707-1.707L11.577,12.991.293,1.707A1,1,0,0,1,1.707.293l12.7,12.7-12.7,12.7A1,1,0,0,1,1,25.982" transform="translate(0 0)" fill="%23fff" style=" fill: white;"></path></g></g></svg>');
+    }
+  }
+
+  .swiper-button-prev {
+    left: unset;
+    right: 75px;
+
+    @media (min-width: 768px) {
+      left: 0px;
+      right: auto;
+    }
+
+    &::after {
+      transform: rotate(180deg);
+      height: 58px;
+      @media (min-width: 768px) {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.405" height="25.982" viewBox="0 0 14.405 25.982"><defs><clipPath id="clip-path"><path id="Clip_2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path></clipPath></defs><g id="Group_3" data-name="Group 3" transform="translate(0 0)"><path id="Clip_2-2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path><g id="Group_3-2" data-name="Group 3" clip-path="url(%23clip-path)"><path id="Fill_1" data-name="Fill 1" d="M1,25.982a1,1,0,0,1-.707-1.707L11.577,12.991.293,1.707A1,1,0,0,1,1.707.293l12.7,12.7-12.7,12.7A1,1,0,0,1,1,25.982" transform="translate(0 0)" fill="black"></path></g></g></svg>');
+      }
+      content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.405" height="25.982" viewBox="0 0 14.405 25.982"><defs><clipPath id="clip-path"><path id="Clip_2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path></clipPath></defs><g id="Group_3" data-name="Group 3" transform="translate(0 0)"><path id="Clip_2-2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path><g id="Group_3-2" data-name="Group 3" clip-path="url(%23clip-path)"><path id="Fill_1" data-name="Fill 1" d="M1,25.982a1,1,0,0,1-.707-1.707L11.577,12.991.293,1.707A1,1,0,0,1,1.707.293l12.7,12.7-12.7,12.7A1,1,0,0,1,1,25.982" transform="translate(0 0)" fill="white"></path></g></g></svg>');
+    }
+  }
+}
