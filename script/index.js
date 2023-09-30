@@ -868,3 +868,67 @@ try {
     },
   });
 } catch (error) {}
+
+try {
+  const modalEvents = document.querySelector(".modal-events");
+  const buttonCloseModalEvents = document.querySelector(".close-modal-events");
+  const buttonOpenModalEvents = document.querySelector(".open-modal-events");
+  const buttonOpenModalEventsMobile = document.querySelector(".modal-overlay");
+
+  buttonOpenModalEvents.addEventListener("click", () => {
+    modalEvents.classList.remove("open");
+    buttonOpenModalEventsMobile.classList.remove("hidden");
+  });
+
+  buttonCloseModalEvents.addEventListener("click", () => {
+    modalEvents.classList.add("open");
+    buttonOpenModalEventsMobile.classList.add("hidden");
+  });
+
+  buttonOpenModalEventsMobile.addEventListener("click", () => {
+    modalEvents.classList.add("open");
+    buttonOpenModalEventsMobile.classList.add("hidden");
+  });
+} catch (error) {}
+
+try {
+  window.addEventListener("DOMContentLoaded", function () {
+    const boxes = document.querySelectorAll(".box-events");
+    const moreEventsButton = document.querySelector(
+      ".button-box-events button"
+    );
+
+    // Initialization: Show the first 4 boxes and hide the rest
+    for (let i = 0; i < boxes.length; i++) {
+      if (i < 4) {
+        boxes[i].classList.remove("hidden");
+        boxes[i].classList.add("grid");
+      } else {
+        boxes[i].classList.add("hidden");
+      }
+    }
+
+    // Check if there are more than 4 boxes. If not, hide the "More events" button.
+    if (boxes.length <= 4) {
+      moreEventsButton.style.display = "none";
+    }
+
+    moreEventsButton.addEventListener("click", function () {
+      // If the text is "More events", show all and change text to "Less events"
+      if (moreEventsButton.textContent.trim() === "More events") {
+        boxes.forEach((box) => box.classList.remove("hidden"));
+        boxes.forEach((box) => box.classList.add("grid"));
+        moreEventsButton.textContent = "Less events";
+      }
+      // If the text is "Less events", show only first 4 and change text back to "More events"
+      else {
+        for (let i = 0; i < boxes.length; i++) {
+          if (i >= 4) {
+            boxes[i].classList.add("hidden");
+          }
+        }
+        moreEventsButton.textContent = "More events";
+      }
+    });
+  });
+} catch (error) {}
