@@ -42,7 +42,7 @@
         </video>
     </div>  
 
-    <div class="container mt-8 md:mt-10 relative">
+    <!-- <div class="container mt-8 md:mt-10 relative">
         <img src="https://gapstars.net/wp-content/uploads/2023/01/timer.png" alt="" class="scale-50 md:scale-100">
         <div class="absolute top-0 bottom-0 left-0 right-0">
             <div class="flex flex-col justify-center items-center h-full md:mt-3">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <!-- INTRODUCTION -->

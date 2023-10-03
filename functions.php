@@ -28,7 +28,7 @@ function add_theme_scripts() {
     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', array(), '1.1', 'all');
     wp_enqueue_script( 'parallax', get_template_directory_uri() . '/script/parallax.js', array(), 1.1, true);
     wp_enqueue_script( 'swiper', get_template_directory_uri() . '/script/swiper.js', array(), 1.1, true);
-    wp_enqueue_script( 'flipdown', get_template_directory_uri() . '/script/flipdown.js', array(), 1.1, true);
+    // wp_enqueue_script( 'flipdown', get_template_directory_uri() . '/script/flipdown.js', array(), 1.1, true);
     wp_enqueue_script( 'script', get_template_directory_uri() . '/script/index.js', array(), 1.1, true);
 
   }
