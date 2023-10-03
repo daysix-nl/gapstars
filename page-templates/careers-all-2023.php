@@ -125,6 +125,6 @@ else : /* rendering in editor body */
   document.body.appendChild(rtscript);
 </script>
 
-<!-- <script type="text/javascript" src="http://gapstars.local/wp-content/themes/gapstars/componenten/recruiteeScript.js"></script> -->
+<script type="text/javascript" src="http://gapstars.local/wp-content/themes/gapstars/componenten/recruiteeScript.js"></script>
 
 <?php get_footer('black'); ?>
