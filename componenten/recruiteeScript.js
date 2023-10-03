@@ -2,8 +2,6 @@
  * ! This is data loading in the cards on the careers page
  *  **/
 
-console.log("load script");
-
 const addFilterItemsToCard = async () => {
   const elementsCard = document.querySelectorAll(".rt-list__offer-item");
   for (const card of elementsCard) {
@@ -29,20 +27,11 @@ const addFilterItemsToCard = async () => {
 };
 
 const checkOnElement = async () => {
-  console.log("function started");
   const findElement = document.querySelector(".rt-list__items");
   if (findElement !== null && findElement !== undefined) {
-    try {
-      console.log("test 1");
-      await addFilterItemsToCard();
-      console.log("test 2");
-      await getUrlData();
-      console.log("test 3");
-      await countCard();
-      console.log("test 4");
-    } catch (error) {
-      console.log(error);
-    }
+    await addFilterItemsToCard();
+    await getUrlData();
+    await countCard();
     await loadingIcon();
   } else {
     setTimeout(() => {
@@ -51,7 +40,6 @@ const checkOnElement = async () => {
   }
 };
 window.addEventListener("load", () => {
-  console.log("dom loaded");
   checkOnElement();
 });
 
@@ -240,7 +228,6 @@ const addIdToButtons = async (data) => {
   if (buttonSubmitSpanClass !== null) {
     const buttonSubmitSpan = document.querySelector(".rt__button--action");
     const ButtonSunmitIDControl = document.getElementById(buttonSubmitID);
-    console.log(ButtonSunmitIDControl);
 
     buttonSubmitSpan.setAttribute("id", buttonSubmitID);
     const buttonBackSpan = document.querySelector(
@@ -285,9 +272,7 @@ const addClass = async () => {
     let initialText;
     const intervalId = setInterval(async () => {
       const currentText = targetButton.textContent;
-      console.log("noo");
       if (currentText !== initialText) {
-        console.log("heey");
         clearInterval(intervalId);
         initialText = targetButton.textContent;
         await addIdToButtons(data);
