@@ -29,6 +29,7 @@ const addFilterItemsToCard = async () => {
 };
 
 const checkOnElement = async () => {
+  console.log("function started");
   const findElement = document.querySelector(".rt-list__items");
   if (findElement !== null && findElement !== undefined) {
     try {
@@ -50,6 +51,7 @@ const checkOnElement = async () => {
   }
 };
 addEventListener("DOMContentLoaded", () => {
+  console.log("dom loaded");
   checkOnElement();
 });
 
