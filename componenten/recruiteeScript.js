@@ -50,7 +50,7 @@ const checkOnElement = async () => {
     }, 500);
   }
 };
-addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   console.log("dom loaded");
   checkOnElement();
 });
