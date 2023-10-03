@@ -2,6 +2,8 @@
  * ! This is data loading in the cards on the careers page
  *  **/
 
+console.log("load script");
+
 const addFilterItemsToCard = async () => {
   const elementsCard = document.querySelectorAll(".rt-list__offer-item");
   for (const card of elementsCard) {
@@ -29,9 +31,17 @@ const addFilterItemsToCard = async () => {
 const checkOnElement = async () => {
   const findElement = document.querySelector(".rt-list__items");
   if (findElement !== null && findElement !== undefined) {
-    await addFilterItemsToCard();
-    await getUrlData();
-    await countCard();
+    try {
+      console.log("test 1");
+      await addFilterItemsToCard();
+      console.log("test 2");
+      await getUrlData();
+      console.log("test 3");
+      await countCard();
+      console.log("test 4");
+    } catch (error) {
+      console.log(error);
+    }
     await loadingIcon();
   } else {
     setTimeout(() => {
