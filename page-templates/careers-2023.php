@@ -219,7 +219,7 @@ get_header(); ?>
 <section class="bg-diepgrijs md:bg-[#dad4cb] pb-8 md:pb-12 pt-8 md:pt-0">
     <div class="container">
         <div class="text-center md:w-[618px] mx-auto">
-            <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-white md:text-diepgrijs">Work Hard, Play Hard,
+            <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-white md:text-diepgrijs">Work Hard, <br class="md:hidden">Play Hard,
             <span class="text-oranje"><br/>Make an Impact!</span></h2>
         </div>
     </div>
@@ -254,7 +254,7 @@ get_header(); ?>
                                 <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Gapstars AI Day</p>
                             </div>
                         </div>
-                        <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Gapstars AI Day</p>
+                        <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars AI Day</p>
                     </div>
                     <div class="swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -274,7 +274,7 @@ get_header(); ?>
                                 <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Gapstars Beach<br> Cleanup 2023</p>
                             </div>
                         </div>
-                        <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Gapstars Beach <br>Cleanup 2023</p>
+                        <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars Beach <br>Cleanup 2023</p>
                     </div>
                     <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -295,7 +295,7 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Gapstars Scale-up 2023</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars Scale-up 2023</p>
                     </div>
                     <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -316,11 +316,11 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Women's Day 2023</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Women's Day 2023</p>
                     </div>
 
 
-                <!-- xxx -->
+              
 
                      <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -341,7 +341,7 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Tuk Tuk <br>tournament 2022</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Tuk Tuk <br>tournament 2022</p>
                     </div>
 
                     
@@ -364,7 +364,7 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Gapstars Christmas<br> party 2023</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars Christmas<br> party 2023</p>
                     </div>
                      <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -385,7 +385,7 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Gapstars trip 2023</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars trip 2023</p>
                     </div>
                      <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -406,7 +406,7 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Gapstars partner<br> event 2023</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars partner<br> event 2023</p>
                     </div>
                      <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -427,7 +427,7 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Gapstars partner forum</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars partner forum</p>
                     </div>
                      <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
@@ -448,7 +448,7 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1">Gapstars office tour</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars office tour</p>
                     </div>
                     
 
