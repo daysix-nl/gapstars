@@ -7,7 +7,7 @@
 get_header(''); ?>
 <div class="events-page">
 
-<section class="h-[600px] md:h-[calc(100vh-103px)] relative flex">
+<section class="h-[350px] md:h-[calc(100vh-103px)] relative flex">
     <img class="absolute w-full h-full top-0 right-0 z-0 object-cover"
         src="https://gapstars.net/wp-content/uploads/2023/07/header_careers-2023.jpeg" alt="hero-careers">
     <div class="hero_block absolute w-full h-full top-0 right-0 z-[1]"></div>
