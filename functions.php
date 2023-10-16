@@ -664,6 +664,23 @@ add_action('acf/init', function () {
                     ]
                 ]
             ],
+             [
+                'name'              => 'post-event',
+                'title'             => __('Event - full template'),
+                'description'       => __('A custom post block'),
+                'category'          => 'post',
+                'icon'              => 'laptop',
+                'keywords'          => ['layout', 'card'],
+                'example'           => [
+                    'attributes' => [
+                        'mode' => 'preview',
+                        'data' => [
+                            'preview_image_help' => '/wp-content/themes/gapstars/img/preview-acf/hero-home.jpg',
+                            'is_preview'    => true
+                        ]
+                    ]
+                ]
+            ],
         ];
 
         foreach ($blocks as $block) {
@@ -887,6 +904,46 @@ function cw_post_type_client() {
 }
  
 add_action( 'init', 'cw_post_type_client' );
+
+
+/*Register WordPress  Gutenberg CPT */
+function cw_post_type_ptevents() {
+    register_post_type( 'ptevents',
+        // WordPress CPT Options Start
+        array(
+            'labels' => array(
+                'name' => _x('Events', 'plural'),
+                'singular_name' => _x('Events', 'singular'),
+                'menu_name' => _x('Events', 'admin menu'),
+                'name_admin_bar' => _x('Events', 'admin bar'),
+                'add_new' => _x('Add new', 'add new'),
+                'add_new_item' => __('Add new Event'),
+                'new_item' => __('New Event'),
+                'edit_item' => __('Edit'),
+                'view_item' => __('View'),
+                'all_items' => __('All Events'),
+                'search_items' => __('Search Events'),
+                'not_found' => __('Not found.'),
+            ),
+            'public' => false,
+            'publicly_queryable' => true,
+            'show_ui' => true, 
+            'exclude_from_search' => true,  // you should exclude it from search results
+            'show_in_nav_menus' => false,
+            'query_var' => true,
+            'rewrite' => array('slug' => 'event'),
+            'show_in_rest' => true,
+            'has_archive' => true,
+            'hierarchical' => false,
+            'menu_icon' => 'dashicons-insert',
+            'supports' => array('editor','title', )
+        )
+    );
+}
+ 
+add_action( 'init', 'cw_post_type_ptevents' );
+
+
 
 
 /*
