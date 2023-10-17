@@ -52,3 +52,5 @@ $selectbackgroundinner = get_field('background-color_inner');
     //     $backgroundcolorinner = 'gradient-orange';
     // }
 ?>
+<div class="register"></div>
+<div class="movie"></div>

@@ -936,7 +936,8 @@ function cw_post_type_ptevents() {
             'has_archive' => true,
             'hierarchical' => false,
             'menu_icon' => 'dashicons-insert',
-            'supports' => array('editor','title', )
+             'supports' => array('editor', 'title', 'thumbnail'),  // Voeg 'thumbnail' toe om de featured image in te schakelen.
+            'taxonomies' => array('post_tag'),  // Voeg 'post_tag' toe om Tags in te schakelen.
         )
     );
 }

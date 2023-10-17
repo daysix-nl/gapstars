@@ -9,34 +9,69 @@ get_header(''); ?>
 
 <section class="h-[350px] md:h-[calc(100vh-103px)] relative flex">
     <img class="absolute w-full h-full top-0 right-0 z-0 object-cover"
-        src="https://gapstars.net/wp-content/uploads/2023/07/header_careers-2023.jpeg" alt="hero-careers">
+        src="/wp-content/themes/gapstars/img/local/gapstars_background_darkgrey 3.png" alt="hero-events">
     <div class="hero_block absolute w-full h-full top-0 right-0 z-[1]"></div>
     <div class="container relative z-[2] my-auto">
-        <h1 class="text-white text-65 leading-65 md:text-75 md:leading-75 font-medium row-center">Events</h1>
+        <h1 class="text-white text-65 leading-65 md:text-75 md:leading-75 font-medium row-center"><?php the_title();?></h1>
     </div>
 </section>
 
-<section class="bg-lightcreme">
-    <div class="container grid grid-cols-1 md:grid-cols-2 gap-[25px] md:gap-6 py-6 md:py-10">
-        <div class="col-span-1">
-            <img class="w-full h-full aspect-video md:aspect-square rounded-3xl object-cover" src="https://gapstars.net/wp-content/uploads/2023/07/header_careers-2023.jpeg" alt="">
-        </div>
-        <div class="col-span-1 md:py-4">
-            <p class="font-medium text-18 leading-26 text-oranje" >Featured Event</p>
-            <h2 class="text-diepgrijs text-40 leading-40 font-medium pt-1.5">Scale-up 2023</h2>
-            <p class="w-full md:max-w-[400px] text-diepgrijs text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans pt-2 line-clamp-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p class="font-medium text-18 leading-26 text-oranje pt-2">Mon, 24 April 2023</p>
-            <div class="flex pt-2 gap-2 md:gap-3 flex-wrap">
-                <a href="#" class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px] open-modal-apply">
-                    Read more
-                </a>
-                <a class="bg-[#FFFFFF] text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit"
-                    href="#">
-                    Watch now
-                </a>
-            </div>
-        </div>
-    </div>
+<section class="bg-lightcreme py-6 md:py-10">
+
+<div class="grid gap-[30px]">
+            <?php
+            $args = array(
+                'post_type' => 'ptevents',
+                'meta_key' => 'featured_event',  // Het ACF-veld waarop je wilt filteren
+                'meta_value' => 'yes',          // De waarde waarmee je wilt vergelijken
+                'meta_compare' => '=',           // Vergelijkingsoperator (standaard is '=')
+                'orderby' => 'date',             // Sorteer op datum
+                'order' => 'DESC',               // Sorteer aflopend
+                'posts_per_page' => -1,         // Toon alle bijpassende berichten
+            );
+
+            $query = new WP_Query($args);
+
+            if ($query->have_posts()) {
+                while ($query->have_posts()) {
+                    $query->the_post();  
+                    $post_id = get_the_ID(); ?>
+                        <div class="container grid grid-cols-1 md:grid-cols-2 gap-[25px] md:gap-6">
+                            <div class="col-span-1">
+                                <img class="w-full h-full aspect-video md:aspect-square rounded-3xl object-cover" src="<?php the_post_thumbnail_url();?>" alt="">
+                            </div>
+
+                            <div class="col-span-1 md:py-4">
+                                <p class="font-medium text-18 leading-26 text-oranje" >Featured Event</p>
+                                <h2 class="text-diepgrijs text-40 leading-40 font-medium pt-1.5"><?php the_title();?></h2>
+                                <p class="w-full md:max-w-[400px] text-diepgrijs text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans pt-2 line-clamp-4"><?php the_field('teaser-text', $post_id);?></p>
+                                <p class="font-medium text-18 leading-26 text-oranje pt-2"><?php the_field('day', $post_id);?>, <?php the_field('day_number', $post_id);?> <?php the_field('month', $post_id);?> <?php the_field('year', $post_id);?></p>
+                                <div class="flex pt-2 gap-2 md:gap-3 flex-wrap">
+                                    <a href="<?php the_permalink();?>" class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px] open-modal-apply">
+                                        Read more
+                                    </a>
+                                    <a class="bg-[#FFFFFF] text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit"
+                                        href="<?php the_permalink();?>/#scroll">
+                                        <?php the_field('call_to_action_button', $post_id);?>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+} 
+               
+
+                wp_reset_postdata(); // Herstelt de oorspronkelijke querygegevens
+            } else {
+                // Geen berichten gevonden
+            }
+            ?>
+
+</div>
+
+
+
+
 </section>
 
 <section class="bg-creme">
@@ -111,39 +146,62 @@ get_header(''); ?>
             
             <div class="space-y-4">
 
-                <!-- EVENT ITEMS -->
-                <div class="overflow-hidden  grid-cols-1 md:grid-cols-3 md:gap-3 bg-lightcreme rounded-3xl box-events hidden ">
-                    <div class="col-span-1">
-                        <img class="h-full w-full object-cover aspect-video" src="https://gapstars.net/wp-content/uploads/2023/07/header_careers-2023.jpeg" alt="">
-                    </div>
-                    <div class="col-span-1 md:col-span-2 pt-2 pb-6 md:py-3 px-3 md:px-0">
-                        <h3 class="mb-2 max-w-[300px] text-diepgrijs text-30 leading-30 font-medium line-clamp-2">Gapstars Cricket Tournament 2022</h3>
-                        <p class="mb-2 md:max-w-[340px] text-18 leading-28 text-diepgrijs line-clamp-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <p class="text-14 leading-26 text-diepgrijs font-medium">Mon, 24 April 2023</p>
-                        <div class="flex pt-2 gap-2 md:gap-3 flex-wrap">
-                            <a href="" class="bg-black text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px] open-modal-apply">
-                                Read more
-                            </a>
-                            <a class="bg-[#FFFFFF] text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit"
-                                href="#">
-                                Watch now
-                            </a>
+            <?php
+            $args = array(
+                'post_type' => 'ptevents',
+                'meta_key' => 'featured_event',  // Het ACF-veld waarop je wilt filteren
+                'meta_value' => 'no',          // De waarde waarmee je wilt vergelijken
+                'meta_compare' => '=',           // Vergelijkingsoperator (standaard is '=')
+                'orderby' => 'date',             // Sorteer op datum
+                'order' => 'DESC',               // Sorteer aflopend
+                'posts_per_page' => -1,         // Toon alle bijpassende berichten
+            );
+
+            $query = new WP_Query($args);
+
+            if ($query->have_posts()) {
+                while ($query->have_posts()) {
+                    $query->the_post();  
+                    $post_id = get_the_ID(); ?>
+                    <!-- EVENT ITEMS -->
+                    <div class="overflow-hidden  grid-cols-1 md:grid-cols-3 md:gap-3 bg-lightcreme rounded-3xl box-events hidden ">
+                        <div class="col-span-1">
+                            <img class="h-full w-full object-cover aspect-video" src="<?php the_post_thumbnail_url();?>" alt="">
                         </div>
-                        <div class="pt-2 flex gap-[5px] flex-wrap">
-                            <a class="bg-creme px-1 h-3 rounded-3xl text-14 leading-26 flex w-fit justify-center items-center scale-[0.8]" href="">Tag 1</a>
-                            <a class="bg-creme px-1 h-3 rounded-3xl text-14 leading-26 flex w-fit justify-center items-center scale-[0.8]" href="">Tag 2</a>
+                        <div class="col-span-1 md:col-span-2 pt-2 pb-6 md:py-3 px-3 md:px-0">
+                            <h3 class="mb-2 max-w-[300px] text-diepgrijs text-30 leading-30 font-medium line-clamp-2"><?php the_title();?></h3>
+                            <p class="mb-2 md:max-w-[340px] text-18 leading-28 text-diepgrijs line-clamp-3"><?php the_field('teaser-text', $post_id);?></p>
+                            <p class="text-14 leading-26 text-oranje font-medium"><?php the_field('day', $post_id);?>, <?php the_field('day_number', $post_id);?> <?php the_field('month', $post_id);?> <?php the_field('year', $post_id);?></p>
+                            <div class="flex pt-2 gap-2 md:gap-3 flex-wrap">
+                                <a href="<?php the_permalink();?>" class="bg-black text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px] open-modal-apply">
+                                    Read more
+                                </a>
+                                <a class="bg-[#FFFFFF] text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit"
+                                    href="<?php the_permalink();?>/#scroll">
+                                    <?php the_field('call_to_action_button', $post_id);?>
+                                </a>
+                            </div>
+                            <div class="pt-2 flex justify-start flex-wrap">
+                                  <?php
+                                    $post_tags = get_the_tags();
+                                    if ($post_tags) {
+                                        foreach ($post_tags as $tag) {
+                                            echo '<p class="bg-creme px-1 h-3 rounded-3xl text-14 leading-26 flex w-fit justify-center items-center scale-[0.8]">' . $tag->name . '</p>';
+                                        }
+                                    }
+                                    ?>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <?php
+} 
+               
 
-           
-
-            
-
-
-
-
-
+                wp_reset_postdata(); // Herstelt de oorspronkelijke querygegevens
+            } else {
+                // Geen berichten gevonden
+            }
+            ?>
 
 
             <div class="button-box-events">
@@ -168,7 +226,7 @@ get_header(''); ?>
             </button>
         </div>
         <input class="w-full placeholder:text-[#505050] bg-white rounded-3xl h-5 px-2 mb-6 focus:ring-white focus:ring-1" placeholder="Location" type="text">
-        <fieldset>
+        <!-- <fieldset>
             <legend class="mb-4 text-34 leading-28 text-white">Categories</legend>
             <div class="flex items-center">
                 <input type="radio" id="Upcomingevents-mobile" name="filter-mobile" value="Upcomingevents" />
@@ -194,7 +252,7 @@ get_header(''); ?>
                 <input  type="radio" id="Celebrations-mobile" name="filter-mobile" value="Celebrations" />
                 <label class=" text-22 leading-36 text-white ml-[10px]" for="Celebrations-mobile">Celebrations</label>
             </div>
-        </fieldset>
+        </fieldset> -->
 
         <div class="h-[2px] w-full bg-white my-3"></div>    
 

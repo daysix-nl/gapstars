@@ -1,8 +1,16 @@
-.container > .container {
+.container>.container {
     padding-left: 0;
     padding-right: 0;
 }
 
 .team-block.list-b-none .member:nth-of-type(n+11) {
     display: none;
+}
+
+#register.movie {
+    display: none !important;
+}
+
+#movie.register {
+    display: none !important;
 }
