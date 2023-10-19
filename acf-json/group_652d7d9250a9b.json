@@ -454,11 +454,11 @@
         },
         {
             "key": "field_652d878e6945d",
-            "label": "Movie",
+            "label": "YouTube ID",
             "name": "register_after_movie",
             "aria-label": "",
-            "type": "file",
-            "instructions": "",
+            "type": "text",
+            "instructions": "This part of de Embed URL: https:\/\/youtu.be\/<b>2k_DnbRWxTI?si=op6GGePdCKCrws7R<\/b>",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -466,11 +466,11 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "url",
-            "library": "all",
-            "min_size": "",
-            "max_size": 300,
-            "mime_types": "mp4"
+            "default_value": "2k_DnbRWxTI?si=op6GGePdCKCrws7R",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -491,5 +491,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1697484235
+    "modified": 1697711202
 }

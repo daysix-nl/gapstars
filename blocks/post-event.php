@@ -138,9 +138,7 @@
 
          <!-- VIDEO -->
         <div id="movie" class="<?php the_field('register_after_toggle');?> md:container px-0 md:px-8">
-            <video autoplay="" controls="" loop="" muted="" playsinline="" class="md:rounded-3xl">
-            <source src="<?php the_field('register_after_movie');?>">
-            </video>
+            <iframe class="aspect-video z-[9999]" width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/<?php the_field('register_after_movie');?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
 
