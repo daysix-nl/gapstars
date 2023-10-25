@@ -25,7 +25,7 @@ else : /* rendering in editor body */
                         <h2 class="text-26 leading-36 <?php the_field('text-color') ?> border-b-2 border-grijs pb-3 mb-3">Board of Directors</h2>
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-2 gap-y-6">
                         <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID();?>         
-                            <div class="member col-span-1 list-b-none h-auto">
+                            <div class="member col-span-1 list-b-none h-auto aspect-square">
                                 <div class="relative h-full">
                                     <div class="rounded-3xl h-full overflow-hidden block scale-img bg-grijs">
                                         <img class="w-full object-fill ease-in-out duration-500 h-full" src="<?php the_field('image', $post_id); ?>" alt="">
@@ -65,7 +65,7 @@ else : /* rendering in editor body */
                         <h2 class="text-26 leading-36 <?php the_field('text-color') ?> border-b-2 border-grijs pb-3 mb-3">Advisory Board</h2>
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-2 gap-y-6">
                         <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID();?>         
-                            <div class="member col-span-1 h-auto">
+                            <div class="member col-span-1 h-auto aspect-square">
                                 <div class="relative h-full">
                                     <div class="rounded-3xl h-full overflow-hidden block scale-img bg-grijs">
                                         <img class="w-full object-fill ease-in-out duration-500 h-full" src="<?php the_field('image', $post_id); ?>" alt="">
@@ -105,7 +105,7 @@ else : /* rendering in editor body */
                         <h2 class="text-26 leading-36 <?php the_field('text-color') ?> border-b-2 border-grijs pb-3 mb-3">Leadership Team</h2>
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-2 gap-y-6">
                         <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID();?>         
-                            <div class="member col-span-1 h-auto">
+                            <div class="member col-span-1 h-auto aspect-square">
                                 <div class="relative h-full">
                                     <div class="rounded-3xl h-full overflow-hidden block scale-img bg-grijs">
                                         <img class="w-full object-fill ease-in-out duration-500 h-full" src="<?php the_field('image', $post_id); ?>" alt="">
@@ -145,7 +145,7 @@ else : /* rendering in editor body */
                         <h2 class="text-26 leading-36 <?php the_field('text-color') ?> border-b-2 border-grijs pb-3 mb-3">Community Specialists</h2>
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-2 gap-y-6">
                         <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID();?>         
-                            <div class="member col-span-1 h-auto">
+                            <div class="member col-span-1 h-auto aspect-square">
                                 <div class="relative h-full">
                                     <div class="rounded-3xl h-full overflow-hidden block scale-img bg-grijs">
                                         <img class="w-full object-fill ease-in-out duration-500 h-full" src="<?php the_field('image', $post_id); ?>" alt="">
@@ -187,7 +187,7 @@ else : /* rendering in editor body */
                         <h2 class="text-26 leading-36 <?php the_field('text-color') ?> border-b-2 border-grijs pb-3 mb-3">Engineering Members</h2>
                         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-2 gap-y-6">
                         <?php while ( $loop->have_posts() ) : $loop->the_post(); $post_id = get_the_ID(); ?>       
-                            <div class="member col-span-1 h-auto">
+                            <div class="member col-span-1 h-auto aspect-square">
                                 <div class="relative h-full">
                                     <div class="rounded-3xl h-full overflow-hidden block scale-img bg-grijs">
                                         <img class="w-full object-fill ease-in-out duration-500 h-full" src="<?php the_field('image', $post_id); ?>" alt="">
