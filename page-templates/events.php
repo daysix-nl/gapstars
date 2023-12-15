@@ -147,17 +147,17 @@ get_header(''); ?>
             <div class="space-y-4">
 
             <?php
-            $args = array(
+            $argss = array(
                 'post_type' => 'ptevents',
-                'meta_key' => 'featured_event',  // Het ACF-veld waarop je wilt filteren
-                'meta_value' => 'no',          // De waarde waarmee je wilt vergelijken
-                'meta_compare' => '=',           // Vergelijkingsoperator (standaard is '=')
+                // 'meta_key' => 'featured_event',  // Het ACF-veld waarop je wilt filteren
+                // 'meta_value' => 'no',          // De waarde waarmee je wilt vergelijken
+                // 'meta_compare' => '=',           // Vergelijkingsoperator (standaard is '=')
                 'orderby' => 'date',             // Sorteer op datum
                 'order' => 'DESC',               // Sorteer aflopend
                 'posts_per_page' => -1,         // Toon alle bijpassende berichten
             );
 
-            $query = new WP_Query($args);
+            $query = new WP_Query($argss);
 
             if ($query->have_posts()) {
                 while ($query->have_posts()) {
@@ -195,8 +195,7 @@ get_header(''); ?>
                     </div>
                     <?php
 } 
-               
-
+            
                 wp_reset_postdata(); // Herstelt de oorspronkelijke querygegevens
             } else {
                 // Geen berichten gevonden
