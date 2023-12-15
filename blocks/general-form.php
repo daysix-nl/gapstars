@@ -21,13 +21,22 @@ else : /* rendering in editor body */
             </div>
             <?php if(get_field('title')): ?>
                 <div class="md:col-span-2">
-                    <div class="mb-3 rounded-3xl p-4 <?php the_field('background-color_inner'); ?> h-auto grid gap-3 md:pr-10 max-w-[350px]">
-                        <h3 class="text-30 md:text-40 leading-30 md:leading-40 <?php the_field('text-color_inner'); ?> font-medium"><?php the_field('title'); ?></h3>
-                        <div class="rounded-3xl relative overflow-hidden block scale-img">
+                    <div class="mb-3 rounded-3xl p-4 <?php the_field('background-color_inner'); ?> h-auto grid gap-3 ">
+                        <h3 class="text-30 md:text-40 leading-30 md:leading-40 <?php the_field('text-color_inner'); ?> font-medium md:pr-10 max-w-[350px]"><?php the_field('title'); ?></h3>
+                        <div class="rounded-3xl relative overflow-hidden block scale-img md:mr-10 max-w-[350px]">
                             <img class="w-full object-fill ease-in-out duration-500" src="<?php the_field('image'); ?>" alt="">
                         </div>
-                        <p class="<?php the_field('text-color_inner'); ?> text-16 leading-26">
+                        <p class="<?php the_field('text-color_inner'); ?> text-16 leading-26 md:mr-10 max-w-[350px]">
                             <?php the_field('text_card'); ?>
+                        </p>
+                        <div class="rounded-3xl relative overflow-hidden block scale-img md:mr-10 max-w-[350px]">
+                            <img class="w-full object-fill ease-in-out duration-500" src="https://gapstars.net/wp-content/uploads/2023/12/Contact_joran.png" alt="">
+                        </div>
+                        <p class="<?php the_field('text-color_inner'); ?> text-16 leading-26">
+                            Joran de Vries <br>
+                            Business Development Manager<br>
+                            joran@gapstars.net <br>
+                            +31 6 5085 8546
                         </p>
                     </div>
                 </div>
