@@ -163,8 +163,8 @@ get_header(''); ?>
                 while ($query->have_posts()) {
                     $query->the_post();  
                     $post_id = get_the_ID(); ?>
-                    <!-- EVENT ITEMS -->
-                    <div class="overflow-hidden  grid-cols-1 md:grid-cols-3 md:gap-3 bg-lightcreme rounded-3xl box-events ">
+                    <!-- EVENT ITEMS xx -->
+                    <div class="overflow-hidden  grid-cols-1 md:grid-cols-3 md:gap-3 bg-lightcreme rounded-3xl box-events grid">
                         <div class="col-span-1">
                             <img class="h-full w-full object-cover aspect-video" src="<?php the_post_thumbnail_url();?>" alt="">
                         </div>
