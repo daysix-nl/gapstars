@@ -149,9 +149,9 @@ get_header(''); ?>
             <?php
             $argss = array(
                 'post_type' => 'ptevents',
-                // 'meta_key' => 'featured_event',  // Het ACF-veld waarop je wilt filteren
-                // 'meta_value' => 'no',          // De waarde waarmee je wilt vergelijken
-                // 'meta_compare' => '=',           // Vergelijkingsoperator (standaard is '=')
+                'meta_key' => 'featured_event',  // Het ACF-veld waarop je wilt filteren
+                'meta_value' => 'no',          // De waarde waarmee je wilt vergelijken
+                'meta_compare' => '=',           // Vergelijkingsoperator (standaard is '=')
                 'orderby' => 'date',             // Sorteer op datum
                 'order' => 'DESC',               // Sorteer aflopend
                 'posts_per_page' => -1,         // Toon alle bijpassende berichten
@@ -164,7 +164,7 @@ get_header(''); ?>
                     $query->the_post();  
                     $post_id = get_the_ID(); ?>
                     <!-- EVENT ITEMS -->
-                    <div class="overflow-hidden  grid-cols-1 md:grid-cols-3 md:gap-3 bg-lightcreme rounded-3xl box-events hidden ">
+                    <div class="overflow-hidden  grid-cols-1 md:grid-cols-3 md:gap-3 bg-lightcreme rounded-3xl box-events ">
                         <div class="col-span-1">
                             <img class="h-full w-full object-cover aspect-video" src="<?php the_post_thumbnail_url();?>" alt="">
                         </div>
