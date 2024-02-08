@@ -220,13 +220,13 @@
        <div class="grid grid-cols-1 md:grid-cols-1 gap-3 pt-4 md:pt-6 max-w-[300px] mx-auto">
             <div class="col-span-1">
                 <div class="rounded-t-3xl bg-[#292929]">
-                    <img src="https://gapstars.net/wp-content/uploads/2023/02/stephanie_portugal.png" alt="Gapstars Portugal" class="rounded-t-3xl">
+                    <img src="https://gapstars.net/wp-content/uploads/2024/02/liliana.png" alt="Gapstars Portugal" class="rounded-t-3xl">
                 </div>
                 <div class="rounded-b-3xl bg-creme">
                     <div class="px-3 pt-2 pb-3">
-                        <h3 class="text-diepgrijs text-20 leading-35">Stefanie Driever</h3>
-                        <p class="text-diepgrijs text-16 leading-24">Country Lead - Portugal</p>
-                        <a href="mailto:stefanie@gapstars.net" class="text-oranje text-16 leading-24 hover:opacity-80 duration-300">stefanie@gapstars.net</a>
+                        <h3 class="text-diepgrijs text-20 leading-35">Liliana Pereira</h3>
+                        <p class="text-diepgrijs text-16 leading-24">HR & Office Manager - Portugal </p>
+                        <a href="mailto:liliana@gapstars.net" class="text-oranje text-16 leading-24 hover:opacity-80 duration-300">liliana@gapstars.net</a>
                     </div>
                 </div>
             </div>
