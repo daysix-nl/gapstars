@@ -16,11 +16,11 @@ else : /* rendering in editor body */
         $height = get_field( 'image_height' );
     ?>
 
-    <section class="<?php the_field('inner-margin'); ?> <?php the_field('background-color'); ?> <?php the_field('inner-padding'); ?>">
+    <section class="<?php echo get_field('inner-margin'); ?> <?php echo get_field('background-color'); ?> <?php echo get_field('inner-padding'); ?>">
         <div class="container image-full-container">
             <div class="relative">
                 <?php if(get_field('overlay')): ?>
-                    <div class=" img-overlay <?php the_field('background-color_inner'); ?> rounded-3xl z-[1] opacity-40"></div>
+                    <div class=" img-overlay <?php echo get_field('background-color_inner'); ?> rounded-3xl z-[1] opacity-40"></div>
                 <?php endif; ?>
                 <img
                     <?php if( $height == 'low' ): ?>
@@ -32,7 +32,7 @@ else : /* rendering in editor body */
                 >
                 <div class="absolute top-1/2 left-1/2 text-center center-text-transform w-full md:w-4/5 p-1 md:p-6 z-[2]">
                     <?php if(get_field('title')): ?>
-                        <h3 class="text-26 leading-36 md:text-40 md:leading-40 <?php the_field('text-color_inner'); ?> font-medium "><?php the_field('title');?></h3>
+                        <h3 class="text-26 leading-36 md:text-40 md:leading-40 <?php echo get_field('text-color_inner'); ?> font-medium "><?php echo get_field('title');?></h3>
                     <?php endif; ?>
                     <?php if(get_field('button')): ?>
                         <div class="text-center mt-4 flex justify-center">

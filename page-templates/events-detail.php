@@ -80,7 +80,7 @@ if( have_rows('icons-repeater') ):
         }
         ?>
             <div class="w-[46%] md:w-auto md:flex-grow rounded-[20px] flex-basis max-w-[236px] bg-lightcreme rounded-40 h-10 flex items-center justify-center ">
-                <img src="<?php the_field('icon')?>" alt="">
+                <img src="<?php echo get_field('icon')?>" alt="">
             </div>
         <?php
     

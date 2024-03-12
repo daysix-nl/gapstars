@@ -10,7 +10,7 @@ else : /* rendering in editor body */
     <section class="bg-[#F4F4F4]">
         <div class="container pb-6 pt-10 md:pt-12 ">
             <?php if(get_field('title')): ?>
-                    <h1 class="text-65 leading-65 md:text-75 md:leading-85 text-black"><?php the_field('title') ?></h1>
+                    <h1 class="text-65 leading-65 md:text-75 md:leading-85 text-black"><?php echo get_field('title') ?></h1>
             <?php endif; ?>
         </div>
         <?php
@@ -28,7 +28,7 @@ else : /* rendering in editor body */
                     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>         
                         <a class="sm:col-span-1" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
                             <img class="aspect-video  w-full object-cover rounded-3xl" 
-                            src="<?php (has_post_thumbnail()) ? the_post_thumbnail_URL() : the_field('default_image'); ?>" 
+                            src="<?php (has_post_thumbnail()) ? the_post_thumbnail_URL() : echo get_field('default_image'); ?>" 
                             alt="<?php the_title( ); ?>">
                             <h3 class="md:text-26 md:leading-36 leading-32 text-22 my-2 md:my-4 md:pr-2"><?php the_title( ); ?></h3>
                             <button class="text-oranje button-read-more text-16 leading-16" href="<?php the_permalink(); ?>">Read more</button>
@@ -55,7 +55,7 @@ else : /* rendering in editor body */
                     <?php while ( $post->have_posts() ) : $post->the_post(); ?>         
                         <a class="sm:col-span-3 md:col-span-2" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
                             <img class="aspect-video w-full object-cover rounded-3xl"                         
-                            src="<?php (has_post_thumbnail()) ? the_post_thumbnail_URL() : the_field('default_image'); ?>"  
+                            src="<?php (has_post_thumbnail()) ? the_post_thumbnail_URL() : echo get_field('default_image'); ?>"  
                             alt="<?php the_title( ); ?>">
                             <h3 class="text-26 leading-36 my-3 md:pr-1"><?php the_title( ); ?></h3>
                             <button class="text-oranje button-read-more text-16 leading-16" href="<?php the_permalink(); ?>">Read more</button>

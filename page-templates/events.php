@@ -44,15 +44,15 @@ get_header(''); ?>
                             <div class="col-span-1 md:py-4">
                                 <p class="font-medium text-18 leading-26 text-oranje" >Featured Event</p>
                                 <h2 class="text-diepgrijs text-40 leading-40 font-medium pt-1.5"><?php the_title();?></h2>
-                                <p class="w-full md:max-w-[400px] text-diepgrijs text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans pt-2 line-clamp-4"><?php the_field('teaser-text', $post_id);?></p>
-                                <p class="font-medium text-18 leading-26 text-oranje pt-2"><?php the_field('day', $post_id);?>, <?php the_field('day_number', $post_id);?> <?php the_field('month', $post_id);?> <?php the_field('year', $post_id);?></p>
+                                <p class="w-full md:max-w-[400px] text-diepgrijs text-18 leading-28 lg:text-24 lg:leading-34 font-dmsans pt-2 line-clamp-4"><?php echo get_field('teaser-text', $post_id);?></p>
+                                <p class="font-medium text-18 leading-26 text-oranje pt-2"><?php echo get_field('day', $post_id);?>, <?php echo get_field('day_number', $post_id);?> <?php echo get_field('month', $post_id);?> <?php echo get_field('year', $post_id);?></p>
                                 <div class="flex pt-2 gap-2 md:gap-3 flex-wrap">
                                     <a href="<?php the_permalink();?>" class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px] open-modal-apply">
                                         Read more
                                     </a>
                                     <a class="bg-[#FFFFFF] text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit"
                                         href="<?php the_permalink();?>/#scroll">
-                                        <?php the_field('call_to_action_button', $post_id);?>
+                                        <?php echo get_field('call_to_action_button', $post_id);?>
                                     </a>
                                 </div>
                             </div>
@@ -170,15 +170,15 @@ get_header(''); ?>
                         </div>
                         <div class="col-span-1 md:col-span-2 pt-2 pb-6 md:py-3 px-3 md:px-0">
                             <h3 class="mb-2 max-w-[300px] text-diepgrijs text-30 leading-30 font-medium line-clamp-2"><?php the_title();?></h3>
-                            <p class="mb-2 md:max-w-[340px] text-18 leading-28 text-diepgrijs line-clamp-3"><?php the_field('teaser-text', $post_id);?></p>
-                            <p class="text-14 leading-26 text-oranje font-medium"><?php the_field('day', $post_id);?>, <?php the_field('day_number', $post_id);?> <?php the_field('month', $post_id);?> <?php the_field('year', $post_id);?></p>
+                            <p class="mb-2 md:max-w-[340px] text-18 leading-28 text-diepgrijs line-clamp-3"><?php echo get_field('teaser-text', $post_id);?></p>
+                            <p class="text-14 leading-26 text-oranje font-medium"><?php echo get_field('day', $post_id);?>, <?php echo get_field('day_number', $post_id);?> <?php echo get_field('month', $post_id);?> <?php echo get_field('year', $post_id);?></p>
                             <div class="flex pt-2 gap-2 md:gap-3 flex-wrap">
                                 <a href="<?php the_permalink();?>" class="bg-black text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit h-[45px] open-modal-apply">
                                     Read more
                                 </a>
                                 <a class="bg-[#FFFFFF] text-16 leading-16 md:text-16 md:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out h-[45px] flex items-center w-fit"
                                     href="<?php the_permalink();?>/#scroll">
-                                    <?php the_field('call_to_action_button', $post_id);?>
+                                    <?php echo get_field('call_to_action_button', $post_id);?>
                                 </a>
                             </div>
                             <div class="pt-2 flex justify-start flex-wrap">
