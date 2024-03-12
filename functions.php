@@ -1147,6 +1147,7 @@ function add_custom_admin_bar_styles() {
             #rank_math_dashboard_widget { display: none !important; }
             #wp-admin-bar-gform-forms { display: none !important; }
             #toplevel_page_gf_edit_forms { display: none !important; }
+// 			.acf-admin-notice { display: none !important; }
             /* Voeg hier meer CSS-styling toe indien nodig */
         ";
 

@@ -20,13 +20,13 @@ else : /* rendering in editor body */
             <?php endif; ?>
             <div class="col-span-2">
                 <?php if(get_field('title')): ?>
-                    <h1 class="md:text-60 md:leading-65 leading-55 text-50 mb-2 md:mb-3 md:pr-2 text-black"><?php echo get_field('title'); ?></h1>
+                    <h1 class="md:text-60 md:leading-65 leading-55 text-50 mb-2 md:mb-3 md:pr-2 text-black"><?php echo the_field('title'); ?></h1>
                 <?php endif; ?>
                 <?php if(get_field('text')): ?>
-                    <p class="text-black text-22 leading-32 md:text-26 md:leading-36"><?php echo get_field('text'); ?></p>
+                    <p class="text-black text-22 leading-32 md:text-26 md:leading-36"><?php echo the_field('text'); ?></p>
                 <?php endif; ?>
                 <?php if(get_field('company_name') || get_field('company_url')): ?>
-                    <p class="text-black text-22 leading-32 md:text-26 md:leading-36 mt-2 md:mt-3">Explore more about <?php echo get_field('company_name'); ?> <button class="text-oranje button-pdf"><u>here</u></button>.</p>
+                    <p class="text-black text-22 leading-32 md:text-26 md:leading-36 mt-2 md:mt-3">Explore more about <?php echo the_field('company_name'); ?> <button class="text-oranje button-pdf"><u>here</u></button>.</p>
                 <?php endif; ?>
             </div>
     </div> 
@@ -46,11 +46,11 @@ else : /* rendering in editor body */
     <div class="hidden fixed modal-form">
             <div class=" bg-creme rounded-3xl h-fit  w-[90vw] sm:w-[75vw] md:w-[600px] p-4 mx-auto mt-6">
                 <div class="flex flex-row justify-between items-center mb-4">
-                    <h3 class="text-black text-26 leading-30 ">Explore more about <?php echo get_field('company_name'); ?></h3>
+                    <h3 class="text-black text-26 leading-30 ">Explore more about <?php echo the_field('company_name'); ?></h3>
                     <button class="close-pdf"><?php include('wp-content/themes/gapstars/img/icons/close-black.php'); ?></button>
                 </div>
                 <div class="w-full">
-                    <?php echo get_field('modal-form'); ?>
+					<?php echo get_field('modal-form');?>
                 </div>
             </div>
     </div>

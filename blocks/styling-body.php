@@ -6,7 +6,7 @@
     body, 
     .is-root-container.block-editor-block-list__layout {
         <?php if( get_field('background-image_block') ): ?> 
-            background-image: url(<?php echo get_field('background-image_block'); ?>);
+            background-image: url(<?php echo the_field('background-image_block'); ?>);
         <?php endif; ?>
 
         <?php if( $backgroud == 'cover' ): ?> 
@@ -19,7 +19,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
         <?php endif; ?>
-        background-color: <?php echo get_field('background-color_body') ?>;
+        background-color: <?php echo the_field('background-color_body') ?>;
     }
 </style> 
 

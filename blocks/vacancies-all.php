@@ -33,7 +33,7 @@ else : /* rendering in editor body */
     <section class="my-10 md:my-12 vacancies-all min-h-[80vh]">
         <?php if(get_field('title')): ?>
             <div class="container text-center">
-                <h2 class="text-40 leading-40 md:text-65 md:leading-70 pb-6 font-medium text-white"><?php echo get_field('title'); ?></h2>
+                <h2 class="text-40 leading-40 md:text-65 md:leading-70 pb-6 font-medium text-white"><?php echo the_field('title'); ?></h2>
             </div>
         <?php endif; ?>
         <div class="section-filter hidden">

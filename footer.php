@@ -10,16 +10,16 @@
     <section>
         <div class="container flex flex-col md:flex-row">
             <div class="w-full md:w-1/2 p-4 pt-6 bg-creme rounded-t-3xl md:rounded-tr-none  md:rounded-l-3xl">
-                <h3 class="text-black text-28 leading-38 font-medium "><?php echo get_field('title_block_footer', 'option'); ?></h3>
-                <p class="my-4 text-base pr-4 md:pr-8 text-18 leading-26 font-normal"><?php echo get_field('text_block_footer', 'option'); ?></p>
+                <h3 class="text-black text-28 leading-38 font-medium "><?php echo the_field('title_block_footer', 'option'); ?></h3>
+                <p class="my-4 text-base pr-4 md:pr-8 text-18 leading-26 font-normal"><?php echo the_field('text_block_footer', 'option'); ?></p>
                 <button
                     class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit button-modal h-[45px]"
                 >
-                    <?php echo get_field('text_modal', 'option'); ?>
+                    <?php echo the_field('text_modal', 'option'); ?>
                 </button>
             </div>
             <div class="w-full md:w-1/2  p-4 md:p-4 md:pt-6 bg-grijs rounded-b-3xl md:rounded-bl-none  md:rounded-r-3xl flex flex-col justify-between md:pr-8">
-                <h3 class="text-creme text-28 leading-38 mb-4 font-medium"><?php echo get_field('title_block_footer_right', 'option'); ?></h3>
+                <h3 class="text-creme text-28 leading-38 mb-4 font-medium"><?php echo the_field('title_block_footer_right', 'option'); ?></h3>
                 <?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
             </div>
         </div>
@@ -39,8 +39,8 @@
                     <?php if( have_rows('menu_1', 'option') ): ?>
                         <?php while( have_rows('menu_1', 'option') ): the_row(); ?>
                             <li>
-                                <a href="<?php echo get_sub_field('url', 'option'); ?>" id="<?php echo get_sub_field('button_id', 'option'); ?>">
-                                    <p class="text-white text-16"><?php echo get_sub_field('name', 'option'); ?></p>
+                                <a href="<?php echo the_sub_field('url', 'option'); ?>" id="<?php echo the_sub_field('button_id', 'option'); ?>">
+                                    <p class="text-white text-16"><?php echo the_sub_field('name', 'option'); ?></p>
                                 </a>
                             </li>
                         <?php endwhile; ?>
@@ -53,8 +53,8 @@
                     <?php if( have_rows('menu_2', 'option') ): ?>
                         <?php while( have_rows('menu_2', 'option') ): the_row(); ?>
                             <li>
-                                <a href="<?php echo get_sub_field('url', 'option'); ?>" id="<?php echo get_sub_field('button_id', 'option'); ?>">
-                                    <p class="text-white text-16"><?php echo get_sub_field('name', 'option'); ?></p>
+                                <a href="<?php echo the_sub_field('url', 'option'); ?>" id="<?php echo the_sub_field('button_id', 'option'); ?>">
+                                    <p class="text-white text-16"><?php echo the_sub_field('name', 'option'); ?></p>
                                 </a>
                             </li>
                         <?php endwhile; ?>
@@ -67,8 +67,8 @@
                     <?php if( have_rows('menu_3', 'option') ): ?>
                         <?php while( have_rows('menu_3', 'option') ): the_row(); ?>
                             <li>
-                                <a href="<?php echo get_sub_field('url', 'option'); ?>" id="<?php echo get_sub_field('button_id', 'option'); ?>">
-                                    <p class="text-white text-16"><?php echo get_sub_field('name', 'option'); ?></p>
+                                <a href="<?php echo the_sub_field('url', 'option'); ?>" id="<?php echo the_sub_field('button_id', 'option'); ?>">
+                                    <p class="text-white text-16"><?php echo the_sub_field('name', 'option'); ?></p>
                                 </a>
                             </li>
                         <?php endwhile; ?>
@@ -81,8 +81,8 @@
                     <?php if( have_rows('menu_4', 'option') ): ?>
                         <?php while( have_rows('menu_4', 'option') ): the_row(); ?>
                             <li>
-                                <a href="<?php echo get_sub_field('url', 'option'); ?>" id="<?php echo get_sub_field('button_id', 'option'); ?>">
-                                    <p class="text-white text-16"><?php echo get_sub_field('social', 'option'); ?></p>
+                                <a href="<?php echo the_sub_field('url', 'option'); ?>" id="<?php echo the_sub_field('button_id', 'option'); ?>">
+                                    <p class="text-white text-16"><?php echo the_sub_field('social', 'option'); ?></p>
                                 </a>
                             </li>
                         <?php endwhile; ?>
@@ -95,7 +95,7 @@
         <div class="container  gap-4 px-6 md:px-3">
             <div class="grid md:grid-cols-3 border-t-2 border-lichtgrijs py-4 md:py-3">
                 <div class="md:col-span-2">
-                    <p class="text-creme text-14 leading-28 font-medium">© <?php echo date("Y") ?> Gapstars B.V. - <br class="md:hidden"> All Rights Reserved - <a href="<?php echo get_field('url_footer', 'option'); ?>" id="<?php echo get_field('button_id_footer', 'option'); ?>">Privacy Policy</a></p>
+                    <p class="text-creme text-14 leading-28 font-medium">© <?php echo date("Y") ?> Gapstars B.V. - <br class="md:hidden"> All Rights Reserved - <a href="<?php echo the_field('url_footer', 'option'); ?>" id="<?php echo the_field('button_id_footer', 'option'); ?>">Privacy Policy</a></p>
                 </div>
                 <div class="md:col-span-1 flex md:justify-end mt-4 md:mt-0">
                     <p class="text-creme font-medium  text-14 leading-28">Site by <a href="https://mistermonki.nl">Mistermonki</a></p>

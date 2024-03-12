@@ -5,7 +5,7 @@
             <button class="close-modal"><?php include('wp-content/themes/gapstars/img/icons/close-black.php'); ?></button>
         </div>
         <div class="w-full">
-            <?php echo get_field('modal_form', 'option'); ?>
+            <?php echo the_field('modal_form', 'option'); ?>
         </div>
     </div>
 </div>

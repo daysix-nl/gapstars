@@ -21,8 +21,8 @@
                     <?php if( have_rows('menu_1', 'option') ): ?>
                         <?php while( have_rows('menu_1', 'option') ): the_row(); ?>
                             <li>
-                                <a href="<?php echo get_sub_field('url', 'option'); ?>" id="<?php echo get_sub_field('button_id', 'option'); ?>">
-                                    <p class="text-white text-16"><?php echo get_sub_field('name', 'option'); ?></p>
+                                <a href="<?php echo the_sub_field('url', 'option'); ?>" id="<?php echo the_sub_field('button_id', 'option'); ?>">
+                                    <p class="text-white text-16"><?php echo the_sub_field('name', 'option'); ?></p>
                                 </a>
                             </li>
                         <?php endwhile; ?>
@@ -35,8 +35,8 @@
                     <?php if( have_rows('menu_2', 'option') ): ?>
                         <?php while( have_rows('menu_2', 'option') ): the_row(); ?>
                             <li>
-                                <a href="<?php echo get_sub_field('url', 'option'); ?>" id="<?php echo get_sub_field('button_id', 'option'); ?>">
-                                    <p class="text-white text-16"><?php echo get_sub_field('name', 'option'); ?></p>
+                                <a href="<?php echo the_sub_field('url', 'option'); ?>" id="<?php echo the_sub_field('button_id', 'option'); ?>">
+                                    <p class="text-white text-16"><?php echo the_sub_field('name', 'option'); ?></p>
                                 </a>
                             </li>
                         <?php endwhile; ?>
@@ -49,8 +49,8 @@
                     <?php if( have_rows('menu_3', 'option') ): ?>
                         <?php while( have_rows('menu_3', 'option') ): the_row(); ?>
                             <li>
-                                <a href="<?php echo get_sub_field('url', 'option'); ?>" id="<?php echo get_sub_field('button_id', 'option'); ?>">
-                                    <p class="text-white text-16"><?php echo get_sub_field('name', 'option'); ?></p>
+                                <a href="<?php echo the_sub_field('url', 'option'); ?>" id="<?php echo the_sub_field('button_id', 'option'); ?>">
+                                    <p class="text-white text-16"><?php echo the_sub_field('name', 'option'); ?></p>
                                 </a>
                             </li>
                         <?php endwhile; ?>
@@ -63,8 +63,8 @@
                     <?php if( have_rows('menu_4', 'option') ): ?>
                         <?php while( have_rows('menu_4', 'option') ): the_row(); ?>
                             <li>
-                                <a href="<?php echo get_sub_field('url', 'option'); ?>" id="<?php echo get_sub_field('button_id', 'option'); ?>">
-                                    <p class="text-white text-16"><?php echo get_sub_field('social', 'option'); ?></p>
+                                <a href="<?php echo the_sub_field('url', 'option'); ?>" id="<?php echo the_sub_field('button_id', 'option'); ?>">
+                                    <p class="text-white text-16"><?php echo the_sub_field('social', 'option'); ?></p>
                                 </a>
                             </li>
                         <?php endwhile; ?>
@@ -77,7 +77,7 @@
         <div class="container  gap-4 px-6 md:px-3">
             <div class="grid md:grid-cols-3 border-t-2 border-lichtgrijs py-4 md:py-3">
                 <div class="md:col-span-2">
-                    <p class="text-creme text-14 leading-28 font-medium">© <?php echo date("Y") ?> Gapstars B.V. - <br class="md:hidden"> All Rights Reserved - <a href="<?php echo get_field('url_footer', 'option'); ?>" id="<?php echo get_field('button_id_footer', 'option'); ?>">Privacy Policy</a></p>
+                    <p class="text-creme text-14 leading-28 font-medium">© <?php echo date("Y") ?> Gapstars B.V. - <br class="md:hidden"> All Rights Reserved - <a href="<?php echo the_field('url_footer', 'option'); ?>" id="<?php echo the_field('button_id_footer', 'option'); ?>">Privacy Policy</a></p>
                 </div>
                 <div class="md:col-span-1 flex md:justify-end mt-4 md:mt-0">
                     <p class="text-creme font-medium  text-14 leading-28">Site by <a href="https://mistermonki.nl">Mistermonki</a></p>

@@ -10,14 +10,14 @@ else : /* rendering in editor body */
     <?php
         $image = get_field('image'); 
     ?>
-    <section class="<?php echo get_field('inner-margin'); ?> <?php echo get_field('background-color'); ?> <?php echo get_field('inner-padding'); ?>">
+    <section class="<?php echo the_field('inner-margin'); ?> <?php echo the_field('background-color'); ?> <?php echo the_field('inner-padding'); ?>">
         <?php if(get_field('title')): ?>
-            <div class="container <?php echo get_field('align_title'); ?>">
-                <h2 class="text-40 leading-40 lg:text-65 lg:leading-65 font-medium <?php echo get_field('text-color') ?> "><?php echo get_field('title'); ?></h2>
+            <div class="container <?php echo the_field('align_title'); ?>">
+                <h2 class="text-40 leading-40 lg:text-65 lg:leading-65 font-medium <?php echo the_field('text-color') ?> "><?php echo the_field('title'); ?></h2>
             </div>
         <?php endif; ?>
         <div class="container">
-            <div class="grid lg:grid-cols-10  gap-2 lg:gap-5 <?php echo get_field('background-color_inner'); ?> px-3 py-4 lg:px-6 lg:my-7 rounded-3xl">
+            <div class="grid lg:grid-cols-10  gap-2 lg:gap-5 <?php echo the_field('background-color_inner'); ?> px-3 py-4 lg:px-6 lg:my-7 rounded-3xl">
 
                 <?php if(get_field('title_align') == 'medium'): ?>
                     <?php if(get_field('image_align') == 'left'): ?>
@@ -28,11 +28,11 @@ else : /* rendering in editor body */
                 <?php endif; ?>
                         <h3 
                         <?php if(get_field('title_align') == 'medium'): ?>
-                            class="<?php echo (get_field('font-size')) ? "text-35 leading-40 lg:text-60 lg:leading-65 font-medium" : "text-32 leading-42 lg:text-40 lg:leading-50 font-medium"; ?> pb-2 <?php echo get_field('text-color_inner'); ?>"
+                            class="<?php echo (get_field('font-size')) ? "text-35 leading-40 lg:text-60 lg:leading-65 font-medium" : "text-32 leading-42 lg:text-40 lg:leading-50 font-medium"; ?> pb-2 <?php echo the_field('text-color_inner'); ?>"
                         <?php elseif(get_field('title_align') == 'large'): ?>
-                            class="<?php echo (get_field('font-size')) ? "text-35 leading-40 lg:text-60 lg:leading-65 font-medium" : "text-32 leading-42 lg:text-40 lg:leading-50 font-medium"; ?> pb-2  <?php echo get_field('text-color_inner'); ?> col-span-10"
+                            class="<?php echo (get_field('font-size')) ? "text-35 leading-40 lg:text-60 lg:leading-65 font-medium" : "text-32 leading-42 lg:text-40 lg:leading-50 font-medium"; ?> pb-2  <?php echo the_field('text-color_inner'); ?> col-span-10"
                         <?php endif; ?>
-                        ><?php echo get_field('subtitle'); ?></h3>
+                        ><?php echo the_field('subtitle'); ?></h3>
 
                         <div
                             <?php if(get_field('title_align') == 'medium'): ?>
@@ -46,9 +46,9 @@ else : /* rendering in editor body */
                             <?php endif; ?>
                         >
                             <p 
-                                class="<?php echo (get_field('font-size')) ? "text-22 leading-32 lg:text-26 lg:leading-36" : "text-18 leading-24 lg:text-22 lg:leading-32"; ?> <?php echo get_field('text-color_inner'); ?>"
+                                class="<?php echo (get_field('font-size')) ? "text-22 leading-32 lg:text-26 lg:leading-36" : "text-18 leading-24 lg:text-22 lg:leading-32"; ?> <?php echo the_field('text-color_inner'); ?>"
                             >           
-                                <?php echo get_field('text'); ?>
+                                <?php echo the_field('text'); ?>
                             </p>
                             <div class="pt-4">
                                 <?php include get_template_directory() . '/componenten/button.php'; ?>
