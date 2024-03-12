@@ -15,10 +15,7 @@
     display: none !important;
   }
 
-  #recruitee-careers
-    .rt-body
-    .rt-list__items
-    .rt-list__offer-item:nth-of-type(n + 5) {
+  #recruitee-careers .rt-body .rt-list__items .rt-list__offer-item:nth-of-type(n + 5) {
     display: none !important;
   }
 }
@@ -82,6 +79,8 @@
               padding-top: 0px !important;
               position: absolute;
               bottom: 13px;
+              width: 100% !important;
+              left: 15px !important;
             }
           }
 
@@ -250,6 +249,9 @@
               padding-top: 0px !important;
               position: absolute;
               bottom: 13px;
+              width: 100% !important;
+              padding-left: 15px !important;
+
             }
           }
 
@@ -357,6 +359,7 @@
     }
 
     @media (min-width: 576px) {
+
       .dropdown-careers,
       .dropdown-careers-1 {
         position: relative;
@@ -367,6 +370,7 @@
     }
 
     @media (min-width: 779px) {
+
       .dropdown-careers,
       .dropdown-careers-1 {
         position: relative;
@@ -376,6 +380,7 @@
     }
 
     @media (min-width: 768px) {
+
       .dropdown-careers,
       .dropdown-careers-1 {
         position: relative;
@@ -391,6 +396,7 @@
     }
 
     @media (min-width: 768px) {
+
       .dropdown-careers,
       .dropdown-careers-1 {
         min-width: 220px;
@@ -543,9 +549,7 @@
   font-family: DM Sans, sans-serif !important;
 }
 
-#recruitee-careers-details-container
-  .rt-details__header
-  .rt-details__header-title.rt__text--dark {
+#recruitee-careers-details-container .rt-details__header .rt-details__header-title.rt__text--dark {
   color: #ed7a00 !important;
   margin: 0px;
   font-weight: 700 !important;
@@ -632,6 +636,7 @@
 }
 
 @media screen and (max-width: 600px) {
+
   #recruitee-careers-details-container .rt-details__close,
   #recruitee-careers .rt-details__close {
     border: 1px solid transparent !important;
@@ -673,9 +678,7 @@
   width: unset !important;
 }
 
-#recruitee-careers-details-container
-  .rt-theme-light.rt-details__outer--popup
-  .rt-details__inner,
+#recruitee-careers-details-container .rt-theme-light.rt-details__outer--popup .rt-details__inner,
 #recruitee-careers .rt-theme-light.rt-details__outer--popup .rt-details__inner {
   background: #f1efec !important;
   border: none;
@@ -722,9 +725,7 @@
   padding: 15px 32px !important;
 }
 
-#recruitee-careers-details-container
-  .rt-theme-light.rt-details__outer--popup
-  .rt-details__close,
+#recruitee-careers-details-container .rt-theme-light.rt-details__outer--popup .rt-details__close,
 #recruitee-careers .rt-theme-light.rt-details__outer--popup .rt-details__close {
   color: #fff !important;
   font-family: DM Sans, sans-serif !important;
@@ -775,51 +776,18 @@
   font-family: DM Sans, sans-serif !important;
 }
 
-#recruitee-careers-details-container
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="email"],
-#recruitee-careers-details-container
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="number"],
-#recruitee-careers-details-container
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="password"],
-#recruitee-careers-details-container
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="tel"],
-#recruitee-careers-details-container
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="text"],
-#recruitee-careers-details-container
-  .rt-theme-light
-  .rt-details__content--form
-  select,
-#recruitee-careers-details-container
-  .rt-theme-light
-  .rt-details__content--form
-  textarea,
-#recruitee-careers
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="email"],
-#recruitee-careers
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="number"],
-#recruitee-careers
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="password"],
+#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="email"],
+#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="number"],
+#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="password"],
+#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="tel"],
+#recruitee-careers-details-container .rt-theme-light .rt-details__content--form input[type="text"],
+#recruitee-careers-details-container .rt-theme-light .rt-details__content--form select,
+#recruitee-careers-details-container .rt-theme-light .rt-details__content--form textarea,
+#recruitee-careers .rt-theme-light .rt-details__content--form input[type="email"],
+#recruitee-careers .rt-theme-light .rt-details__content--form input[type="number"],
+#recruitee-careers .rt-theme-light .rt-details__content--form input[type="password"],
 #recruitee-careers .rt-theme-light .rt-details__content--form input[type="tel"],
-#recruitee-careers
-  .rt-theme-light
-  .rt-details__content--form
-  input[type="text"],
+#recruitee-careers .rt-theme-light .rt-details__content--form input[type="text"],
 #recruitee-careers .rt-theme-light .rt-details__content--form select,
 #recruitee-careers .rt-theme-light .rt-details__content--form textarea {
   background: #f1efec !important;
@@ -827,21 +795,11 @@
   border-radius: 20px !important;
 }
 
-#recruitee-careers-details-container
-  .rt-details__content--form
-  input[type="email"],
-#recruitee-careers-details-container
-  .rt-details__content--form
-  input[type="number"],
-#recruitee-careers-details-container
-  .rt-details__content--form
-  input[type="password"],
-#recruitee-careers-details-container
-  .rt-details__content--form
-  input[type="tel"],
-#recruitee-careers-details-container
-  .rt-details__content--form
-  input[type="text"],
+#recruitee-careers-details-container .rt-details__content--form input[type="email"],
+#recruitee-careers-details-container .rt-details__content--form input[type="number"],
+#recruitee-careers-details-container .rt-details__content--form input[type="password"],
+#recruitee-careers-details-container .rt-details__content--form input[type="tel"],
+#recruitee-careers-details-container .rt-details__content--form input[type="text"],
 #recruitee-careers-details-container .rt-details__content--form select,
 #recruitee-careers-details-container .rt-details__content--form textarea {
   width: 100% !important;
@@ -885,7 +843,9 @@
 .slider {
   transition: 0.5s;
 }
+
 .slider-video-container {
+
   .swiper-button-next,
   .swiper-button-prev {
     top: unset;
@@ -909,6 +869,7 @@
       @media (min-width: 768px) {
         content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.405" height="25.982" viewBox="0 0 14.405 25.982"><defs><clipPath id="clip-path"><path id="Clip_2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path></clipPath></defs><g id="Group_3" data-name="Group 3" transform="translate(0 0)"><path id="Clip_2-2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none" ></path><g id="Group_3-2" data-name="Group 3" clip-path="url(%23clip-path)"><path id="Fill_1" data-name="Fill 1" d="M1,25.982a1,1,0,0,1-.707-1.707L11.577,12.991.293,1.707A1,1,0,0,1,1.707.293l12.7,12.7-12.7,12.7A1,1,0,0,1,1,25.982" transform="translate(0 0)" fill="%23fff" style=" fill: black;"></path></g></g></svg>');
       }
+
       content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.405" height="25.982" viewBox="0 0 14.405 25.982"><defs><clipPath id="clip-path"><path id="Clip_2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path></clipPath></defs><g id="Group_3" data-name="Group 3" transform="translate(0 0)"><path id="Clip_2-2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none" ></path><g id="Group_3-2" data-name="Group 3" clip-path="url(%23clip-path)"><path id="Fill_1" data-name="Fill 1" d="M1,25.982a1,1,0,0,1-.707-1.707L11.577,12.991.293,1.707A1,1,0,0,1,1.707.293l12.7,12.7-12.7,12.7A1,1,0,0,1,1,25.982" transform="translate(0 0)" fill="%23fff" style=" fill: white;"></path></g></g></svg>');
     }
   }
@@ -925,9 +886,11 @@
     &::after {
       transform: rotate(180deg);
       height: 58px;
+
       @media (min-width: 768px) {
         content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.405" height="25.982" viewBox="0 0 14.405 25.982"><defs><clipPath id="clip-path"><path id="Clip_2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path></clipPath></defs><g id="Group_3" data-name="Group 3" transform="translate(0 0)"><path id="Clip_2-2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path><g id="Group_3-2" data-name="Group 3" clip-path="url(%23clip-path)"><path id="Fill_1" data-name="Fill 1" d="M1,25.982a1,1,0,0,1-.707-1.707L11.577,12.991.293,1.707A1,1,0,0,1,1.707.293l12.7,12.7-12.7,12.7A1,1,0,0,1,1,25.982" transform="translate(0 0)" fill="black"></path></g></g></svg>');
       }
+
       content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.405" height="25.982" viewBox="0 0 14.405 25.982"><defs><clipPath id="clip-path"><path id="Clip_2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path></clipPath></defs><g id="Group_3" data-name="Group 3" transform="translate(0 0)"><path id="Clip_2-2" data-name="Clip 2" d="M0,0H14.4V25.982H0Z" transform="translate(0 0)" fill="none"></path><g id="Group_3-2" data-name="Group 3" clip-path="url(%23clip-path)"><path id="Fill_1" data-name="Fill 1" d="M1,25.982a1,1,0,0,1-.707-1.707L11.577,12.991.293,1.707A1,1,0,0,1,1.707.293l12.7,12.7-12.7,12.7A1,1,0,0,1,1,25.982" transform="translate(0 0)" fill="white"></path></g></g></svg>');
     }
   }
