@@ -13,10 +13,10 @@ else : /* rendering in editor body */
             <div class="gradient-orange p-3 sm:p-6 rounded-3xl">
                 <div class=" text-center">
                     <?php if(get_field('title')): ?>
-                        <h2 class="text-28 leading-38 md:text-65 md:leading-65 pb-3 font-medium text-white"><?php echo the_field('title'); ?></h2>
+                        <h2 class="text-28 leading-38 md:text-65 md:leading-65 pb-3 font-medium text-white"><?php echo get_field('title'); ?></h2>
                     <?php endif; ?>
                     <?php if(get_field('subtitle')): ?>
-                        <h3 class="text-20 leading-20 text-white"><?php echo the_field('subtitle'); ?></h3>
+                        <h3 class="text-20 leading-20 text-white"><?php echo get_field('subtitle'); ?></h3>
                     <?php endif; ?>
                 </div>
                 <?php if( have_rows('icon_repeater') ): ?>

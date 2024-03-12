@@ -8,10 +8,10 @@ echo '<img src="'. $block['data']['preview_image_help'] .'" style="width:100%; h
 else : /* rendering in editor body */
 
 ?>
-  <section class="<?php echo the_field('inner-margin'); ?> <?php echo the_field('background-color'); ?> <?php echo the_field('inner-padding'); ?> vacancies-featured">
+  <section class="<?php echo get_field('inner-margin'); ?> <?php echo get_field('background-color'); ?> <?php echo get_field('inner-padding'); ?> vacancies-featured">
       <?php if(get_field('title')): ?>
           <div class="container text-center">
-              <h2 class="text-40 leading-40 md:text-65 md:leading-70 pb-6 font-medium <?php echo the_field('text-color') ?>"><?php echo the_field('title'); ?></h2>
+              <h2 class="text-40 leading-40 md:text-65 md:leading-70 pb-6 font-medium <?php echo get_field('text-color') ?>"><?php echo get_field('title'); ?></h2>
           </div>
       <?php endif; ?>
           <div class="container">

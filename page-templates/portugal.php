@@ -29,7 +29,7 @@
             <p class="text-white text-22 leading-30 md:text-26 md:leading-36 font-light lg:w-[80%] pr-4 mt-3">Welcome to Gapstars Portugal.</p>
             <menu class="flex pt-4 gap-2 md:gap-3 flex-wrap">
                 <button class="bg-oranje text-white text-16 leading-16 lg:text-16 lg:leading-26  font-dmsans font-light p-button rounded-full transition ease-in duration-300 hover:ease-out flex items-center w-fit button-modal h-[45px]">
-                    <?php echo the_field('text_modal', 'option'); ?>
+                    <?php echo get_field('text_modal', 'option'); ?>
                 </button>
                 <?php include get_template_directory() . '/componenten/second_buttonOption.php'; ?>
             </menu>
@@ -279,7 +279,7 @@
                 <img src="https://gapstars.net/wp-content/uploads/2023/02/footer_portugal.jpg" alt="Gapstars Portugal" class="object-cover h-[300px] md:h-full w-full rounded-t-3xl md:rounded-tr-none  md:rounded-l-3xl">
             </div>
             <div class="w-full md:w-1/2  p-4 md:p-4 md:pt-6 bg-grijs rounded-b-3xl md:rounded-bl-none  md:rounded-r-3xl flex flex-col justify-between md:pr-8">
-                <h3 class="text-creme text-28 leading-38 mb-4 font-medium"><?php echo the_field('title_block_footer_right', 'option'); ?></h3>
+                <h3 class="text-creme text-28 leading-38 mb-4 font-medium"><?php echo get_field('title_block_footer_right', 'option'); ?></h3>
                 <?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
             </div>
         </div>
@@ -351,7 +351,7 @@
         <div class="container  gap-4 px-6 md:px-3">
             <div class="grid md:grid-cols-3 border-t-2 border-lichtgrijs py-4 md:py-3">
                 <div class="md:col-span-2">
-                    <p class="text-creme text-14 leading-28 font-medium">© <?php echo date("Y") ?> Gapstars B.V. - <br class="md:hidden"> All Rights Reserved - <a href="<?php echo the_field('url_footer', 'option'); ?>" id="<?php echo the_field('button_id_footer', 'option'); ?>">Privacy Policy</a></p>
+                    <p class="text-creme text-14 leading-28 font-medium">© <?php echo date("Y") ?> Gapstars B.V. - <br class="md:hidden"> All Rights Reserved - <a href="<?php echo get_field('url_footer', 'option'); ?>" id="<?php echo get_field('button_id_footer', 'option'); ?>">Privacy Policy</a></p>
                 </div>
                 <div class="md:col-span-1 flex md:justify-end mt-4 md:mt-0">
                     <p class="text-creme font-medium  text-14 leading-28">Site by <a href="https://mistermonki.nl">Mistermonki</a></p>

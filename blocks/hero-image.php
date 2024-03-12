@@ -7,9 +7,9 @@ echo '<img src="'. $block['data']['preview_image_help'] .'" style="width:100%; h
 else : /* rendering in editor body */
 
 ?>
-    <section class="h-[60vh] background-image-contact" style="background-image: url('<?php echo the_field('image'); ?>');">
+    <section class="h-[60vh] background-image-contact" style="background-image: url('<?php echo get_field('image'); ?>');">
         <div class="container h-full flex flex-col justify-center">
-            <h1 class="text-65 leading-65 md:text-75 md:leading-85 <?php echo the_field('text-color'); ?>"><?php echo the_field('text'); ?></h1>
+            <h1 class="text-65 leading-65 md:text-75 md:leading-85 <?php echo get_field('text-color'); ?>"><?php echo get_field('text'); ?></h1>
         </div>
     </section>
 <?php endif; ?>

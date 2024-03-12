@@ -10,7 +10,7 @@ else : /* rendering in editor body */
     <section class="bg-[#F4F4F4]">
         <div class="container pb-6 pt-10 md:pt-12 ">
             <?php if(get_field('title')): ?>
-                    <h1 class="text-65 leading-65 md:text-75 md:leading-85 text-black"><?php echo the_field('title') ?></h1>
+                    <h1 class="text-65 leading-65 md:text-75 md:leading-85 text-black"><?php echo get_field('title') ?></h1>
             <?php endif; ?>
         </div>
         <?php

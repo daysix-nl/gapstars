@@ -7,11 +7,11 @@ echo '<img src="'. $block['data']['preview_image_help'] .'" style="width:100%; h
 else : /* rendering in editor body */
 
 ?>
-    <section class="<?php echo the_field('inner-margin'); ?> <?php echo the_field('background-color'); ?> <?php echo the_field('inner-padding'); ?> relative">
+    <section class="<?php echo get_field('inner-margin'); ?> <?php echo get_field('background-color'); ?> <?php echo get_field('inner-padding'); ?> relative">
         <?php if(get_field('title')): ?>
             <div class="container">
-                <h2 class="<?php echo the_field('text-color') ?> text-40 leading-40 md:text-65 md:leading-70 text-center font-medium pb-6">
-                    <?php echo the_field('title'); ?>
+                <h2 class="<?php echo get_field('text-color') ?> text-40 leading-40 md:text-65 md:leading-70 text-center font-medium pb-6">
+                    <?php echo get_field('title'); ?>
                 </h2>
             </div>
         <?php endif; ?>

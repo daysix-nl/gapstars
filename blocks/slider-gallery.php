@@ -13,21 +13,21 @@ else : /* rendering in editor body */
             top: unset !important;
             left: 50% !important;
             transform: translate(-50%, -50%);
-            background-color: <?php echo the_field('default_scrollbar'); ?> !important;
+            background-color: <?php echo get_field('default_scrollbar'); ?> !important;
         }
 
         .swiper-pagination-bar-gallery span {
-            background-color:  <?php echo the_field('active_scrollbar'); ?> !important;
+            background-color:  <?php echo get_field('active_scrollbar'); ?> !important;
         }
     </style>
 
-    <section class="<?php echo the_field('inner-margin'); ?> <?php echo the_field('background-color'); ?> <?php echo the_field('inner-padding'); ?> overflow-hidden">
+    <section class="<?php echo get_field('inner-margin'); ?> <?php echo get_field('background-color'); ?> <?php echo get_field('inner-padding'); ?> overflow-hidden">
         <div class="container mb-6 ">
             <?php if(get_field('title')): ?>
-                <h2 class="<?php echo the_field('text-color') ?>  text-50 leading-50 md:text-65 md:leading-70 font-medium  mx-auto <?php echo the_field('align_title'); ?> mb-5"><?php echo the_field('title');?></h2>
+                <h2 class="<?php echo get_field('text-color') ?>  text-50 leading-50 md:text-65 md:leading-70 font-medium  mx-auto <?php echo get_field('align_title'); ?> mb-5"><?php echo get_field('title');?></h2>
             <?php endif; ?>
             <?php if(get_field('subtitle')): ?>
-                <h3 class="text-22 md:text-26 leading-30 md:leading-36 <?php echo the_field('text-color'); ?> <?php echo the_field('align_title'); ?>"><?php echo the_field('subtitle'); ?></h3>
+                <h3 class="text-22 md:text-26 leading-30 md:leading-36 <?php echo get_field('text-color'); ?> <?php echo get_field('align_title'); ?>"><?php echo get_field('subtitle'); ?></h3>
             <?php endif; ?>
         </div>
         <div class="swiper-overflow-container">

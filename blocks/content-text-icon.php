@@ -24,16 +24,16 @@ else : /* rendering in editor body */
 </style>
 
 <?php $icon = get_field('icon'); ?>
-    <section class="<?php echo the_field('inner-margin'); ?> <?php echo the_field('background-color'); ?> <?php echo the_field('inner-padding'); ?> text-icon-block">
+    <section class="<?php echo get_field('inner-margin'); ?> <?php echo get_field('background-color'); ?> <?php echo get_field('inner-padding'); ?> text-icon-block">
         <div class="container md:grid md:grid-cols-4 gap-2">
                 <?php if(get_field('title')): ?>
                     <div class="md:col-span-3 mb-5">
-                        <h2 class="font-medium text-60 md:text-65 leading-55 md:leading-60 <?php echo the_field('text-color'); ?>"><?php echo the_field('title'); ?></h2>
+                        <h2 class="font-medium text-60 md:text-65 leading-55 md:leading-60 <?php echo get_field('text-color'); ?>"><?php echo get_field('title'); ?></h2>
                     </div>
                 <?php endif; ?>
                 <?php if(get_field('text')): ?>
                     <div class="md:col-span-3">
-                        <p class="font-normal text-22 md:text-26 leading-30 md:leading-36 <?php echo the_field('text-color'); ?>"><?php echo the_field('text'); ?></p>
+                        <p class="font-normal text-22 md:text-26 leading-30 md:leading-36 <?php echo get_field('text-color'); ?>"><?php echo get_field('text'); ?></p>
                     </div>
                 <?php endif; ?>
                 <?php if(get_field('icon')): ?>
