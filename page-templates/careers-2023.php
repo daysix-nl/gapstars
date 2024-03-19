@@ -259,7 +259,7 @@ get_header(); ?>
                     <div class="swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
                         <video muted preload="metadata" id="side-video-2" class=" aspect-video" width="100%" height="100%">
-                            <source src="https://gapstars.net/wp-content/uploads/2023/10/y2mate.com-Gapstars-Beach-Clean-Up-2023_720p.mp4#t=0.909" type="video/mp4">
+                            <source src="https://gapstars.net/videos/Womensday2024.mp4#t=0.909" type="video/mp4">
                             </video>
                             <div id="orange-divv-2" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
                             <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -271,19 +271,19 @@ get_header(); ?>
                             </svg>
                             </div>
                             <div id="orange-div-2" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Gapstars Beach<br> Cleanup 2023</p>
+                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Womens Day 2024</p>
                             </div>
                         </div>
-                        <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars Beach <br>Cleanup 2023</p>
+                        <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Womens Day 2024</p>
                     </div>
                     <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
                             <video muted preload="metadata" id="side-video-3" class=" aspect-video" width="100%" height="100%">
-                                <source src="https://gapstars.net/videos/gapstars_scale-up_2023.mp4#t=0.001" type="video/mp4">
+                                <source src="https://gapstars.net/videos/scaleup24.mp4#t=0.001" type="video/mp4">
                             </video>
                             
                             <div id="orange-div-3" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Gapstars Scale-up 2023</p>
+                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Gapstars Scale-up 2024</p>
                             </div>
                             <div id="orange-divv-3" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
                                 <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -295,18 +295,43 @@ get_header(); ?>
                                 </svg>
                             </div>
                         </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars Scale-up 2023</p>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Gapstars Scale-up 2024</p>
                     </div>
+
+
+                    <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
+                        <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
+                            <video muted preload="metadata" id="side-video-3" class=" aspect-video" width="100%" height="100%">
+                                <source src="https://gapstars.net/videos/tuktuk24.mp4#t=0.909" type="video/mp4">
+                            </video>
+                            
+                            <div id="orange-div-4" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Tuk Tuk <br>tournament 2023</p>
+                            </div>
+                            <div id="orange-divv-4" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
+                                <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
+                                            <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Tuk Tuk <br>tournament 2023</p>
+                    </div>
+
+
                     <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
                         <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
                             <video muted preload="metadata" id="side-video-3" class=" aspect-video" width="100%" height="100%">
                                 <source src="https://gapstars.net/wp-content/uploads/2023/10/Celebrating-our-female-champions.mp4#t=0.001" type="video/mp4">
                             </video>
                             
-                            <div id="orange-div-4" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
+                            <div id="orange-div-5" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
                                 <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Women's Day 2023</p>
                             </div>
-                            <div id="orange-divv-4" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
+                            <div id="orange-divv-5" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
                                 <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                         <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
@@ -322,27 +347,7 @@ get_header(); ?>
 
               
 
-                     <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
-                        <div class="h-auto aspect-video w-full z-[2] sideVideo mt-[-1px] bg-diepgrijs md:mt-0 flex justify-center items-center  md:rounded-3xl overflow-hidden relative">
-                            <video muted preload="metadata" id="side-video-3" class=" aspect-video" width="100%" height="100%">
-                                <source src="https://gapstars.net/wp-content/uploads/2023/10/TukTuk-Tournament-2022.mp4#t=0.001" type="video/mp4">
-                            </video>
-                            
-                            <div id="orange-div-5" class="bg-oranje/80 z-[1] py-1 h-[70px] hidden md:flex ease-in-out duration-300 absolute bottom-0 right-0 left-0 w-full">
-                                <p class="text-white text-center text-16 leading-22 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto">Tuk Tuk <br>tournament 2022</p>
-                            </div>
-                            <div id="orange-divv-5" class="playbutton pointer-events-none absolute left-0 right-0 flex justify-center opacity-100 pb-[5px]">
-                                <svg width="30.1639344px" height="30.1639344px" viewBox="0 0 30.1639344 30.1639344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g id="Gapstars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g id="Gapstars-2023---Careers-New-001" transform="translate(-1072, -4715)" fill="#FFFFFF">
-                                            <polygon id="Triangle" transform="translate(1087.082, 4730.082) rotate(90) translate(-1087.082, -4730.082)" points="1087.08197 4715 1102.16393 4745.16393 1072 4745.16393"></polygon>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                    <p class="text-white text-center text-14 leading-18 lg:text-16 lg:leading-22 font-dmsans font-bold my-auto mx-auto md:hidden mt-1 min-h-[36px] flex items-center">Tuk Tuk <br>tournament 2022</p>
-                    </div>
+              
 
                     
                      <div class=" swiper-slide bg-oranje md:bg-diepgrijs flex flex-col border-xl overflow-hidden rounded-xl pb-1 md:pb-1">
@@ -599,3 +604,4 @@ get_header(); ?>
     }, 2000)
 </script>
 <?php get_footer('blacksoft'); ?>
+
