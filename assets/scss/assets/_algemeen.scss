@@ -12,3 +12,6 @@ html {
   src: url(/wp-content/themes/gapstars/font/quint-bold.woff);
 }
 
+.rt-form.rt-form--success .rt-details__footer {
+  display: none !important;
+}
