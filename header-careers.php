@@ -30,6 +30,12 @@
     <meta name="google-site-verification" content="E9FPeEwngtUcd0f-LDozUoKt4OmlTouNF3JXsK8Iu18" />
 </head>
 
+<style>
+    .rt-form--success .rt-details__footer {
+  display: none !important;
+}
+</style>
+
 <body <?php body_class( 'class-name' ); ?>>
 <div class="body">
     <style>
