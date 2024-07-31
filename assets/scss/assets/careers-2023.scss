@@ -79,8 +79,11 @@
               padding-top: 0px !important;
               position: absolute;
               bottom: 13px;
-              width: 280 !important;
-              padding-left: 0px !important;
+              width: 200px !important;
+              padding-left: 15px !important;
+              padding-left: 15px !important;
+              padding-bottom: 15px !important;
+              line-height: 18px !important;
             }
           }
 
@@ -242,6 +245,8 @@
             position: absolute;
             bottom: 13px;
 
+
+
             &:nth-last-of-type(1) {
               align-items: center;
               color: #e87a2e !important;
@@ -250,6 +255,13 @@
               position: absolute;
               bottom: 13px;
             }
+          }
+
+          .rt__text--base {
+            width: 200px !important;
+            padding-left: 15px !important;
+            padding-bottom: 15px !important;
+            line-height: 18px !important;
           }
 
           .rt-icon.rt-icon-arrow-forward {
