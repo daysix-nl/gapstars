@@ -55,8 +55,6 @@
             padding-top: 0px !important;
             position: absolute;
             bottom: 13px;
-            width: 280px !important;
-            padding-left: 15px !important;
           }
         }
 
@@ -549,4 +547,10 @@
 
 .rt-form__group .rt__text--dark {
   color: #2b0464 !important;
+}
+
+
+
+.rt-form.rt-form--success .rt-details__footer {
+  display: none !important;
 }

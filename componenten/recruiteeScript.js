@@ -155,7 +155,7 @@ const filterSearch = (skillValue = "", landValue = "") => {
       profile.style.display = "flex";
     } else if (
       name.textContent.toUpperCase().indexOf("/" + skillValue.toUpperCase()) >
-        -1 &&
+      -1 &&
       nameLocal.textContent.toUpperCase().indexOf(landValue.toUpperCase()) > -1
     ) {
       profile.style.display = "flex";

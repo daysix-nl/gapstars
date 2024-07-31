@@ -31,8 +31,10 @@ foreach($offers['offers'] as $offer){
        //build location array for countries
        $landlist[]=$location[1];
        //build tags array
-        foreach($offer['offer_tags'] as $tag){
-               $taglist[] = $tag; 
+         foreach ($offer['offer_tags'] as $tag) {
+            if (!in_array($tag, ["Upsell", "Replacement", "New Business", "Tech"])) {
+                $taglist[] = $tag;
+            }
         }
    }
 }

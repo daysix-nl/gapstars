@@ -604,4 +604,3 @@ get_header(); ?>
     }, 2000)
 </script>
 <?php get_footer('blacksoft'); ?>
-
