@@ -1291,3 +1291,6 @@ add_filter('manage_pages_columns', 'verwijder_auteur_kolom');
 
 
 
+
+
+add_filter( 'acf/admin/prevent_escaped_html_notice', '__return_true' );
