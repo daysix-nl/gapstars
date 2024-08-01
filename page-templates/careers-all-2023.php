@@ -116,6 +116,8 @@ else : /* rendering in editor body */
    "showLocation": true,
    "showCountry": true,
    "showCity": true,
+   "showState": false,
+   "showLocationName": false,
    "groupByLocation": false,
    "groupByDepartment": false,
    "groupByCompany": false,

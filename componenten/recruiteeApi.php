@@ -29,7 +29,7 @@ foreach($offers['offers'] as $offer){
        // location contains city and land seperated by comma, we have to split to get individual values
        $location = explode(",", $offer['location']);
        //build location array for countries
-       $landlist[]=$location[1];
+       $landlist[]=$location[2];
        //build tags array
          foreach ($offer['offer_tags'] as $tag) {
             if (!in_array($tag, ["Upsell", "Replacement", "New Business", "Tech"])) {
