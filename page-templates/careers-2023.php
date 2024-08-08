@@ -507,7 +507,6 @@ get_header(); ?>
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
                 <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2023/08/glassdoor-v2.png" alt="Glassdoor reviews">
             </div>
-
             <div class="col-span-1 bg-white w-full rounded-3xl flex flex-col justify-center items-center text-center aspect-square">
                 <img decoding="async" class="max-w-full w-[150px] smush-detected-img smush-image-12" src="https://gapstars.net/wp-content/uploads/2022/09/google-80.jpg" alt="Google reviews">
             </div>
