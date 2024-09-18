@@ -110,52 +110,52 @@ get_header(); ?>
                 <h2 class="text-40 leading-40 md:text-55 md:leading-55 font-medium text-center text-black">Curated for <span class="text-oranje">Sri Lanka</span></h2>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-6 gap-2 pt-4 md:pt-6 pb-2">
-                <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
+                <div class="bg-diepgrijs rounded-3xl w-full h-full px-[15px] py-3 ">
                     <div class="flex flex-col">
                         <div class="h-[48px] flex items-center">
                             <img decoding="async" class="w-[48px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/salaries.svg" alt="icon 4">
                         </div>
-                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Salaries pegged to the euro</h3>
+                        <h3 class="text-16 leading-26 lg:text-16 lg:leading-26 font-dmsans font-bold text-white mt-2 text-center">Salaries pegged to the euro</h3>
                     </div>
                 </div>
-                <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
+                <div class="bg-diepgrijs rounded-3xl w-full h-full px-[15px] py-3 ">
                     <div class="flex flex-col">
                         <div class="h-[48px] flex items-center">
                             <img decoding="async" class="w-[42px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/shuttle.svg" alt="icon 4">
                         </div>
-                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Shuttle services on selected routes</h3>
+                        <h3 class="text-16 leading-26 lg:text-16 lg:leading-26 font-dmsans font-bold text-white mt-2 text-center">Shuttle services on selected routes</h3>
                     </div>
                 </div>
-                <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
+                <div class="bg-diepgrijs rounded-3xl w-full h-full px-[15px] py-3 ">
                     <div class="flex flex-col">
                         <div class="h-[48px] flex items-center">
                             <img decoding="async" class="w-[48px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/solar.svg" alt="icon 4">
                         </div>
-                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Subsidised solar systems</h3>
+                        <h3 class="text-16 leading-26 lg:text-16 lg:leading-26 font-dmsans font-bold text-white mt-2 text-center">Subsidised solar systems</h3>
                     </div>
                 </div>
-                <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
+                <div class="bg-diepgrijs rounded-3xl w-full h-full px-[15px] py-3 ">
                     <div class="flex flex-col">
                         <div class="h-[48px] flex items-center">
                             <img decoding="async" class="w-[48px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/onsite.svg" alt="icon 4">
                         </div>
-                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Onsite Masseuse</h3>
+                        <h3 class="text-16 leading-26 lg:text-16 lg:leading-26 font-dmsans font-bold text-white mt-2 text-center">Onsite Masseuse</h3>
                     </div>
                 </div>
-                <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
+                <div class="bg-diepgrijs rounded-3xl w-full h-full px-[15px] py-3 ">
                     <div class="flex flex-col">
                         <div class="h-[48px] flex items-center">
                             <img decoding="async" class="w-[46px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/gym.svg" alt="icon 4">
                         </div>
-                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Gym Membership</h3>
+                        <h3 class="text-16 leading-26 lg:text-16 lg:leading-26 font-dmsans font-bold text-white mt-2 text-center">Gym Membership</h3>
                     </div>
                 </div>
-                <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
+                <div class="bg-diepgrijs rounded-3xl w-full h-full px-[15px] py-3 ">
                     <div class="flex flex-col">
                         <div class="h-[48px] flex items-center">
                            <img decoding="async" class="w-[48px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/therapy.svg" alt="icon 4">
                         </div>
-                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Therapy & Counseling Services</h3>
+                        <h3 class="text-16 leading-26 lg:text-16 lg:leading-26 font-dmsans font-bold text-white mt-2 text-center">Therapy & Counseling Services</h3>
                     </div>
                 </div>
             </div>
