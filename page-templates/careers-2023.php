@@ -123,7 +123,7 @@ get_header(); ?>
                         <div class="h-[48px] flex items-center">
                             <img decoding="async" class="w-[42px] smush-detected-img smush-image-32 mx-auto" src="/wp-content/themes/gapstars/img/careers-2023/shuttle.svg" alt="icon 4">
                         </div>
-                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Free staff shuttle service</h3>
+                        <h3 class="text-18 leading-26 lg:text-18 lg:leading-28 font-dmsans font-bold text-white mt-2 text-center">Shuttle services on selected routes</h3>
                     </div>
                 </div>
                 <div class="bg-diepgrijs rounded-3xl w-full h-full px-2 py-3 ">
